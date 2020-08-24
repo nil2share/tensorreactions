@@ -1853,7 +1853,7 @@ local tbl =
 			timelineIndex = 34,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -8,
 			used = false,
 			uuid = "26f7fa13-315b-e3aa-b001-908f57ee12e7",
 		},
@@ -1865,7 +1865,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "\nif NilsReactionCore.Hotbar.Ninja.Raiton() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -3598,7 +3598,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NNilsReactionCore.Logic.Toggles.AOEOn(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Logic.Toggles.AOEOn == true then\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,

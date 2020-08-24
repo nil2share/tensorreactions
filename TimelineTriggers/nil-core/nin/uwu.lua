@@ -930,6 +930,38 @@ local tbl =
 	},
 	[34] = 
 	{
+	},
+	[35] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			throttleTime = 500,
+			time = 181,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "134e6690-8653-04a7-bba4-cff277e4e9ba",
+		},
+	},
+	[36] = 
+	{
 		
 		{
 			actions = 
@@ -947,14 +979,14 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Trick Window on",
 			throttleTime = 0,
-			time = 176,
+			time = 300,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 36,
 			timerEndOffset = 5,
 			timerOffset = 7.5,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "f3fbb5cb-1857-cc35-8428-c17803ab97ed",
+			uuid = "8a47025c-0588-c7dd-9af4-95b8f5a80efc",
 		},
 		
 		{
@@ -973,14 +1005,14 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Turn off AOE",
 			throttleTime = 0,
-			time = 176,
+			time = 300,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 36,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "dde5b412-b914-b960-bb08-cf9730048c8e",
+			uuid = "6b9b05bd-f1b7-9e38-a41b-92e91cb4c183",
 		},
 		
 		{
@@ -1101,14 +1133,14 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			throttleTime = 100,
-			time = 176,
+			time = 300,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 36,
 			timerEndOffset = 6,
 			timerOffset = 1.375,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "a012178d-2d1d-497f-91ab-91997e33b2fd",
+			uuid = "c2c2ffea-5797-08ee-a212-9f88d72e1a5f",
 		},
 		
 		{
@@ -1127,43 +1159,14 @@ local tbl =
 			luaReturnsAction = false,
 			name = "CD On",
 			throttleTime = 0,
-			time = 176,
+			time = 300,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 36,
 			timerEndOffset = 4,
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "fd3d23a9-185d-a38a-924e-a0797c90b546",
-		},
-	},
-	[35] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shadeshift",
-			throttleTime = 500,
-			time = 181,
-			timeRange = true,
-			timelineIndex = 35,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "134e6690-8653-04a7-bba4-cff277e4e9ba",
+			uuid = "0c51c1bf-3254-0d6b-beff-92f7881b6ee5",
 		},
 	},
 	[38] = 

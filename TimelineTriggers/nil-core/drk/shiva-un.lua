@@ -113,6 +113,35 @@ local tbl =
 			uuid = "1baf95cf-ffbe-35c4-86da-ed5445f22b40",
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN",
+			throttleTime = 0,
+			time = 163.4,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "d14051ee-2134-0e3a-932a-3784c11896f6",
+		},
+	},
 	[15] = 
 	{
 		
@@ -197,6 +226,122 @@ local tbl =
 			uuid = "8754b648-722d-eb20-8890-0b36c6f15df4",
 		},
 	},
+	[61] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 818.5,
+			timeRange = true,
+			timelineIndex = 61,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 1,
+			used = false,
+			uuid = "c0061fbd-f8c1-adf6-8de2-399a3fb5724c",
+		},
+	},
+	[62] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 828,
+			timeRange = true,
+			timelineIndex = 62,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "b6959b46-af56-dc23-9c58-6b071c73c0ac",
+		},
+	},
+	[63] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 837.5,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "5ad86455-ab3e-9acc-940d-9b0a97417b18",
+		},
+	},
+	[67] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 871.6,
+			timeRange = true,
+			timelineIndex = 67,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "f5c85c14-bec8-b821-b027-d95f06d819a7",
+		},
+	},
 	[75] = 
 	{
 		
@@ -237,7 +382,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local ent = NilsReactionCore.Helpers.Target.GetTargetByContentID(2994)\nif ent ~= nil then\n  Argus.addTimedConeFilled(6000, ent.pos.x, ent.pos.y, ent.pos.z, radius, angle,-3, segments, fillRGB.enemy, 0.3, 0.3,0.1, ent.id, 0, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 1.0)\n\nend",
+			execute = "local ent = NilsReactionCore.Helpers.Target.GetTargetByContentID(2994)\nif ent ~= nil then\n  Argus.addTimedConeFilled(6000, ent.pos.x, ent.pos.y, ent.pos.z, radius, angle,ent.pos.h, segments, fillRGB.enemy, 0.3, 0.3,0.1, ent.id, 0, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 1.0)\n\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -248,15 +393,41 @@ local tbl =
 			time = 942.8,
 			timeRange = true,
 			timelineIndex = 80,
-			timerEndOffset = 0,
+			timerEndOffset = 4,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "f0d76811-c96d-9dd9-a02c-15fc563fb80c",
 		},
 	},
 	[82] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 970.5,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "ddc6065b-bfd1-5bdb-bf42-71686e50317e",
+		},
 		
 		{
 			actions = 
@@ -282,6 +453,122 @@ local tbl =
 			timerStartOffset = -2.5,
 			used = false,
 			uuid = "f190234a-80a1-c032-8447-1ea0440b047b",
+		},
+	},
+	[84] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 986.1,
+			timeRange = true,
+			timelineIndex = 84,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "4ceeef3a-a03a-b17a-ab61-e8b7f4a5e8d4",
+		},
+	},
+	[92] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 1109,
+			timeRange = true,
+			timelineIndex = 92,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "dd5b876e-3225-1776-8ec3-d385c9f4c451",
+		},
+	},
+	[94] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN",
+			throttleTime = 0,
+			time = 1125.6,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "89f7a9b7-f959-66a2-a4ad-d7977c8d3abb",
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "TBN if MT",
+			throttleTime = 0,
+			time = 1138,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "04eb9ff4-e3f2-a76f-9142-404a57c56534",
 		},
 	},
 	[110] = 
