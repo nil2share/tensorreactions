@@ -26,33 +26,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "e35fc49f-3aed-8735-9280-ba6739074157",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 27.6,
-			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "7e842059-dcaf-26a0-9bbd-fc8983869e6b",
+			uuid = "9dcfc87d-2107-6430-b9e1-8f23ea5afe38",
 		},
 		
 		{
@@ -78,7 +52,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "443c51cd-d058-339e-b7b8-ed45e31ed082",
+			uuid = "51c6d819-a2ec-1fd8-957c-66242ab6c001",
 		},
 	},
 	[5] = 
@@ -92,13 +66,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 32.1,
 			timeRange = true,
@@ -107,7 +81,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "e6960556-4654-562b-aaf9-89d8391f5698",
+			uuid = "60b00548-6476-cb18-8efb-89e850ed4e21",
 		},
 	},
 	[7] = 
@@ -136,7 +110,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "8c940333-4b7d-5026-bc06-0b4ad8f31ea4",
+			uuid = "d87db4cd-6ef5-ef7c-b197-f7680f01bbe0",
 		},
 		
 		{
@@ -162,7 +136,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0.80000001192093,
 			used = false,
-			uuid = "287203f2-c569-6bd4-ae22-23757a07f32a",
+			uuid = "22554e0b-9f43-3950-bad4-1d121fdf102c",
 		},
 	},
 	[11] = 
@@ -191,7 +165,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "bc85b835-ce83-1b16-bac6-7dba0beb0b7e",
+			uuid = "04829d34-b9d0-2b58-9f29-798b1ed9185b",
 		},
 		
 		{
@@ -319,7 +293,7 @@ local tbl =
 			timerOffset = 1.375,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "767b0cd3-804c-6f48-a386-ec5001da99a1",
+			uuid = "c813855f-4cd4-8666-9903-8d97f9504848",
 		},
 	},
 	[14] = 
@@ -348,7 +322,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "cc5aa6d2-12b5-50bf-8fdc-5d2529d7205e",
+			uuid = "a8424639-4ac1-0357-a34f-dd27254b684b",
 		},
 		
 		{
@@ -359,22 +333,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 109.4,
 			timeRange = true,
 			timelineIndex = 14,
-			timerEndOffset = 2,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "74187c21-966d-6f9b-a75e-8c3897fbd72a",
+			uuid = "5dd4e966-c514-7fa8-a3eb-647ccf7599f9",
 		},
 	},
 	[15] = 
@@ -403,7 +377,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0.80000001192093,
 			used = false,
-			uuid = "56e4d17a-a46a-63eb-9467-cb01ee691e61",
+			uuid = "b62de0cd-b8b8-fc5e-96e1-32777cd5df07",
 		},
 	},
 	[23] = 
@@ -432,7 +406,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "377c8c30-9c74-965f-bde7-d69cd4674f01",
+			uuid = "380e1070-6030-857f-a2f1-d3a1f8909ab9",
 		},
 		
 		{
@@ -560,7 +534,7 @@ local tbl =
 			timerOffset = 1.375,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "96fe9bfc-f4f9-e85b-9014-9f8101a8bcc8",
+			uuid = "2a84184f-de33-44e2-bd27-63e676f529ed",
 		},
 		
 		{
@@ -586,7 +560,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 1,
 			used = false,
-			uuid = "926f90f6-b171-7ec4-962f-9a8c18434f6e",
+			uuid = "527ea6f3-bbc6-17f5-acce-88584d459e43",
 		},
 		
 		{
@@ -612,7 +586,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 4,
 			used = false,
-			uuid = "b54dc4e2-1c9f-d017-bb32-e712493dc0f6",
+			uuid = "e570122b-66a7-862b-bbfe-8da28046ce85",
 		},
 	},
 	[24] = 
@@ -629,13 +603,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 186.5,
 			timeRange = true,
@@ -644,7 +618,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "85071469-0a3b-b979-8191-ae9cff806ab1",
+			uuid = "5891ab65-a131-8ebd-9e78-32b09ae2095f",
 		},
 		
 		{
@@ -670,7 +644,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "61cb7e8c-5284-d1b7-a70e-319cf22bf70e",
+			uuid = "e33f08ca-4198-acce-bf45-f929548a1639",
 		},
 		
 		{
@@ -696,7 +670,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "168bebb6-6250-f1b5-807f-1da58dac4400",
+			uuid = "b49eb611-7185-c65c-a3f2-3fe92f5b66b4",
 		},
 		
 		{
@@ -722,7 +696,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "107ad12c-b8f2-5df0-af00-776063d21005",
+			uuid = "d77e468a-d62b-1b6e-b028-f4e5cebd3b7b",
 		},
 	},
 	[30] = 
@@ -739,22 +713,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 209,
 			timeRange = true,
 			timelineIndex = 31,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "142ac961-2ecf-8553-b83b-c05ffbd24df7",
+			uuid = "9ba7c971-4839-7e22-9285-d1f52e5b44e4",
 		},
 	},
 	[32] = 
@@ -783,7 +757,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "29db734e-99f1-17e2-a647-75e14bf60e1f",
+			uuid = "ea805aaa-dca4-f72f-8d55-c040d6297a4e",
 		},
 	},
 	[36] = 
@@ -812,7 +786,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "3f0b18ee-bf1e-5d8d-a5be-4bec3ca7ff9a",
+			uuid = "0df8a3c0-e8c0-f138-b2aa-e0d3374d3b3e",
 		},
 	},
 	[37] = 
@@ -841,33 +815,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "21632066-5d8c-44bd-a0b9-9f892f36aa43",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 241.3,
-			timeRange = true,
-			timelineIndex = 37,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "921db611-e6ff-aded-98d9-1478062f96f2",
+			uuid = "a8984cae-024e-65e1-b730-fdb9949957f3",
 		},
 	},
 	[40] = 
@@ -881,13 +829,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 245.4,
 			timeRange = true,
@@ -896,7 +844,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "1c6e7a58-0a69-7f85-aa80-b59fce05ce55",
+			uuid = "d376bbe6-857c-28c9-b285-ff22f2a0e274",
 		},
 	},
 	[48] = 
@@ -925,7 +873,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4.5,
 			used = false,
-			uuid = "976f27a4-a6c2-9663-bb49-a493281ee48a",
+			uuid = "0787cdf4-9af7-1317-a609-0a84363a45d2",
 		},
 	},
 	[50] = 
@@ -954,7 +902,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 3,
 			used = false,
-			uuid = "282fe36d-cca6-50e5-83fa-ec5123d00322",
+			uuid = "e8f32342-8dea-3ed8-a966-309b35334c0d",
 		},
 	},
 	[52] = 
@@ -983,7 +931,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "13079509-3b0e-27b8-a412-60e56e6ddb9a",
+			uuid = "cd295d28-9a6f-56fa-a464-581c0aadd5c8",
 		},
 		
 		{
@@ -994,39 +942,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 272.6,
-			timeRange = true,
-			timelineIndex = 52,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "d12a79a7-33c3-42f5-9507-aefb0599cab5",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 272.6,
 			timeRange = true,
@@ -1035,7 +957,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "af6b3250-00bd-52f9-81c9-9a24beb63bee",
+			uuid = "7c5e8082-9fbb-3eca-a32c-2112fb1a81b0",
 		},
 	},
 	[54] = 
@@ -1064,7 +986,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "11776ab2-4847-8952-b9ee-94f8da6addf8",
+			uuid = "1593921f-c40e-c75e-8b34-17a123343cf5",
 		},
 		
 		{
@@ -1075,39 +997,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 288.8,
-			timeRange = true,
-			timelineIndex = 54,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "25133fd7-c743-63f3-ab43-358c3f8a3b02",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 288.8,
 			timeRange = true,
@@ -1116,7 +1012,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "ee3b787c-a263-c0e3-9021-f0dfd6bbb7c8",
+			uuid = "d5c97830-22e3-4800-9af4-109596771475",
 		},
 		
 		{
@@ -1142,7 +1038,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "20a70987-9f92-ac14-9070-1baec5e26294",
+			uuid = "ed684979-fb76-4534-9179-3cd51b9f0b36",
 		},
 	},
 	[56] = 
@@ -1171,7 +1067,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "0ea1c22e-e0e5-4d41-ba2b-d0726f319f25",
+			uuid = "593f1f4f-e2fa-26ce-ac4a-4290553a7e9a",
 		},
 		
 		{
@@ -1182,39 +1078,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 305.4,
-			timeRange = true,
-			timelineIndex = 56,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "4bdc2477-4432-6317-8570-27936ded1847",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 305.4,
 			timeRange = true,
@@ -1223,7 +1093,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "62b6d600-d2c0-2a48-b018-579aead1ce21",
+			uuid = "80a687a3-560b-6c5c-a55f-0d4dcee330c8",
 		},
 	},
 	[59] = 
@@ -1252,7 +1122,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "ca712a76-80ad-52dc-8c10-7cf759f50f81",
+			uuid = "8fa2ced5-91f0-8688-82cc-aa1f27da42d0",
 		},
 	},
 	[72] = 
@@ -1281,7 +1151,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "c6c3e042-5bb9-ae95-93f4-7fe4d03763e6",
+			uuid = "609add6d-401c-117d-a7d8-3e839a9df22c",
 		},
 	},
 	[91] = 
@@ -1310,7 +1180,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "32781b1c-038f-2214-86c8-7340e8c10af2",
+			uuid = "fdfb4d6c-a21a-b48e-a46d-631f8ef958ef",
 		},
 		
 		{
@@ -1321,22 +1191,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 1580.2,
 			timeRange = true,
 			timelineIndex = 91,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "21502818-849b-7998-bea1-3524555504d4",
+			uuid = "ece4eea0-f1e8-1d50-b167-1deb36623f3d",
 		},
 	},
 	[96] = 
@@ -1350,13 +1220,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 1598.1,
 			timeRange = true,
@@ -1365,7 +1235,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "963e8ea4-a64a-aa80-87d2-8d822968175a",
+			uuid = "aedd76b6-f191-f605-b6cc-f9f906e939c4",
 		},
 		
 		{
@@ -1391,7 +1261,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "3aa4727b-fe7f-ec47-991d-7a68384b3f8b",
+			uuid = "62c1ca5f-428e-e80e-ad4b-93253d9f9e33",
 		},
 		
 		{
@@ -1417,7 +1287,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "b44f305a-9e47-b80a-bad1-96d25f9b03c5",
+			uuid = "9e08cdb7-b5ed-39a9-ab3b-45ff69d825e0",
 		},
 		
 		{
@@ -1443,7 +1313,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "82b6d252-c025-7d72-b844-fb9b2c4ebbb2",
+			uuid = "2f64f611-bcd9-ca90-b128-dc58eaaceee4",
 		},
 	},
 	[105] = 
@@ -1457,22 +1327,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 1651.4,
 			timeRange = true,
 			timelineIndex = 105,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "2cf1e1a6-d156-9a7f-a202-c6b7b2588604",
+			uuid = "23d9315d-b75d-0f40-9b21-eaf3f5c14a8b",
 		},
 	},
 	[128] = 
@@ -1501,7 +1371,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "5142c112-2d97-2602-8f5c-08016322a03d",
+			uuid = "7afcae13-529a-9ca4-9680-0af3d5be2ca8",
 		},
 		
 		{
@@ -1512,22 +1382,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 2556.6,
 			timeRange = true,
 			timelineIndex = 128,
-			timerEndOffset = 2,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "018ebca9-632d-2f97-933a-23a24e693df0",
+			uuid = "a78dc60a-68b4-2147-bc9d-b027e0b07060",
 		},
 	},
 	[131] = 
@@ -1556,7 +1426,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "6ea372e7-618e-470e-8d83-07cff85ec400",
+			uuid = "96db0eeb-4fd2-3436-b83d-a86214cd1ba0",
 		},
 		
 		{
@@ -1567,22 +1437,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 2571.8,
 			timeRange = true,
 			timelineIndex = 131,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "9c69b0b0-968d-efbb-a5dc-82a99f09c671",
+			uuid = "e6a7473f-27d8-00a3-927b-0aafb31ad858",
 		},
 	},
 	[135] = 
@@ -1596,13 +1466,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 2589.1,
 			timeRange = true,
@@ -1611,7 +1481,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "f9921261-11ff-62ef-82eb-2c55107d0698",
+			uuid = "a91e40ed-2b75-ed01-9d8b-a3d0253a76f1",
 		},
 		
 		{
@@ -1637,7 +1507,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "cbc97c14-37e9-dca8-bb99-e00b1bb1450b",
+			uuid = "3a11cc3a-3967-c348-bddb-7e695f11f681",
 		},
 		
 		{
@@ -1663,7 +1533,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "edda0891-8e75-6eb5-9289-b9891f138674",
+			uuid = "d8c63342-6bec-c962-b222-4d0b388cafae",
 		},
 		
 		{
@@ -1689,7 +1559,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "10e37973-9694-dfa4-8c2a-eaaa1abf284f",
+			uuid = "10f61477-89d1-a893-b9ca-19549cb1777a",
 		},
 	},
 	[144] = 
@@ -1703,22 +1573,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 2642.4,
 			timeRange = true,
 			timelineIndex = 144,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "6df5c925-b528-d93a-9097-8c96e21d7d3c",
+			uuid = "749c859e-846b-8978-b67f-6d5c4a2af198",
 		},
 	},
 	[168] = 
@@ -1732,22 +1602,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 3575.7,
 			timeRange = true,
 			timelineIndex = 168,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "1c495ea2-c010-927e-8a2f-7f8061484170",
+			uuid = "58aeb57a-22e7-05c3-8296-ee0f32b35372",
 		},
 	},
 	[169] = 
@@ -1761,13 +1631,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 3589,
 			timeRange = true,
@@ -1776,7 +1646,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "6f1ef3e9-7796-02fc-b51a-8c1523afd8b8",
+			uuid = "18429f00-fc98-ef50-a576-548c1c2ab530",
 		},
 		
 		{
@@ -1802,7 +1672,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "2c9b3bc0-232c-73cc-81a0-237057a6ac3f",
+			uuid = "fa492b23-b46f-08dd-b476-ebdb2b97d00f",
 		},
 		
 		{
@@ -1828,7 +1698,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "46522223-3560-7a7f-8208-4c2caa05c333",
+			uuid = "c1959138-ef70-486a-9c78-6df40b33837f",
 		},
 		
 		{
@@ -1854,7 +1724,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "1e0ee52a-83d3-c835-a5e2-eef8402fcc26",
+			uuid = "e1681253-2ee2-4282-863f-a5f7dcf1fd9b",
 		},
 	},
 	[178] = 
@@ -1868,22 +1738,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 3642.3,
 			timeRange = true,
 			timelineIndex = 178,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "14e08b08-430d-17f6-8e82-1ab3dc708bcd",
+			uuid = "7a357c4c-67ec-189f-af48-cc1e362bc478",
 		},
 	},
 	[190] = 
@@ -1912,7 +1782,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "945f317e-6a60-9311-9705-e3067e0e4fa4",
+			uuid = "db284476-d883-7959-95ef-60bf9f5463fa",
 		},
 	},
 	[207] = 
@@ -1926,22 +1796,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 4594.3,
 			timeRange = true,
 			timelineIndex = 207,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "1158aa24-ac8b-e58a-8422-ca3f7e3fac1f",
+			uuid = "8bf75de8-3dd5-12b6-870f-3f9ba78cf5b7",
 		},
 	},
 	[208] = 
@@ -1955,13 +1825,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 4607.6,
 			timeRange = true,
@@ -1970,7 +1840,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "3297e331-8e97-d646-9d38-c9752da36a84",
+			uuid = "36e594c2-a7b4-b00d-99d2-66b01d747964",
 		},
 		
 		{
@@ -1996,7 +1866,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "d4e69cb8-f7bc-6467-abb2-4eb872d00426",
+			uuid = "a70b48d5-a23c-9408-82df-274568bb2ca0",
 		},
 		
 		{
@@ -2022,7 +1892,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "8f3d947f-27db-28bb-b464-db24aed3d991",
+			uuid = "29162306-49a7-2f1c-9ed3-2110914d0a8a",
 		},
 		
 		{
@@ -2048,7 +1918,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "60ff7996-9480-9fb2-ac13-b87106e1d2a0",
+			uuid = "a6cf98ec-cb4b-cccb-9148-bc22706a8c96",
 		},
 	},
 	[217] = 
@@ -2062,22 +1932,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 4660.9,
 			timeRange = true,
 			timelineIndex = 217,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "6ef5d301-cf88-a2f3-aedd-ed8644631667",
+			uuid = "ae323686-6bd6-fa39-ad7a-964187709bec",
 		},
 	},
 	[247] = 
@@ -2106,7 +1976,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "e7065a28-ddb3-bbbb-ae28-02044223348f",
+			uuid = "fed26d41-11b9-876a-b8e1-411c135c14cb",
 		},
 		
 		{
@@ -2117,22 +1987,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 6063.1,
 			timeRange = true,
 			timelineIndex = 247,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "54ec1f14-de18-8ec9-8bb1-2a1d2b59a0da",
+			uuid = "8b87095c-2664-36d5-b39e-38249f96c126",
 		},
 	},
 	[252] = 
@@ -2146,13 +2016,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 6080.9,
 			timeRange = true,
@@ -2161,7 +2031,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "5900676f-bcf7-f234-a087-0e6b3dbe826e",
+			uuid = "00885f85-e9dd-c5ff-83b1-9e9b781448b3",
 		},
 		
 		{
@@ -2187,7 +2057,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "9b843e14-24a0-48b9-8fa8-d9b624f796a4",
+			uuid = "4a7a95cc-2b01-108e-9189-f9c95de2d64e",
 		},
 		
 		{
@@ -2213,7 +2083,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "cbaf00bb-9cd0-9ce6-b925-08b49f505eb9",
+			uuid = "6979e0e5-7919-9a6f-8cf8-4d97f30b7d8d",
 		},
 		
 		{
@@ -2239,7 +2109,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "5f23b967-aac7-fa03-9b8b-e4de5713e416",
+			uuid = "8b37c06f-a410-e9ce-8686-e33aad8a63ef",
 		},
 	},
 	[276] = 
@@ -2268,7 +2138,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "6415812a-3ae2-027f-845b-1e55d1898049",
+			uuid = "51531dcc-99ac-4f66-89b8-6624ea2905fa",
 		},
 		
 		{
@@ -2279,22 +2149,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 7039.3,
 			timeRange = true,
 			timelineIndex = 276,
-			timerEndOffset = 2,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "db98822a-31bb-e2cb-8a91-f0e9d48a02c8",
+			uuid = "7f42db66-d275-2565-84ad-147c82aa5008",
 		},
 	},
 	[278] = 
@@ -2323,7 +2193,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "b507667c-6f8c-281d-9b4b-d220771274a9",
+			uuid = "694d058c-9299-697e-ab25-34f4f406b691",
 		},
 		
 		{
@@ -2334,22 +2204,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 7054.6,
 			timeRange = true,
 			timelineIndex = 278,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "01f04c6f-a0ad-a5f7-8a02-fb4c036f871f",
+			uuid = "215a820c-9d1c-486d-9512-5c44439e172e",
 		},
 	},
 	[282] = 
@@ -2363,13 +2233,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 7071.8,
 			timeRange = true,
@@ -2378,7 +2248,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "c03443bc-1f16-52e4-b6ef-b40f97df591c",
+			uuid = "d98b6b78-74bd-f803-852f-a873ce3b6ff4",
 		},
 		
 		{
@@ -2404,7 +2274,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "81ba58f7-fdc6-2791-ab01-75dfa56da813",
+			uuid = "39a112e6-eb0e-4e42-a458-d2d35420e8d7",
 		},
 		
 		{
@@ -2430,7 +2300,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "9679dbf9-2b82-92ec-a8ab-c9a7509e8b09",
+			uuid = "b5c61dab-7c65-f91b-8e36-6a0af2b2ea82",
 		},
 		
 		{
@@ -2456,7 +2326,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "481b8e99-d87d-47de-a1b9-36ba0e7ebc74",
+			uuid = "81285241-9239-ec07-9828-4f2bd7a9a00c",
 		},
 	},
 	[301] = 
@@ -2485,33 +2355,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "ddbab99e-7782-6c4b-b598-5f6b94e70fd6",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Burn Plunge",
-			throttleTime = 0,
-			time = 8036.8,
-			timeRange = true,
-			timelineIndex = 301,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "92ea44e2-4428-516f-864a-cde7729e46c4",
+			uuid = "bfa54aa1-cd63-bfe5-a700-28fae675ff27",
 		},
 	},
 	[306] = 
@@ -2525,22 +2369,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 8058.2,
 			timeRange = true,
 			timelineIndex = 306,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "d8214c96-beba-7eb1-8d4a-acc637f26a3e",
+			uuid = "42377363-0c47-3d87-89c3-aa50298d00e9",
 		},
 	},
 	[307] = 
@@ -2554,13 +2398,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "TBN if MT",
+			name = "Basic MT",
 			throttleTime = 0,
 			time = 8071.5,
 			timeRange = true,
@@ -2569,7 +2413,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "d5b26bc5-22a8-9fc6-8b21-3f32b4d26952",
+			uuid = "e0dd353f-b074-7283-95b3-08dda53697d2",
 		},
 		
 		{
@@ -2595,7 +2439,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "8fa11259-4a1c-fda3-8531-d9c8925b98c0",
+			uuid = "38f52aa9-02c0-82eb-9e9b-bf4ab8d4fbb7",
 		},
 		
 		{
@@ -2621,7 +2465,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "76f1dada-0ea8-ca0b-b1c7-ff5f48135fcd",
+			uuid = "84c0c1d9-0a6f-41b1-a92c-71f50ed5b95e",
 		},
 		
 		{
@@ -2647,7 +2491,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "a18d76da-71fa-c9e7-b951-f4b2a95650ea",
+			uuid = "cbb150e3-fc8b-162e-ae16-fb1a482b645f",
 		},
 	},
 	[336] = 
@@ -2661,26 +2505,52 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Warrior.Shake() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Raid Shield",
 			throttleTime = 0,
 			time = 9076.9,
 			timeRange = true,
 			timelineIndex = 336,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -2.2000000476837,
 			used = false,
-			uuid = "c66f71fa-bf99-f8a2-82d4-995e1e2d95cb",
+			uuid = "27586351-e919-a9be-9732-ac0a2b69bed5",
 		},
 	},
 	[337] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Basic MT",
+			throttleTime = 0,
+			time = 9090.2,
+			timeRange = true,
+			timelineIndex = 337,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -6,
+			used = false,
+			uuid = "740417a5-8ec4-8a25-884f-4b5ca0a8f69f",
+		},
 		
 		{
 			actions = 
@@ -2705,59 +2575,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "32931d0c-adfe-89f7-953a-743f8edae48b",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "TBN if MT",
-			throttleTime = 0,
-			time = 9090.2,
-			timeRange = true,
-			timelineIndex = 337,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "3b939551-8b63-4f1e-8c6d-c6d143e52099",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Tank Swap TTS",
-			throttleTime = 0,
-			time = 9090.2,
-			timeRange = true,
-			timelineIndex = 337,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "9151a47e-a82c-d8d3-a950-4902d657d820",
+			uuid = "251389d4-7101-ad7d-92b0-f6f86375f730",
 		},
 		
 		{
@@ -2783,7 +2601,33 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "9b33064a-b33f-2cd5-a711-bd6f3aa7fbf5",
+			uuid = "be11e18d-1fbe-e400-a901-dd0d6d6a7f10",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Tank Swap TTS",
+			throttleTime = 0,
+			time = 9090.2,
+			timeRange = true,
+			timelineIndex = 337,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "2cd6d60f-d77a-5f7b-8752-3c7089e07723",
 		},
 	},
 	mapID = 923,

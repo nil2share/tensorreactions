@@ -393,32 +393,6 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shadeshift",
-			throttleTime = 500,
-			time = 42,
-			timeRange = true,
-			timelineIndex = 11,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "375fc861-9498-6eef-a5b0-dc0fa3565f11",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
 			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
@@ -435,6 +409,32 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "8d170fec-7e73-8288-aee8-76bca2bb05b7",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			throttleTime = 500,
+			time = 42,
+			timeRange = true,
+			timelineIndex = 11,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "375fc861-9498-6eef-a5b0-dc0fa3565f11",
 		},
 	},
 	[13] = 
