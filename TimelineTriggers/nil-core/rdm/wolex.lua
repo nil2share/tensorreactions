@@ -133,6 +133,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -322,6 +323,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -1091,6 +1093,58 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "a5612f75-8c1e-51d9-b7dd-4287ae52c3c1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jumps off",
+			throttleTime = 0,
+			time = 8036.8,
+			timeRange = true,
+			timelineIndex = 301,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "6badf7ac-caa9-13cd-b1a6-55506187c5f3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jumps on",
+			throttleTime = 0,
+			time = 8036.8,
+			timeRange = true,
+			timelineIndex = 301,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "6a113d68-f9fc-3098-88af-36f795390222",
 		},
 	},
 	[306] = 

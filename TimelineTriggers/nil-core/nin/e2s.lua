@@ -226,6 +226,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},

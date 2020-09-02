@@ -2,9 +2,6 @@ local tbl =
 {
 	[2] = 
 	{
-	},
-	[4] = 
-	{
 		
 		{
 			actions = 
@@ -14,23 +11,26 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Target.SetTargetByContentID(2091) then self.used = true end\nend",
+			execute = "if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Target Spinny if OT",
+			name = "Melee Off",
 			throttleTime = 0,
-			time = 18,
+			time = 9,
 			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 5,
+			timelineIndex = 2,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -9,
 			used = false,
-			uuid = "80d23085-f492-b29b-a19e-a20c0261df8b",
+			uuid = "1844f5a2-7a8c-3ee9-b4ff-b1b56d0335f1",
 		},
+	},
+	[4] = 
+	{
 	},
 	[5] = 
 	{
@@ -43,20 +43,20 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline)\nif NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Melee/Jump Off",
+			name = "Jump Off",
 			throttleTime = 0,
 			time = 24,
 			timeRange = true,
 			timelineIndex = 5,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "863cf9d8-1dbc-09ea-ae8a-354536e171d9",
 		},
@@ -69,13 +69,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\n  if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\nend",
+			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\nself.used = true\n--  if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Melee/Jump On",
+			name = "Jump On",
 			throttleTime = 0,
 			time = 24,
 			timeRange = true,
@@ -97,7 +97,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\n",
 			executeType = 2,
 			lastUse = 0,
@@ -171,6 +171,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -444,6 +445,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -528,6 +530,32 @@ local tbl =
 			used = false,
 			uuid = "4b6e257c-b284-edad-b525-ae22584c36e1",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Melee On",
+			throttleTime = 0,
+			time = 73.5,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "49666151-8149-ac8d-996c-29403a2b8c67",
+		},
 	},
 	[17] = 
 	{
@@ -537,6 +565,32 @@ local tbl =
 	},
 	[19] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Melee Off",
+			throttleTime = 0,
+			time = 100,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "12dd37ad-429e-97fb-a6c4-324493c66013",
+		},
 	},
 	[24] = 
 	{
@@ -865,6 +919,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -1170,6 +1225,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -1308,6 +1364,32 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "f782d4a1-9b53-05c0-b0c4-9da446667ee8",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Melee Off",
+			throttleTime = 0,
+			time = 369,
+			timeRange = true,
+			timelineIndex = 52,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "467e170e-845a-dca7-b65b-94e26eed25bb",
 		},
 	},
 	[53] = 
@@ -1455,6 +1537,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -1803,6 +1886,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -1988,6 +2072,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2088,6 +2173,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2219,6 +2305,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2439,6 +2526,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2536,6 +2624,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2666,6 +2755,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 				
@@ -2708,6 +2798,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
@@ -2900,6 +2991,7 @@ local tbl =
 					useForWeaving = false,
 					usePot = false,
 					used = false,
+					variableIsHover = false,
 					variableTogglesType = 1,
 				},
 			},
