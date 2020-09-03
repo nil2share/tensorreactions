@@ -58,6 +58,35 @@ local tbl =
 			uuid = "7cc29714-4b9b-00a4-b092-7b06132cdcb8",
 		},
 	},
+	[6] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Draw Downburst",
+			throttleTime = 0,
+			time = 27,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 0,
+			timerOffset = 1.5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "9e4801e6-2f14-09aa-95fe-6e3d6d91b5bb",
+		},
+	},
 	[7] = 
 	{
 		
@@ -395,10 +424,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 and target.contentid == 1644 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Off - Low Health",
@@ -990,6 +1019,35 @@ local tbl =
 			uuid = "a6064e96-2031-22e7-902f-5335e52ccf2e",
 		},
 	},
+	[27] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Draw Downburst",
+			throttleTime = 0,
+			time = 124,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = 0,
+			timerOffset = 1.5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "519b601c-d440-4f0f-b34f-a61c0b746214",
+		},
+	},
 	[34] = 
 	{
 	},
@@ -1445,6 +1503,35 @@ local tbl =
 			uuid = "0eafdd7a-7e57-f7f3-a961-d492b6be149b",
 		},
 	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 and target.contentid == 1185 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Off - Low Health",
+			throttleTime = 0,
+			time = 337,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 120,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "929f3591-7107-ffae-a2d9-129d1a712be9",
+		},
+	},
 	[47] = 
 	{
 		
@@ -1734,58 +1821,6 @@ local tbl =
 	},
 	[57] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "\n-- might need tweaked, the goal is to suiton just before garuda dies so we can trick right away on ifit\n\nlocal targetHP = 1\n\nlocal target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < targetHP and NilsReactionCore.Buffs.Ninja.IsDoingMudra() == false then\n  if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Suiton on low health Off",
-			throttleTime = 0,
-			time = 390,
-			timeRange = true,
-			timelineIndex = 57,
-			timerEndOffset = 64,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "4a4dd625-23e2-42b7-87cc-2a0d98babaf2",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Off - Low Health",
-			throttleTime = 0,
-			time = 390,
-			timeRange = true,
-			timelineIndex = 57,
-			timerEndOffset = 64,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "119bdde9-2119-382b-8da9-bb0c6d2bf46f",
-		},
 	},
 	[63] = 
 	{
@@ -2234,74 +2269,6 @@ local tbl =
 	},
 	[72] = 
 	{
-		
-		{
-			actions = 
-			{
-				
-				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "local duration = 25000\nlocal radius = 19.5\nlocal CircleColorFill = {r = 0.7, g = 0, b = 0}\nlocal alphaMin = 0\nlocal alphaMax = 0\nlocal CircleOutline = GUI:ColorConvertFloat4ToU32(1,0,0,1)\nlocal CircleOutlineThickness = 2\nArgus.addTimedCircleFilled(duration, 100, 0, 100, radius, 50, CircleColorFill, alphaMin, alphaMax, 0, nil, CircleOutline, CircleOutlineThickness)\nself.used = true",
-					allowInterrupt = false,
-					atomicPriority = false,
-					castAtMouse = false,
-					castPosX = 0,
-					castPosY = 0,
-					castPosZ = 0,
-					clusterMinTarget = 1,
-					clusterRadius = 8,
-					clusterRange = 30,
-					conditions = 
-					{
-					},
-					endIfUsed = false,
-					gVar = "",
-					gVarIndex = 1,
-					gVarValue = 1,
-					ignoreWeaveRules = false,
-					isAreaTarget = false,
-					luaNeedsWeaveWindow = false,
-					luaReturnsAction = false,
-					name = "",
-					potType = 1,
-					setTarget = false,
-					showPositionPreview = false,
-					stopCasting = false,
-					stopMoving = false,
-					targetContentID = -1,
-					targetName = "",
-					targetSubType = "Nearest",
-					targetType = "Self",
-					untarget = false,
-					useForWeaving = false,
-					usePot = false,
-					used = false,
-					variableIsHover = false,
-					variableTogglesType = 1,
-				},
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "",
-			executeType = 1,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Ring around arena",
-			throttleTime = 0,
-			time = 444,
-			timeRange = false,
-			timelineIndex = 72,
-			timerEndOffset = 0,
-			timerOffset = -8,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "bb12e1fc-3d7e-353b-8041-bcc837610b55",
-		},
 	},
 	[74] = 
 	{

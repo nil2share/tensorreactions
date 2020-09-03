@@ -11,7 +11,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- allows for settings to be changed in the core\n-- example because this is a timeline reaction we want to turn off movement detection\n\nNilsReactionCore.coreparams.enableMoveDetection = false\n\n\nself.used = true",
+			execute = "-- allows for settings to be changed in the core\n-- example because this is a timeline reaction we want to turn off movement detection\n\nNilsReactionCore.coreparams.enableMoveDetection = false\n-- added because timelines doesn't engage fast enough\nif NilsReactionCore.inOpener() == false then NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) end\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -22,11 +22,37 @@ local tbl =
 			time = 12,
 			timeRange = true,
 			timelineIndex = 1,
-			timerEndOffset = 1,
+			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -12,
 			used = false,
 			uuid = "9443adae-688b-3ef5-b642-69501a87ff1f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.inOpener() == false then NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) end\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "timeline funkiness handler",
+			throttleTime = 0,
+			time = 12,
+			timeRange = true,
+			timelineIndex = 1,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "1c6a63f0-4b6d-364d-bb49-2d3e849e5e6d",
 		},
 		
 		{

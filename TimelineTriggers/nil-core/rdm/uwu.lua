@@ -28,9 +28,113 @@ local tbl =
 			used = false,
 			uuid = "1844f5a2-7a8c-3ee9-b4ff-b1b56d0335f1",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jump Off",
+			throttleTime = 0,
+			time = 9,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "7f7d7127-56ab-29e1-b0fd-57ef70fba1b8",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.CorpsMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\n\n\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CorpsMelee On",
+			throttleTime = 0,
+			time = 9,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "5ad8090d-3040-d09d-ab16-021c3e1652bc",
+		},
 	},
 	[4] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n if  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jump On",
+			throttleTime = 0,
+			time = 18,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "8a14ed9c-e104-437d-a26b-56c155ebd8f0",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.CorpsMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end\n\n\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CorpsMelee Off",
+			throttleTime = 0,
+			time = 18,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "06b1d7cc-16cc-2586-900c-474aeccb30b5",
+		},
 	},
 	[5] = 
 	{
@@ -71,8 +175,8 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\n",
+			enabled = true,
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -104,7 +208,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\nself.used = true\n--  if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\nend",
+			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -268,10 +372,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 then\n  \n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.Manafication.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 and target.contentid == 1644 then\n  \n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.Manafication.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Off - Low Health",
@@ -367,6 +471,35 @@ local tbl =
 			uuid = "e3a6f01c-81e6-f9ff-919a-4166490370a1",
 		},
 	},
+	[13] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.CorpsMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\n\n\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CorpsMelee On",
+			throttleTime = 0,
+			time = 57,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "a2c97abb-8158-b0ff-a879-43d7cfc96e0f",
+		},
+	},
 	[14] = 
 	{
 		
@@ -378,22 +511,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Toggles.CorpsMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end\n\n\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Jumps on",
+			name = "CorpsMelee Off",
 			throttleTime = 0,
 			time = 69,
 			timeRange = true,
 			timelineIndex = 14,
-			timerEndOffset = 2,
+			timerEndOffset = 4,
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "e8d27480-5023-6627-a8fb-d3970bcfd52a",
+			uuid = "087cbd03-71f5-e3bd-acc6-02fc29d44005",
 		},
 	},
 	[15] = 
@@ -559,6 +692,32 @@ local tbl =
 	},
 	[17] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jumps on",
+			throttleTime = 0,
+			time = 77,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "cd96072b-004e-c42a-9113-b7ff31baa54c",
+		},
 	},
 	[18] = 
 	{
@@ -649,6 +808,35 @@ local tbl =
 	},
 	[25] = 
 	{
+	},
+	[27] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Draw Downburst",
+			throttleTime = 0,
+			time = 124,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = 0,
+			timerOffset = 1.5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "3aaf9d3b-d284-152d-a175-855d056790a0",
+		},
 	},
 	[29] = 
 	{
@@ -1091,6 +1279,32 @@ local tbl =
 	},
 	[43] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if HasBuff(Player.id, 377) then if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end end",
+			executeType = 2,
+			lastUse = 0,
+			loop = true,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jumps off if have Tether",
+			throttleTime = 0,
+			time = 328,
+			timeRange = true,
+			timelineIndex = 43,
+			timerEndOffset = 50,
+			timerOffset = 0,
+			timerStartOffset = 4,
+			used = false,
+			uuid = "9ea20b5f-a020-b32c-ae7d-7a6140eeccba",
+		},
 	},
 	[44] = 
 	{
@@ -1103,10 +1317,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 then\n  \n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.Manafication.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 20 and target.contentid == 1185 then\n  \n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Hotbar.Toggles.Manafication.Execute(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Off - Low Health",
