@@ -60,32 +60,6 @@ local tbl =
 			used = false,
 			uuid = "863cf9d8-1dbc-09ea-ae8a-354536e171d9",
 		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\nself.used = true\n--  if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump On",
-			throttleTime = 0,
-			time = 24,
-			timeRange = true,
-			timelineIndex = 5,
-			timerEndOffset = 15,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "b39d5775-0bca-f997-95be-43896374b0f5",
-		},
 	},
 	[6] = 
 	{
@@ -121,6 +95,32 @@ local tbl =
 	},
 	[8] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local targets = NilsReactionCore.Helpers.Target.GetTargetsByContentID(1648)\nif type(targets) == \"nil\" or table.size(targets) < 3 then\n  NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\nself.used = true\n--  if NilsReactionCore.Hotbar.Toggles.DelayMelee.Execute(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jump On",
+			throttleTime = 0,
+			time = 34,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "1a1583b0-6790-c21e-8f98-984467f21cac",
+		},
 	},
 	[9] = 
 	{

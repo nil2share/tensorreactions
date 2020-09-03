@@ -63,6 +63,32 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  if NilsReactionCore.Hotbar.Actions.DarkMind.Execute() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "DarkMind if OT",
+			throttleTime = 0,
+			time = 9,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "c16fb540-42e1-d24d-9e64-a396c45e85a4",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -76,7 +102,7 @@ local tbl =
 			timelineIndex = 2,
 			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -1.5,
 			used = false,
 			uuid = "2de06216-d2ef-1fe8-8cfd-bbff0e69151b",
 		},
@@ -88,7 +114,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
@@ -173,20 +199,46 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "cooldown if OT",
+			name = "Cooldown if OT",
 			throttleTime = 0,
 			time = 24,
 			timeRange = true,
 			timelineIndex = 5,
 			timerEndOffset = 3,
 			timerOffset = 0,
-			timerStartOffset = 1.5,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "7d4c1874-261c-fe4c-8a0a-e24b7c00e4b3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Basic if OT",
+			throttleTime = 0,
+			time = 24,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 1,
 			used = false,
 			uuid = "1d00208c-7ac7-f243-b822-9ed405c453dc",
 		},
@@ -241,7 +293,7 @@ local tbl =
 			timelineIndex = 6,
 			timerEndOffset = 3,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -1,
 			used = false,
 			uuid = "60f2637f-c87f-ee4d-9cdc-e9a59b0e7e7f",
 		},
@@ -257,6 +309,32 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Basic if OT",
+			throttleTime = 0,
+			time = 29,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "d8765d8f-438b-83cc-b525-366a43d490b1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Actions.DarkMind.Execute() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -285,7 +363,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(1644) == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
