@@ -146,7 +146,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -361,6 +361,32 @@ local tbl =
 			used = false,
 			uuid = "994122b5-5e26-7893-af63-aa69b0161cc9",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Dark Mind",
+			throttleTime = 0,
+			time = 95.2,
+			timeRange = true,
+			timelineIndex = 11,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "d0a97c3e-feb4-ba92-92e0-c88ee3825a1a",
+		},
 	},
 	[12] = 
 	{
@@ -401,7 +427,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -460,7 +486,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -476,6 +502,32 @@ local tbl =
 			timerStartOffset = -1,
 			used = false,
 			uuid = "87bd8abd-2b3b-cf08-9bd2-6c48fcf33997",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if OT",
+			throttleTime = 0,
+			time = 119.4,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3.5,
+			used = false,
+			uuid = "0c441232-4804-6bce-a7fa-2d6841335eed",
 		},
 	},
 	[17] = 
