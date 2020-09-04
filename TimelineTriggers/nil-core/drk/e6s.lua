@@ -57,6 +57,84 @@ local tbl =
 			used = false,
 			uuid = "b13c9779-473b-bfc7-92fa-9fe371afd7da",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Dark Missionary",
+			throttleTime = 0,
+			time = 27.1,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -0.80000001192093,
+			used = false,
+			uuid = "1109b2d3-2373-bb9c-bf3b-bc67fa011864",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Rampart.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Rampart if MT",
+			throttleTime = 0,
+			time = 27.1,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 1.5,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "d56e96b7-a9ab-f147-9954-58c5f42f3266",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.ShadowWall() self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Heavy CoolDown",
+			throttleTime = 0,
+			time = 27.1,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "16082c53-37b2-28ff-82ab-bf093c2a38ef",
+		},
 	},
 	[4] = 
 	{
@@ -121,22 +199,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Cheese",
+			name = "TBN",
 			throttleTime = 0,
 			time = 36.2,
 			timeRange = true,
 			timelineIndex = 4,
-			timerEndOffset = 1,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "63580ec9-6032-bf1a-a2fd-507e7e1a9de0",
+			uuid = "6f023e26-dc08-65c1-a208-bfd450f9cd3e",
 		},
 	},
 	[5] = 
@@ -266,32 +344,6 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dark Missionary",
-			throttleTime = 0,
-			time = 95.2,
-			timeRange = true,
-			timelineIndex = 11,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "976ede7b-3690-3e1f-9198-bd51ecb40389",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
 			execute = "if NilsReactionCore.Raid.Mechanics.OccludedFront() > 6 then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -363,7 +415,7 @@ local tbl =
 			timelineIndex = 14,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "0f517548-9ab4-c8cc-a85b-8308074f6b96",
 		},
