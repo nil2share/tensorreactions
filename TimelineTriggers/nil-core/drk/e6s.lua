@@ -69,22 +69,22 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dark Missionary",
+			name = "Dark Mind",
 			throttleTime = 0,
 			time = 36.2,
 			timeRange = true,
 			timelineIndex = 4,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "f688108f-de78-be90-aa2b-d47d22ac3755",
+			uuid = "0c46f2cc-4b34-1735-97e3-69ae8e3755cc",
 		},
 		
 		{
@@ -108,7 +108,7 @@ local tbl =
 			timelineIndex = 4,
 			timerEndOffset = 1.5,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4.5,
 			used = false,
 			uuid = "920a8e6c-1d9f-74fd-bd1a-9218a84e24f3",
 		},
@@ -134,35 +134,9 @@ local tbl =
 			timelineIndex = 4,
 			timerEndOffset = 1,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "63580ec9-6032-bf1a-a2fd-507e7e1a9de0",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.TheBlackestNight() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "TBN for Cheese",
-			throttleTime = 0,
-			time = 36.2,
-			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "f7a88aa6-cfc0-3e1c-87e5-d042152e462b",
 		},
 	},
 	[5] = 
@@ -222,32 +196,6 @@ local tbl =
 	},
 	[6] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMind() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dark Mind",
-			throttleTime = 0,
-			time = 46.8,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "0efb8ded-c80e-71fd-8aee-f780d0b9586f",
-		},
 	},
 	[8] = 
 	{
@@ -309,6 +257,32 @@ local tbl =
 	},
 	[11] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Darkknight.DarkMissionary() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Dark Missionary",
+			throttleTime = 0,
+			time = 95.2,
+			timeRange = true,
+			timelineIndex = 11,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "976ede7b-3690-3e1f-9198-bd51ecb40389",
+		},
 		
 		{
 			actions = 
