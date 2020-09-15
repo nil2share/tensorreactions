@@ -1050,34 +1050,6 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jumps on",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 18,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 3,
-			used = false,
-			uuid = "665d72ba-abc8-cd8c-9793-0c1f8aa62ba2",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
 			execute = "if NilsReactionCore.Hotbar.Toggles.Displacement.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1096,34 +1068,6 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "92ceb10f-f3ea-ba19-97cb-15fb29d924d4",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "-- Reset displacement, it will use toggle settings, so if you have it off in toggle settings, it will stay off\n\nif NilsReactionCore.Hotbar.Toggles.Displacement.Reset() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Displacement Reset",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 18,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 3,
-			used = false,
-			uuid = "d22a3772-f73b-281e-8ffe-b8566b3dde9a",
 		},
 	},
 	[19] = 
@@ -1174,34 +1118,6 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Jumps off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 22,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "4d69285c-1bad-74d2-b588-ea926df3d774",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
 			name = "Jumps on",
 			randomOffset = 0,
 			throttleTime = 0,
@@ -1214,34 +1130,6 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "8e30c485-5eb2-5345-9241-b065d03cf295",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Toggles.Displacement.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Displacement Off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 22,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "adcc3334-206b-e3a6-83b9-b235eb9b4b6c",
 		},
 		
 		{
