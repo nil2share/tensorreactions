@@ -11,7 +11,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.AOEOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "if NilsReactionCore.Logic.Toggles.AOEOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -80,7 +80,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 2,
-			timerEndOffset = 0,
+			timerEndOffset = 1,
 			timerOffset = 0,
 			timerStartOffset = -9,
 			used = false,
@@ -1076,7 +1076,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Healer.HasShield() == false then\n  if NilsReactionCore.Hotbar.Knockback() then self.used = true end\nend",
+			execute = "--if NilsReactionCore.Helpers.Healer.HasShield() == false then\n  if NilsReactionCore.Hotbar.Knockback() then self.used = true end\n--end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
