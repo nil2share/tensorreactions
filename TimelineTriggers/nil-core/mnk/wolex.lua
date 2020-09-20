@@ -76,7 +76,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -93,7 +93,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "b6986fb0-7a45-4c97-8ee1-ee63cbb06108",
+			uuid = "3913049a-c3ff-19bb-b460-98b51561ef5e",
 		},
 		
 		{
@@ -274,7 +274,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -291,7 +291,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "0a906c67-1893-cb2d-8cf0-81fe20565940",
+			uuid = "e44fd5dc-7134-3048-be76-82a4da030fb7",
 		},
 		
 		{
@@ -818,7 +818,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -835,7 +835,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "5a7bb678-9480-66bc-b162-98ce5873e2e3",
+			uuid = "b43b8106-9a1d-7877-a2e8-cddc1c9b74ac",
 		},
 	},
 	[168] = 
@@ -945,7 +945,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -962,7 +962,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "4ff7044a-4769-f3a8-ab8d-36e50901c5ca",
+			uuid = "00872a73-6378-3c93-b774-40c7a686cd73",
 		},
 	},
 	[207] = 
@@ -1230,7 +1230,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1247,7 +1247,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "53f9cace-dc6f-bd18-8f17-323ca299b7e2",
+			uuid = "0ff4dfb6-926c-eb99-9811-46452d025c0f",
 		},
 	},
 	[306] = 
@@ -1323,7 +1323,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, buffDuration * 1000)\n  self.used = true\nend",
+			execute = "local buffDuration = NilsReactionCore.Buffs.Duration(960, Player.id)\n\nif buffDuration > 0 then\n  NilsReactionCore.Alert.Send(\"Stop Moving\")\n  NilsReactionCore.Random.Toggles.StopAttack.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, ((buffDuration * 1000) + 1000))\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1340,7 +1340,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "c7e7e09d-f354-033f-a253-89460331eb97",
+			uuid = "690e1f0b-9bc1-5484-a307-7deb77d6aa1d",
 		},
 	},
 	[336] = 
