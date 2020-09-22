@@ -1161,6 +1161,34 @@ local tbl =
 			conditions = 
 			{
 			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.Guren.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn off Guren",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 37,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "870edd68-e67c-baaf-ac7c-a088a9740384",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
 			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Toggles.Shoha.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
@@ -1189,7 +1217,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Toggles.Shoha.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
 			lastUse = 0,
@@ -1264,34 +1292,6 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "6f87623a-86b6-e8cf-a414-c95e7eb05784",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Toggles.Guren.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Turn off Guren",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 37,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "870edd68-e67c-baaf-ac7c-a088a9740384",
 		},
 	},
 	[39] = 
