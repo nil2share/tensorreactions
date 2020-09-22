@@ -145,6 +145,34 @@ local tbl =
 			used = false,
 			uuid = "d56e96b7-a9ab-f147-9954-58c5f42f3266",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "31f6e06e-f2f9-23d1-a098-69ceb2d6db59",
+		},
 	},
 	[4] = 
 	{
@@ -291,6 +319,34 @@ local tbl =
 			used = false,
 			uuid = "af146d6f-2165-7bbe-8f17-94b4255688c8",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "89338060-70a5-48a0-bc50-ee6deb2c7138",
+		},
 	},
 	[6] = 
 	{
@@ -355,6 +411,34 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "e1c2783e-d67d-9e90-bd23-a2bdaf3e32e1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "c891b4f2-03ab-e57e-9728-eea8eba0c017",
 		},
 	},
 	[11] = 
@@ -579,24 +663,52 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Burn Plunge",
+			name = "Gap Close",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 17,
-			timerEndOffset = 4,
+			timerEndOffset = 3,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -2,
 			used = false,
 			uuid = "ecbfbda0-55b1-ea5d-aa3c-20367a3a843a",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4584b13b-d1eb-f054-a7f2-aba8a8730118",
 		},
 	},
 	[18] = 
@@ -1141,6 +1253,62 @@ local tbl =
 			used = false,
 			uuid = "eb8d1c8f-e227-af26-9ad0-a17054e5e6a8",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "1665124f-3d40-3dba-8c69-7f7500a4c9fd",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "107adb4b-0da1-5b39-9a6d-c321d4a0d7ff",
+		},
 	},
 	[26] = 
 	{
@@ -1267,6 +1435,62 @@ local tbl =
 			timerStartOffset = 2,
 			used = false,
 			uuid = "f49ee07f-9fe8-9cb3-9510-d70cc91d00e7",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 30,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "856cf7fc-9e2d-219e-b479-65f46d180693",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 30,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "5e4f9578-303a-796c-908c-1c3103840d7b",
 		},
 	},
 	[32] = 
@@ -2235,6 +2459,34 @@ local tbl =
 			used = false,
 			uuid = "cb1a8a8a-8803-940b-bae9-c34b919eca7e",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 43,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "0e82fff3-5ebf-6629-a20c-2b1f71ac47bb",
+		},
 	},
 	[46] = 
 	{
@@ -2445,6 +2697,34 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "5c5ce696-c159-3580-a8ce-b12743207934",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 55,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "bd139384-dbb6-46b9-9f5c-1619826c0dec",
 		},
 	},
 	[58] = 
@@ -2762,7 +3042,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2790,7 +3070,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2896,6 +3176,62 @@ local tbl =
 			used = false,
 			uuid = "98fe5094-d99e-d0cd-9f88-f68f120a92b9",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 60,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "028cce7a-0ca5-9780-93c3-e1f862dc1cb1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 60,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "8e9cef09-2c4e-094d-addf-edb86bc11ba0",
+		},
 	},
 	[63] = 
 	{
@@ -2954,6 +3290,62 @@ local tbl =
 			timerStartOffset = 2,
 			used = false,
 			uuid = "5ffc6d54-6b46-c3be-a77c-4a024d11da40",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0680f094-1514-1367-a6eb-fb8a839aee4e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "b08cefba-4a91-bb54-a817-e6d3e83a0a63",
 		},
 	},
 	[65] = 
@@ -3299,7 +3691,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Burn Plunge",
+			name = "Gap Close",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -3550,7 +3942,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3693,7 +4085,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			execute = "if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n  if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\nend",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3711,6 +4103,34 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "81655477-6ec4-04ae-a5d7-86d7dae1f84d",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "f1b79f9f-e477-3ea3-9d41-74ea64be1129",
 		},
 	},
 	[82] = 
@@ -3823,7 +4243,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Burn Plunge",
+			name = "Gap Close",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -3835,6 +4255,34 @@ local tbl =
 			timerStartOffset = 1.5,
 			used = false,
 			uuid = "0366dd81-9092-886a-a3e5-41a57d5a5714",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 89,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "78c15002-20d7-c3e9-bf56-33df580f6bb0",
 		},
 	},
 	[90] = 
@@ -4041,6 +4489,34 @@ local tbl =
 			used = false,
 			uuid = "eeb579a0-ef1a-6261-b42d-4aef6adc675b",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle off Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "8d8fc9e6-312d-d575-9ad6-5299aad75a89",
+		},
 	},
 	[96] = 
 	{
@@ -4071,6 +4547,34 @@ local tbl =
 			timerStartOffset = 2,
 			used = false,
 			uuid = "a8516be8-a79a-e617-8b83-040bae728816",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.BurnGapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Toggle on Burn Gap Closers",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "b87af3c0-bf73-4591-bd20-b44f69170b7e",
 		},
 	},
 	[97] = 

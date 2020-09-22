@@ -132,7 +132,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -149,7 +149,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "406580bb-0ece-f12f-b2f2-30a2b2691fa4",
+			uuid = "21c97746-a6a3-8d40-9c99-3e4ccac89703",
 		},
 	},
 	[12] = 
@@ -163,7 +163,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -180,7 +180,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "5620c7dc-a9e7-3190-8653-f7c15c3611c8",
+			uuid = "c88b6229-a5e1-ea56-929b-c5afe610ec59",
 		},
 	},
 	[14] = 
@@ -228,7 +228,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -245,7 +245,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "5cc16192-2f43-0b7e-a656-4a1468850794",
+			uuid = "f9625e58-98cd-5d87-ad8c-0380cb700332",
 		},
 	},
 	[22] = 
@@ -448,7 +448,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -465,7 +465,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "8d6ba157-93a6-6154-9d03-054ada2c890b",
+			uuid = "0cf568e5-d27e-38ca-9ce7-fef4bbb1258f",
 		},
 		
 		{
@@ -1504,7 +1504,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1521,7 +1521,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "c26a0497-a4f8-885e-aa83-2b3effa82100",
+			uuid = "e9ad61a8-2ec6-638d-9aa7-f0496483ab39",
 		},
 		
 		{
@@ -1622,7 +1622,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1639,7 +1639,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "da23caaa-5a2b-fe85-b8aa-c5d63bfa8932",
+			uuid = "edd74682-2ee5-6765-a57c-7ca5888cc3e1",
 		},
 	},
 	[32] = 
@@ -1712,7 +1712,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1729,7 +1729,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "9ba0e1a9-4228-038b-ad6c-710f636c8f83",
+			uuid = "77e62fae-957c-6e3a-b8ea-2a29dc6432d9",
 		},
 	},
 	[38] = 
@@ -1799,7 +1799,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1816,7 +1816,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "0a85f866-a920-79f3-bca3-9ace6f3c3b26",
+			uuid = "b652c9b4-5365-7730-b35c-5f37cbe0e3f4",
 		},
 		
 		{
@@ -2765,7 +2765,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2782,7 +2782,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "ef27b7f1-24b7-69ce-ab4d-6d4918b43722",
+			uuid = "ad7c452e-24eb-a742-9127-d54a15088797",
 		},
 	},
 	[45] = 
@@ -2988,7 +2988,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3005,7 +3005,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "4ebf0364-3d06-d4ec-9b8b-365b318addab",
+			uuid = "fe67e6ee-ae39-c0b6-9549-5187d329b40a",
 		},
 		
 		{
@@ -3106,7 +3106,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3123,7 +3123,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "4f0aded6-0630-8c28-af17-1ec53d9512d6",
+			uuid = "a3bb3adc-8318-1e95-93a3-7c900fd89572",
 		},
 	},
 	[57] = 
@@ -3224,7 +3224,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3241,7 +3241,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "ffe73146-8153-bd5f-aea5-2d7f9bedb9e9",
+			uuid = "86afdd8b-05af-5d91-92cb-1f5dca800dd1",
 		},
 		
 		{
@@ -4463,7 +4463,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -4480,7 +4480,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "189a02b4-c69a-3a82-ba77-d3aeb259a498",
+			uuid = "c50e21bc-2465-fc4d-a642-06abe1375b41",
 		},
 		
 		{
@@ -4606,7 +4606,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -4623,7 +4623,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "3ee08d19-04e4-a061-a4eb-3ce476295a60",
+			uuid = "eb31d77a-fa48-0c26-85e6-7d79cb2f793e",
 		},
 	},
 	[71] = 
@@ -4941,7 +4941,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -4958,7 +4958,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "f733e4fc-3c69-dc6b-b3a2-20169638f9c6",
+			uuid = "f606a071-38cc-c635-b59c-9c19eeb23f20",
 		},
 	},
 	[75] = 
@@ -5028,7 +5028,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5045,7 +5045,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "92419981-7072-fd30-a74c-22b5dc9424ce",
+			uuid = "40a52630-59e9-6386-b426-6b8e6bc2fcdc",
 		},
 	},
 	[76] = 
@@ -5059,7 +5059,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5076,7 +5076,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "b5e50626-8caa-aa0c-8ede-20cea10006e0",
+			uuid = "96ddc5f9-c989-54cf-a17e-d06db1677d21",
 		},
 		
 		{
@@ -5118,7 +5118,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5135,7 +5135,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "d9926f39-913f-73e2-bd75-a8fa84be6aa4",
+			uuid = "05fe6de8-aaba-787d-8f23-14fd992dc9aa",
 		},
 	},
 	[80] = 
@@ -5236,7 +5236,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5253,7 +5253,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "4374e99c-1fcf-ddbc-bc70-f3cb98c883ad",
+			uuid = "8b270acb-87bf-f7b1-b41c-cdddbcdb37ae",
 		},
 	},
 	[84] = 
@@ -5267,7 +5267,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5284,7 +5284,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "1168a582-728b-fb24-83e1-b9cb1df6e78b",
+			uuid = "a6842f55-6224-5fd3-a34d-b9084c3a0c57",
 		},
 		
 		{
@@ -5354,7 +5354,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5371,7 +5371,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "d17af68b-eeff-938e-b8c5-d5b8e6f2c22d",
+			uuid = "635451a0-1b1a-e7b1-8d44-e2d6117cf81d",
 		},
 		
 		{
@@ -5416,7 +5416,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5433,7 +5433,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "1e9b0cab-48d3-35f6-be37-06d437cbac81",
+			uuid = "7400d803-85ae-c909-a906-17f3bf3793f4",
 		},
 	},
 	[90] = 
@@ -5447,7 +5447,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5464,7 +5464,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "8a04f1fb-f5f7-1f2b-a248-e6d80a3f0a80",
+			uuid = "ce46f9c2-2846-ef08-bc26-ff85cdc6b75e",
 		},
 	},
 	[91] = 
@@ -5506,7 +5506,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5523,7 +5523,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "fa91f474-af2d-254d-aec6-3301c2b2d1d6",
+			uuid = "63204084-f4e5-18d9-8234-8589d7244936",
 		},
 		
 		{
@@ -5593,7 +5593,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5610,7 +5610,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "95213911-ff60-080e-9938-cd6ce04cacda",
+			uuid = "6a07e9c1-3c8f-f36c-bb83-2e6514dbab13",
 		},
 	},
 	[93] = 
@@ -5624,7 +5624,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5641,7 +5641,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "179de84e-6c2b-4875-b558-b775f4f38a3b",
+			uuid = "3465b9f6-5d35-0001-b804-30b820b18082",
 		},
 	},
 	[95] = 
@@ -5655,7 +5655,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5672,7 +5672,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "aec38235-b28d-b809-bb6b-ef2b4a4548f2",
+			uuid = "ad9b97a1-88b9-3213-a25e-622e8fa0edfe",
 		},
 	},
 	[96] = 
@@ -5717,7 +5717,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5734,7 +5734,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "dc9d62a4-579e-eabb-aa4a-b7758a6b78dd",
+			uuid = "01b840a0-3a6f-37f3-922b-0224f7622a94",
 		},
 	},
 	[101] = 
@@ -5748,7 +5748,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5765,7 +5765,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "293daa91-6027-5124-bc0b-f3988a62b604",
+			uuid = "ff5b0c3a-6a84-e607-9448-81114c38d03b",
 		},
 	},
 	[102] = 
@@ -5835,7 +5835,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5852,7 +5852,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "0d4bd4e6-c286-24d8-90d7-5f2ddd8ff69f",
+			uuid = "50b785e0-e345-e4e5-99df-02c3097f85ec",
 		},
 	},
 	[103] = 
@@ -5922,7 +5922,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -5939,7 +5939,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "a06dcba1-0cda-1359-8238-fe2290bca643",
+			uuid = "6cd028bf-0c41-d64d-8eae-5c112347c31b",
 		},
 		
 		{
@@ -6201,7 +6201,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -6218,7 +6218,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "3af848e1-c418-6280-9e7c-87ad6188db8a",
+			uuid = "e46b5488-7a17-3b15-9c32-6c2b0c8e0a53",
 		},
 		
 		{
@@ -6316,7 +6316,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -6333,7 +6333,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "92e766b9-92e8-7622-9708-e56097f0a829",
+			uuid = "e7ac8952-b41d-b3ce-89bb-9dda8777ef98",
 		},
 	},
 	[109] = 
@@ -6558,7 +6558,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.Plunge()\nself.used = true",
+			execute = "-- TODO: Remove this when Salice adds a burn plunge option\n\nif NilsReactionCore.Combat.IsTensor() == false then\n  if NilsReactionCore.Hotbar.Actions.BloodWeapon.HasBuff() == false and NilsReactionCore.Hotbar.Actions.Delirium.HasBuff() == false then\n    if NilsReactionCore.Hotbar.Darkknight.Plunge() then self.used = true end\n  end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -6575,7 +6575,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "dd1033b8-e2bf-7ec4-877a-af5c13cde3dd",
+			uuid = "c6edc914-e87c-5438-99fd-fd68ecf9e176",
 		},
 	},
 	[115] = 
