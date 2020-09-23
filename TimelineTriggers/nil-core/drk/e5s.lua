@@ -1784,6 +1784,34 @@ local tbl =
 			used = false,
 			uuid = "0f705aee-2a6f-8b3b-8a82-100f315d24f9",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local controls = GetControls()\nif (table.valid(controls)) then\n  for id, e in pairs(controls) do\n    local isopen = e:IsOpen()\n    if isopen then\n      NilsReactionCore.data.Params.Data.AddToOutput(' sec - ' .. tostring(id)..\" - \"..e.name)\n     -- d(tostring(id)..\" - \"..e.name)\n-- d(tostring(json.encode(controls)))\n   end\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Brace yourself",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 37,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "ee8c35e5-0c1b-6118-98b2-bb852c685807",
+		},
 	},
 	[39] = 
 	{
