@@ -595,10 +595,38 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 22,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
 			uuid = "997ed312-a9e6-4036-a6e7-70feb860697d",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 22,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "be649148-4fa5-0217-9d61-0aa661df3ec8",
 		},
 	},
 	[23] = 
@@ -634,34 +662,6 @@ local tbl =
 	},
 	[24] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Mantra",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 24,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "2e68a098-d791-caab-a61f-feb5defd4966",
-		},
 	},
 	[25] = 
 	{
@@ -674,13 +674,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- Requires Argus for this, no easy way I can find to detect if you are in in the first or second set\nif NilsReactionCore.Argus.EntityInUnavoidableAOEs(Player) then\n  if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() then self.used = true end\nend",
+			execute = "-- Requires Argus for this, no easy way I can find to detect if you are in in the first or second set\nif NilsReactionCore.Argus.EntityInUnavoidableAOEs(Player) then\n  if NilsReactionCore.Hotbar.TrueNorth() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "RiddleOfEarth if in Unavoidable",
+			name = "True North if in Unavoidable",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -725,7 +725,7 @@ local tbl =
 			uuid = "4e31287c-f176-fdc8-9b7d-b8488de23132",
 		},
 	},
-	[31] = 
+	[29] = 
 	{
 		
 		{
@@ -736,25 +736,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Riddle of Earth",
+			name = "True North",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 31,
+			timeRange = true,
+			timelineIndex = 29,
 			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
+			timerOffset = 0,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "c8f7bbae-de7a-f3b0-8609-46c42cdd13e0",
+			uuid = "d8f95726-767f-516a-82f7-92710aa62387",
 		},
+	},
+	[31] = 
+	{
 	},
 	[32] = 
 	{
@@ -812,7 +815,7 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 33,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -2.5999999046326,
 			timerStartOffset = -20,
 			used = false,
 			uuid = "67b6ed5d-8acd-8d91-8c47-7ba810ab0e60",
@@ -856,7 +859,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -932,6 +935,34 @@ local tbl =
 			used = false,
 			uuid = "0e05af74-58f8-113f-b8e8-3caa18b499fc",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "True North",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "bb081432-c599-11b8-9922-6945bd42731c",
+		},
 	},
 	[37] = 
 	{
@@ -946,7 +977,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1105,34 +1136,6 @@ local tbl =
 	},
 	[42] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 42,
-			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
-			used = false,
-			uuid = "25a7d33d-7bf2-6534-8eb4-bb2815db50c2",
-		},
 	},
 	[43] = 
 	{
@@ -1165,8 +1168,67 @@ local tbl =
 			uuid = "b46a422e-9b8a-f25e-9219-a6e05347fe41",
 		},
 	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "True North",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "15e7e639-adaf-a9eb-8fe7-c474cd06165f",
+		},
+	},
 	[45] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Earth",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 45,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = -20,
+			used = false,
+			uuid = "710e0c6e-ce64-a740-83df-e829483608e3",
+		},
 		
 		{
 			actions = 
@@ -1576,13 +1638,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- Requires Argus for this, no easy way I can find to detect if you are in in the first or second set\nif NilsReactionCore.Argus.EntityInUnavoidableAOEs(Player) then\n  if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() then self.used = true end\nend",
+			execute = "-- Requires Argus for this, no easy way I can find to detect if you are in in the first or second set\nif NilsReactionCore.Argus.EntityInUnavoidableAOEs(Player) then\n  if NilsReactionCore.Hotbar.TrueNorth() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "RiddleOfEarth if in Unavoidable",
+			name = "True North if in Unavoidable",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -1607,7 +1669,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1626,9 +1688,6 @@ local tbl =
 			used = false,
 			uuid = "bc672d1b-cdd4-dddc-a426-5b385ebeb676",
 		},
-	},
-	[64] = 
-	{
 		
 		{
 			actions = 
@@ -1650,13 +1709,16 @@ local tbl =
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 64,
+			timelineIndex = 63,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -6,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "7ff622e6-49c5-d6c5-94ac-546dcceb1b2c",
+			uuid = "af7aadc6-041a-2483-895b-984d9ac8d498",
 		},
+	},
+	[64] = 
+	{
 	},
 	[65] = 
 	{
@@ -1716,11 +1778,67 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 68,
-			timerEndOffset = 3,
+			timerEndOffset = 5,
 			timerOffset = -2,
-			timerStartOffset = 1,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "1e2f9e30-89fd-7a40-b7eb-c831c895ec60",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 68,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "a20c6bac-fe96-2766-b677-3aa41d1cccf6",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "True North",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "24e8e096-745c-8ce9-bc15-89ce40c366c2",
 		},
 	},
 	[70] = 
@@ -1733,7 +1851,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1777,7 +1895,7 @@ local tbl =
 			timelineIndex = 70,
 			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "ae057ba6-b96b-2347-a72b-9ae4d4671812",
 		},
@@ -1925,7 +2043,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1951,34 +2069,6 @@ local tbl =
 	},
 	[74] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 74,
-			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
-			used = false,
-			uuid = "0d20ebeb-374d-8566-b9c5-5f394e632bf8",
-		},
 	},
 	[75] = 
 	{
@@ -2010,9 +2100,6 @@ local tbl =
 			used = false,
 			uuid = "9958e0b8-f4cc-2384-b26c-ea13c4cb3678",
 		},
-	},
-	[76] = 
-	{
 		
 		{
 			actions = 
@@ -2034,13 +2121,44 @@ local tbl =
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 76,
+			timelineIndex = 75,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "45075f31-0602-d869-8ae6-ea0e5d76c06a",
+			uuid = "703d1b4d-9d0d-f0e7-a38d-8fc6b722113f",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 75,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "becdd803-2e15-0830-8745-0984384d06cc",
+		},
+	},
+	[76] = 
+	{
 	},
 	[78] = 
 	{
@@ -2154,13 +2272,41 @@ local tbl =
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
-			timeRange = true,
+			timeRange = false,
 			timelineIndex = 82,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "8c91f366-00eb-2c43-9f5f-a97f494697a3",
+			uuid = "0745d039-085f-b797-b0d7-55798391f870",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 82,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "a94e551c-58aa-79b4-a91d-2ac06cdcdef2",
 		},
 	},
 	[83] = 
@@ -2405,10 +2551,38 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 90,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "4ef48fed-e657-d2f5-a5c7-c29bd98c7d1a",
+			uuid = "780838cf-56c4-d524-9354-95ba7b137156",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 90,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "4d0eaf8b-cb72-c6df-a0da-c40d9da3aebf",
 		},
 	},
 	[91] = 
@@ -2560,14 +2734,11 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 96,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "dc073213-8d20-5c96-91ab-eb49bb4c30ae",
+			uuid = "5eccb216-826e-26c2-97ff-883bcea02f28",
 		},
-	},
-	[97] = 
-	{
 		
 		{
 			actions = 
@@ -2577,25 +2748,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
+			name = "Mantra",
+			randomOffset = 2,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 97,
+			timelineIndex = 96,
 			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "94c3a393-6a42-45fc-974f-9073a28b57a0",
+			uuid = "2196fd9c-420e-63ba-b612-19514b2dba4b",
 		},
+	},
+	[97] = 
+	{
 	},
 	[98] = 
 	{
@@ -2653,10 +2827,10 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 99,
 			timerEndOffset = 0,
-			timerOffset = -20,
+			timerOffset = -3,
 			timerStartOffset = -20,
 			used = false,
-			uuid = "96a4d679-83ff-b44f-bfdd-bec3c58f26d0",
+			uuid = "2ba8554c-cd95-236d-b404-4865ff731a70",
 		},
 		
 		{
@@ -2674,80 +2848,24 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Mantra",
-			randomOffset = 0,
+			randomOffset = 2,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 99,
 			timerEndOffset = 0,
-			timerOffset = -4,
+			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "80cfcff8-d498-9692-9350-1d12f6da3ace",
+			uuid = "2dae9500-342f-0b47-9de3-bb40e5a9f87f",
 		},
 	},
 	[100] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 100,
-			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
-			used = false,
-			uuid = "bd0104c6-0523-d3b8-869c-3fb86e9b3e9b",
-		},
 	},
 	[101] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 101,
-			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
-			used = false,
-			uuid = "02d55ecc-7ac4-7ce8-b930-9d7028ec386c",
-		},
 	},
 	[102] = 
 	{
