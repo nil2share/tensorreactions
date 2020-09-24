@@ -67,37 +67,6 @@ local tbl =
 			used = false,
 			uuid = "fae2a532-7687-1add-84ab-ad5b559fdf78",
 		},
-	},
-	[7] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle of Earth",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 7,
-			timerEndOffset = 0,
-			timerOffset = -20,
-			timerStartOffset = -20,
-			used = false,
-			uuid = "39f77c98-e87f-b91c-86db-75331627cb94",
-		},
 		
 		{
 			actions = 
@@ -119,13 +88,44 @@ local tbl =
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = 0,
-			timerOffset = -4,
+			timerOffset = -2,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "1735508e-f817-efb2-ac92-0a5c65cc6352",
+			uuid = "8ce17973-21b6-b6e0-b9bf-05389fe525c8",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Earth",
+			randomOffset = 1,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 6,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -20,
+			used = false,
+			uuid = "cb0f22cf-00a1-d73b-aa18-b364c293cb68",
+		},
+	},
+	[7] = 
+	{
 	},
 	[9] = 
 	{
@@ -138,7 +138,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -200,7 +200,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -218,6 +218,34 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "7e1f3368-a52d-91c6-bc08-ef1267a4708c",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "True North",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 14,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 3.5,
+			used = false,
+			uuid = "fce60120-75aa-3c27-84c6-269cf1eaf4c1",
 		},
 	},
 	[15] = 
@@ -253,6 +281,34 @@ local tbl =
 	},
 	[16] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "True North",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "ca9a6cbf-c861-de9a-aa17-c43edad8312c",
+		},
 	},
 	[17] = 
 	{
@@ -265,7 +321,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -278,9 +334,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 17,
-			timerEndOffset = 0,
+			timerEndOffset = 1,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -2,
 			used = false,
 			uuid = "23cf1ff0-39b3-e772-b603-36245261fda1",
 		},
@@ -306,43 +362,15 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 17,
-			timerEndOffset = 0,
+			timerEndOffset = 1,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "0375054f-b3c0-b4b9-b1ef-27c5d5d14d3e",
 		},
 	},
 	[18] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline)\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "CD On",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 18,
-			timerEndOffset = 1,
-			timerOffset = -1,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "8041c745-a4c2-e309-8e7b-f7d1f1fec9b8",
-		},
 	},
 	[19] = 
 	{
@@ -479,9 +507,6 @@ local tbl =
 			used = false,
 			uuid = "725839de-5825-1db2-939c-50523cd701f5",
 		},
-	},
-	[20] = 
-	{
 		
 		{
 			actions = 
@@ -491,25 +516,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "CD On",
-			randomOffset = 0,
+			randomOffset = 1.5,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 20,
+			timelineIndex = 19,
 			timerEndOffset = 1,
-			timerOffset = -0.5,
+			timerOffset = 0.5,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "63c553d3-3682-f6c9-8781-4b081a7c0eb8",
+			uuid = "dfec2d4a-843a-6815-bb78-66728579a811",
 		},
+	},
+	[20] = 
+	{
 	},
 	[21] = 
 	{
