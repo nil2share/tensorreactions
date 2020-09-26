@@ -1728,34 +1728,6 @@ local tbl =
 	},
 	[35] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Toggles.BloodWeapon.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Turn off Blood Weapon",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 35,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "74f0d4e2-607e-fa2f-95c7-67dcba360668",
-		},
 	},
 	[36] = 
 	{
@@ -2219,34 +2191,6 @@ local tbl =
 			timerStartOffset = 2,
 			used = false,
 			uuid = "7e079915-95a6-d29b-a7cd-82c64123d7fb",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Toggles.BloodWeapon.Execute(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Turn on Blood Weapon",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 38,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "7f3c15f8-99d8-dab3-b959-42787941a2ab",
 		},
 	},
 	[39] = 
