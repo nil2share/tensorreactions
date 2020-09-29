@@ -5,6 +5,9 @@ local tbl =
 	},
 	
 	{
+	},
+	
+	{
 		
 		{
 			actions = 
@@ -14,7 +17,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then\n  self.used = true\nend\n\n",
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -25,18 +28,18 @@ local tbl =
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 2,
-			timerEndOffset = 0,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 4,
 			timerOffset = -2,
-			timerStartOffset = -4,
+			timerStartOffset = 2,
 			used = false,
-			uuid = "bbdf327e-08e7-bdac-83f8-3931fd284da4",
+			uuid = "39a354fa-a7e1-da3f-b16d-6336934261ed",
 		},
-	}, 
-	[4] = 
-	{
 	},
+	
+	{
+	}, 
 	[6] = 
 	{
 		
@@ -215,7 +218,7 @@ local tbl =
 			timelineIndex = 14,
 			timerEndOffset = 0,
 			timerOffset = -4,
-			timerStartOffset = -5,
+			timerStartOffset = -5.1999998092651,
 			used = false,
 			uuid = "7e1f3368-a52d-91c6-bc08-ef1267a4708c",
 		},

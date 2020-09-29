@@ -34,8 +34,11 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "364a9ee0-b797-a408-91fd-856b18ebd228",
+			uuid = "96ef5d7e-a869-0815-8dba-9fbe907df2ea",
 		},
+	},
+	
+	{
 	}, 
 	[6] = 
 	{
@@ -65,7 +68,38 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "effd437e-73a6-7558-b209-d541c0263784",
+			uuid = "aae7cf3f-43e4-f14b-9b20-a3142ceef60f",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "8666606f-ec9b-6455-8068-1fa47559b7a3",
 		},
 	},
 	[9] = 
@@ -79,13 +113,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "if NilsReactionCore.Raid.TTS.GrabOrb() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Feint",
+			name = "Get Orb TTS",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -93,11 +127,14 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 9,
 			timerEndOffset = 0,
-			timerOffset = -4,
+			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "9fdcab78-27d1-1ad7-bca9-e1265b9b66dc",
+			uuid = "ca18e8da-d5b8-7ed4-be47-f2e789a03e93",
 		},
+	},
+	[10] = 
+	{
 	},
 	[11] = 
 	{
@@ -127,8 +164,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "e61456e5-71dd-de5f-83d4-58b7947974b5",
+			uuid = "9d4b43e9-fc31-dd6f-9fd3-b6aad018202e",
 		},
+	},
+	[13] = 
+	{
 	},
 	[14] = 
 	{
@@ -155,10 +195,38 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 14,
 			timerEndOffset = 0,
-			timerOffset = -4,
+			timerOffset = -5,
 			timerStartOffset = -5.1999998092651,
 			used = false,
-			uuid = "82fffe37-6617-4a03-9338-2808cd23e84d",
+			uuid = "90800033-054f-fbbb-96f3-f00e60db37ec",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Healer.IsEnoughPartyMembersInRange(4, 4) then\n  if NilsReactionCore.Hotbar.Dancer.CuringWaltz() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Curing Waltz",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 14,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "e940b969-87e8-0085-89ec-3ec056afca01",
 		},
 	},
 	[15] = 
@@ -189,39 +257,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "8fdcea6c-00ab-d210-a192-304ee865151f",
+			uuid = "25218a63-a3a9-2b8b-ac35-c6a6403693af",
 		},
 	},
 	[17] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline)\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dragon Sight Off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 17,
-			timerEndOffset = 1,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "95d823e6-19d0-8e57-b4e8-b1af53de0299",
-		},
 	},
 	[18] = 
 	{
@@ -234,24 +274,24 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Jump off",
+			name = "CD Off",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 18,
-			timerEndOffset = 2,
+			timerEndOffset = 1,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "5138a35a-3b3e-1516-b89a-a9f245825ee1",
+			uuid = "716a922c-290f-a9c7-b7bc-5b3ba73946fe",
 		},
 	},
 	[19] = 
@@ -378,7 +418,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
-			throttleTime = 100,
+			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
@@ -387,7 +427,7 @@ local tbl =
 			timerOffset = 1.375,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "0d7a5ea5-abb0-baf0-bc07-f0cf9ae3e31b",
+			uuid = "4de177c8-1e11-2262-9d44-684187561b69",
 		},
 	},
 	[20] = 
@@ -401,13 +441,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dragon Sight On",
+			name = "CD On",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
@@ -415,41 +455,13 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 20,
 			timerEndOffset = 1,
-			timerOffset = 2,
+			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "cbc2c175-2ad6-a778-a6bd-e6c3934086f6",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump on",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 20,
-			timerEndOffset = 2,
-			timerOffset = 3,
-			timerStartOffset = -0.5,
-			used = false,
-			uuid = "42da169a-0978-0179-aee6-5140e77ab1a6",
+			uuid = "4b4e845e-89a6-e0ea-80f6-19c57f892f07",
 		},
 	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -460,24 +472,24 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Feint",
+			name = "Shield Samba",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "0178bd64-5723-2cd2-869d-35c913ec7e85",
+			uuid = "ae9b32f7-a2fe-7cf2-8d85-fd12f8b26ab3",
 		},
 	},
 	[23] = 
@@ -508,10 +520,13 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "7060714e-6460-ed10-abe5-b0ecb563d721",
+			uuid = "378f1ad0-f394-f9a8-9e39-22c4e2266088",
 		},
 	},
-	[28] = 
+	[25] = 
+	{
+	},
+	[31] = 
 	{
 		
 		{
@@ -522,24 +537,52 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Feint",
+			name = "Shield Samba",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 28,
+			timelineIndex = 31,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "c8c304b2-e511-e1e0-9953-bff22018130e",
+			uuid = "c6cabff8-0818-000f-bacb-fcbf51dc5d18",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Healer.IsEnoughPartyMembersInRange(4, 4) then\n  if NilsReactionCore.Hotbar.Dancer.CuringWaltz() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Curing Waltz",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 31,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "ee6bbc94-4e3d-cba0-b69d-79c32febedcc",
 		},
 	},
 	[32] = 
@@ -570,70 +613,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "31b08e35-b992-10d7-a90b-ff17d6667079",
+			uuid = "77549cc1-2ce6-834a-b3dc-87c02a826100",
 		},
 	},
 	[33] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Sprint",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 33,
-			timerEndOffset = 0,
-			timerOffset = -2,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "2bfcdef7-779d-2c50-98d5-94a20438620d",
-		},
-	},
-	[34] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dragon Sight Off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 34,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "d821dfb2-5981-e088-b1f5-de31afe2a849",
-		},
 	},
 	[35] = 
 	{
@@ -646,6 +630,37 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "abce15d2-1072-d23f-98e8-af9758df278f",
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
 			executeType = 2,
 			lastUse = 0,
@@ -658,75 +673,19 @@ local tbl =
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 35,
+			timelineIndex = 37,
 			timerEndOffset = 3,
 			timerOffset = -2,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "12b9b523-a130-100e-a17d-3d1f8a849ff1",
+			uuid = "f961aafd-bf8e-850d-98a3-f245c5bbfa4a",
 		},
 	},
 	[38] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 38,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "84857a71-b794-d115-a951-7622b4123ceb",
-		},
 	},
 	[39] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump on",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 39,
-			timerEndOffset = 2,
-			timerOffset = -1,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "5eda28bb-d654-419f-8c27-0c4b89943ea4",
-		},
 		
 		{
 			actions = 
@@ -849,7 +808,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
-			throttleTime = 100,
+			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
@@ -858,11 +817,36 @@ local tbl =
 			timerOffset = 1.375,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "c0dc06ac-c93b-6113-9915-6bea8afbf1b7",
+			uuid = "815d7615-3579-a9aa-8dda-62532cf6d076",
 		},
-	},
-	[41] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.TechnicalStep() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Execute Technical Step",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "4d4779b4-9096-b07b-9b7b-32578c565b9e",
+		},
 	},
 	[42] = 
 	{
@@ -875,24 +859,52 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dragon Sight On",
+			name = "Shield Samba",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 42,
-			timerEndOffset = 3,
-			timerOffset = 3,
-			timerStartOffset = 1,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "8e81f434-4b4e-ba73-978c-96edab780df4",
+			uuid = "018cb29b-4a7f-cdfa-b724-dc7950176dae",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 42,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "5172a87a-a661-78e8-b4eb-122b00082028",
 		},
 	},
 	[43] = 
@@ -923,8 +935,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "498a182f-edaa-8455-bf23-519f9a0c466e",
+			uuid = "1013652a-d2ba-034e-b40c-253634061e20",
 		},
+	},
+	[44] = 
+	{
 	},
 	[45] = 
 	{
@@ -954,7 +969,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "03c32348-b272-32ab-b774-630fd635781c",
+			uuid = "c38b224e-7f60-196d-8bf6-b62196a03a14",
 		},
 	},
 	[46] = 
@@ -985,39 +1000,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "db494a7f-df38-53e3-9d4e-2e4535f7e3b9",
+			uuid = "8397398b-69a3-7f1b-875f-ac7bfe96a8b7",
 		},
 	},
 	[47] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Feint",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 47,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
-			used = false,
-			uuid = "cdcdc596-7909-a944-b136-9acf041fc6d2",
-		},
 	},
 	[48] = 
 	{
@@ -1047,7 +1034,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "cb5df9c5-d023-8fd5-999d-21ee466d40d3",
+			uuid = "e468e744-2152-8691-ac0c-0e7432d375f2",
 		},
 	},
 	[49] = 
@@ -1078,7 +1065,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "5e90d7f7-f11b-9d60-8608-aff060b0d94d",
+			uuid = "f26f64e1-32d2-4e35-ad11-e991e403bbdc",
 		},
 	},
 	[50] = 
@@ -1109,7 +1096,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "838056e8-5d03-0c2d-bc17-1369d8ef26a9",
+			uuid = "89a1c216-354d-2980-a94f-2675c7942b66",
 		},
 	},
 	[51] = 
@@ -1140,7 +1127,38 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "ae0bb217-8be9-d74e-abb7-2b3610bc7103",
+			uuid = "a89dc196-d864-382b-9ed0-87e3b19941df",
+		},
+	},
+	[52] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 52,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "cc8265a0-cb6d-c2d0-9e92-cd44026f29bc",
 		},
 	},
 	[53] = 
@@ -1171,7 +1189,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "61a843b2-dbc4-1daa-aa13-cc0ded85303a",
+			uuid = "fefa9e13-5d68-8ec5-83f3-edcbb6ee8467",
 		},
 	},
 	[54] = 
@@ -1202,7 +1220,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "aeefca56-b0d3-fbc8-9c6d-2bd87eaaa040",
+			uuid = "32efd446-7867-37d0-b4f1-3d0f041005b7",
 		},
 	},
 	[55] = 
@@ -1233,7 +1251,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "6fe09f97-4150-ffe7-b540-ff9ad33e6fbf",
+			uuid = "dedf8bb8-8ca7-679e-a57c-cdcd60bb82cc",
 		},
 	},
 	[57] = 
@@ -1264,10 +1282,16 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "e85c469f-4c90-014b-ab57-84564ac9c539",
+			uuid = "960baad0-b19e-6c16-866d-00aafd41f76c",
 		},
 	},
-	[63] = 
+	[59] = 
+	{
+	},
+	[60] = 
+	{
+	},
+	[64] = 
 	{
 		
 		{
@@ -1278,24 +1302,24 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Feint",
+			name = "Shield Samba",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 64,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "9ef9db1b-c17b-d066-976f-bedc003d3784",
+			uuid = "23b43c36-cbed-81b6-a60f-a6543fb64b8a",
 		},
 	},
 	[65] = 
@@ -1326,13 +1350,44 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "b376255a-065c-f807-a175-79ed35b7166e",
+			uuid = "34765d34-cddc-72e5-b431-c6eb05c943b6",
 		},
 	},
 	[66] = 
 	{
 	},
 	[68] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "51e808e7-e445-a28b-9641-96a10107b908",
+		},
+	},
+	[70] = 
 	{
 		
 		{
@@ -1355,43 +1410,12 @@ local tbl =
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
+			timelineIndex = 70,
 			timerEndOffset = 3,
 			timerOffset = -2,
-			timerStartOffset = 1,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "f787745e-33b7-005a-8296-ce4ba3168743",
-		},
-	},
-	[70] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 70,
-			timerEndOffset = 2,
-			timerOffset = 3,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "1701e8d6-68c3-34e0-aa7e-26c20c06af78",
+			uuid = "a3ef3261-2718-503f-b4fa-21fee3cc2dc1",
 		},
 	},
 	[72] = 
@@ -1518,7 +1542,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
-			throttleTime = 100,
+			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
@@ -1527,10 +1551,38 @@ local tbl =
 			timerOffset = 1.375,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "e67f4b2f-7c62-53d8-9cac-fcda4dda16a8",
+			uuid = "dad1bdf8-0a5f-5d92-80f5-5566689015b4",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 1,
+			used = false,
+			uuid = "cac78588-a559-7b21-96b9-b6c89f900512",
 		},
 	},
-	[73] = 
+	[74] = 
 	{
 		
 		{
@@ -1541,24 +1593,24 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Jump on",
+			name = "Shield Samba",
 			randomOffset = 0,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 73,
-			timerEndOffset = 2,
-			timerOffset = 2,
-			timerStartOffset = 0,
+			timelineIndex = 74,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "c2ad4a10-0904-a80b-b5f6-b9926f378783",
+			uuid = "8747c509-4878-0001-9deb-527c421b831c",
 		},
 	},
 	[75] = 
@@ -1589,7 +1641,38 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "8b308626-0dca-39d3-9725-33412384ec21",
+			uuid = "51a54e04-8062-7345-9a92-a3ff9a712956",
+		},
+	},
+	[76] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 76,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "599353d7-92fd-3ec7-af9c-578083ee5f32",
 		},
 	},
 	[78] = 
@@ -1620,39 +1703,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "4e150740-404d-3304-9265-c01832a85688",
+			uuid = "72435710-60e0-43cd-8f02-7af4860d354d",
 		},
 	},
 	[81] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Knockback",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 81,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "0250b72e-5863-89fb-9095-44bd684e5093",
-		},
 		
 		{
 			actions = 
@@ -1677,9 +1732,68 @@ local tbl =
 			timelineIndex = 81,
 			timerEndOffset = 200,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -10,
 			used = false,
-			uuid = "bd86a77f-2549-f209-a4a6-c2e61a76fc09",
+			uuid = "49dfac3e-31b5-0a1b-950f-9dc86bddaba4",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = 0,
+			timerOffset = -5,
+			timerStartOffset = -5.5,
+			used = false,
+			uuid = "f5a77e12-b000-bf87-86ab-c75bca3326f1",
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "f2fa6d89-9e7e-3e08-a1e9-f0db6ff58664",
 		},
 	},
 	[83] = 
@@ -1710,7 +1824,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "1afab7a5-1a46-781e-aba1-3e2fe0ed07b0",
+			uuid = "469923ba-aaeb-2fc9-b416-7a28de984437",
 		},
 	},
 	[84] = 
@@ -1741,38 +1855,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "fed42ff7-7747-a0ef-9bd9-7ed15c8f2605",
-		},
-	},
-	[85] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Feint",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 85,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
-			used = false,
-			uuid = "7b088c81-060c-8db6-aaca-bf99e9484210",
+			uuid = "67c87767-0e06-fe43-af80-3078d0cba5e1",
 		},
 	},
 	[86] = 
@@ -1803,7 +1886,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "190e3a0f-ddac-447c-925d-bcecde058d43",
+			uuid = "604b4c28-2e78-819e-b6a6-0776ae26d2e0",
 		},
 	},
 	[87] = 
@@ -1834,7 +1917,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "01cf5cee-befe-401f-8f56-8ec8bfc41082",
+			uuid = "efc5708e-c236-b291-a470-dbc59a2a7300",
 		},
 	},
 	[88] = 
@@ -1865,7 +1948,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "80e4a049-6b27-8f17-81c6-7ce40451f015",
+			uuid = "116a3cd3-7f96-bd8e-a534-eab995c3e2bd",
 		},
 	},
 	[89] = 
@@ -1896,7 +1979,38 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "5721a584-8808-db82-ac3f-56fe18d45b70",
+			uuid = "a951ff2b-ef01-ae3a-af6d-67483e4ce781",
+		},
+	},
+	[90] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 90,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "f0522266-b9ac-c7d7-9d8b-aabeda0e7392",
 		},
 	},
 	[91] = 
@@ -1927,7 +2041,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "1ffcb2bb-d954-ec09-8aa8-48356c5566c8",
+			uuid = "efc999e9-ab92-2a08-8062-f0767f1484b6",
 		},
 	},
 	[92] = 
@@ -1958,7 +2072,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "00ddac6e-7178-c354-81ed-c16b4049e444",
+			uuid = "be46e7b2-75c4-59aa-95e5-9f212df5b6d8",
 		},
 	},
 	[93] = 
@@ -1989,7 +2103,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "41b98509-88a5-592e-8bb8-9ca8d4d691c4",
+			uuid = "e20e6a32-5ec2-d84f-a738-69f2016bfff2",
 		},
 	},
 	[95] = 
@@ -2020,7 +2134,69 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "c64efe88-19f6-8fa4-8eb2-e068be455bbc",
+			uuid = "3069df84-2d13-ee6f-bc0e-3733b1bd414a",
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "0435d4e3-e129-94ef-a9ae-8d17afcbee04",
+		},
+	},
+	[97] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 97,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "840ab42f-f63b-e2e5-9a2a-f3f76f5a1ec9",
 		},
 	},
 	[98] = 
@@ -2051,7 +2227,100 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "b3c48a43-cd62-00e7-8f4a-2292a0f4d75b",
+			uuid = "6e09d2f0-ef10-fba0-b4b8-7b39acdbccd0",
+		},
+	},
+	[99] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 99,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "25c24432-6d2c-4c09-a275-6e3347d70a00",
+		},
+	},
+	[100] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 100,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "b134259d-a8af-ee2f-b296-16b84f7897d9",
+		},
+	},
+	[101] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Dancer.ShieldSamba() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Samba",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 101,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "e6ea51c5-66df-15f6-a641-8b10523b897e",
 		},
 	},
 	[102] = 
@@ -2082,7 +2351,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "50ef28e5-51c4-ba56-8492-3d633eb7a4fc",
+			uuid = "da180eec-e3e6-df24-ba4c-78619f8e1ca7",
 		},
 	},
 	mapID = 906,

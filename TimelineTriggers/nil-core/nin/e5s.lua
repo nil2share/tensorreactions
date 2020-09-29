@@ -5,34 +5,6 @@ local tbl =
 	},
 	
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Sprint",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 2,
-			timerEndOffset = 0,
-			timerOffset = -2,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "3d78170a-04ed-b3ee-8bed-dc123cd738dc",
-		},
 	},
 	
 	{
@@ -91,6 +63,34 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "aa93815b-4def-7c57-a178-0186b15dfbdd",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 4,
+			timerOffset = -2,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "e157796b-13f4-6472-911a-fae0af45143b",
 		},
 	}, 
 	[6] = 
@@ -243,7 +243,7 @@ local tbl =
 			timelineIndex = 14,
 			timerEndOffset = 0,
 			timerOffset = -4,
-			timerStartOffset = -5,
+			timerStartOffset = -5.1999998092651,
 			used = false,
 			uuid = "536b6f36-7b83-0772-88a6-cc5c2bb3a298",
 		},
