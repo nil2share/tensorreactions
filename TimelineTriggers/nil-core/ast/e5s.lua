@@ -2,6 +2,34 @@ local tbl =
 {
 	
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Healer.IsEnoughPartyMembersInRange(8, 6) then\n  if NilsReactionCore.Hotbar.Astrologian.CollectiveUnconscious() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Collective Unconscious",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 1,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "e7d5240a-aca3-6430-898e-66627dc591ca",
+		},
 	},
 	
 	{
@@ -168,7 +196,7 @@ local tbl =
 			timelineIndex = 14,
 			timerEndOffset = 0,
 			timerOffset = -5,
-			timerStartOffset = -5.1999998092651,
+			timerStartOffset = -5.8000001907349,
 			used = false,
 			uuid = "9ea6e589-7736-c749-be20-ffb4409d1177",
 		},
@@ -1446,7 +1474,7 @@ local tbl =
 			timelineIndex = 81,
 			timerEndOffset = 0,
 			timerOffset = -5,
-			timerStartOffset = -5.5,
+			timerStartOffset = -5.8000001907349,
 			used = false,
 			uuid = "b35e647a-de2c-0d4f-a3ac-0172f8dfa9cd",
 		},
