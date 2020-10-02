@@ -219,7 +219,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -247,7 +247,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end\nend",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -278,7 +278,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1038,7 +1038,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1156,7 +1156,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Hotbar.Actions.RawIntuition.Execute() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Hotbar.Actions.RawIntuition.Execute() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2043,7 +2043,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2133,7 +2133,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local Raiden = 9286\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Raiden) then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
+			execute = "local Ramuh = 9281\n\nif NilsReactionCore.Helpers.Tanks.AmIMainTankByContentID(Ramuh) == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy() then self.used = true end\nend\n ",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
