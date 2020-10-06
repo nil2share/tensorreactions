@@ -61,6 +61,34 @@ local tbl =
 			used = false,
 			uuid = "34833d01-56a9-9077-a22c-2f2b5251705c",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn Off Ninki",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "a3c3bee5-ca16-10b0-9960-89ad527590b7",
+		},
 	},
 	[5] = 
 	{
@@ -86,11 +114,67 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 5,
-			timerEndOffset = 1,
+			timerEndOffset = 5,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "c0a3cc86-1e54-8f28-aaf1-7ccf96483114",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Ninjutsu On",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 5,
+			timerOffset = -2,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "e79259e0-fa62-2986-bbfa-1225f6eb8561",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Ninki On",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 5,
+			timerOffset = -2,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "c6476a9f-ca2e-7f36-9a70-7c37329f0ae1",
 		},
 	},
 	[6] = 
@@ -104,7 +188,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 3000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -121,7 +205,7 @@ local tbl =
 			timerOffset = 1.5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "ab1f1432-2e6a-a206-aca3-4228d05a1236",
+			uuid = "0668596d-79a2-0400-99b2-43848357a9b1",
 		},
 	},
 	[7] = 
@@ -134,7 +218,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if table.size(NilsReactionCore.Helpers.GetAttackablesByRange(15, Player.id)) >= 1 then\n  if NilsReactionCore.Hotbar.Ninja.Doton() then \n    NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline)\n    self.used = true \n\n  end \nend",
 			executeType = 2,
 			lastUse = 0,
@@ -146,7 +230,7 @@ local tbl =
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 7,
 			timerEndOffset = 0,
 			timerOffset = -6,
@@ -965,7 +1049,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 3000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -982,7 +1066,38 @@ local tbl =
 			timerOffset = 1.5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "019cfa65-3f9e-7964-9207-cd5b7b60fdbd",
+			uuid = "d752362c-5dc6-1d52-adad-c926eba165c3",
+		},
+	},
+	[32] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 3000)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Draw Downburst",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 32,
+			timerEndOffset = 0,
+			timerOffset = 1.5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "c881cf33-d716-80b6-939a-c2d04f67a68a",
 		},
 	},
 	[34] = 
