@@ -41,6 +41,34 @@ local tbl =
 			conditions = 
 			{
 			},
+			enabled = false,
+			execute = "-- Opener ends around here",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Note",
+			randomOffset = 0,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 4,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "c89bca11-e840-8381-bcc1-1b0784e904e8",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
 			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
@@ -157,7 +185,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -491,7 +519,7 @@ local tbl =
 			timelineIndex = 13,
 			timerEndOffset = 3,
 			timerOffset = -1,
-			timerStartOffset = 0,
+			timerStartOffset = -10,
 			used = false,
 			uuid = "373a15dc-18ef-611d-9005-5977111b9f3a",
 		},
@@ -553,7 +581,7 @@ local tbl =
 			{
 				
 				{
-					actionCDValue = 15,
+					actionCDValue = 13,
 					actionID = 2258,
 					buffCheckType = 1,
 					buffDuration = 0,
@@ -915,7 +943,7 @@ local tbl =
 			timelineIndex = 16,
 			timerEndOffset = 3,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "746742a1-330e-7806-bbca-1beb01564a5a",
 		},
@@ -941,9 +969,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 16,
-			timerEndOffset = 5,
+			timerEndOffset = 4,
 			timerOffset = 7.5,
-			timerStartOffset = 2,
+			timerStartOffset = 0,
 			used = false,
 			uuid = "3af86c65-c273-5e11-88e0-5468c3824a6c",
 		},
@@ -1036,6 +1064,37 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "72957e16-55e2-7ac4-9513-3d5455fca475",
+		},
+	},
+	[23] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.Doton() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Doton",
+			randomOffset = 2,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 23,
+			timerEndOffset = 15,
+			timerOffset = -6,
+			timerStartOffset = 8,
+			used = false,
+			uuid = "6ee44d12-6e24-5100-bc0f-8be62fcec109",
 		},
 	},
 	[27] = 
