@@ -25,6 +25,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Sprint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -56,6 +57,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -87,6 +89,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -101,34 +104,6 @@ local tbl =
 	},
 	[11] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.Mechanics.ChaosStrike() > 4 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Draw Clouds",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 11,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "e61456e5-71dd-de5f-83d4-58b7947974b5",
-		},
 	},
 	[14] = 
 	{
@@ -149,6 +124,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Knockback",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -180,6 +156,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -211,6 +188,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Dragon Sight Off",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -242,6 +220,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Jump off",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -326,6 +305,7 @@ local tbl =
 					channelCheckType = 1,
 					clusterMinPercent = false,
 					clusterMinTarget = 1,
+					clusterOriginalTarget = false,
 					clusterRadius = 8,
 					clusterRange = 30,
 					comparator = 1,
@@ -378,6 +358,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 100,
 			time = 0,
 			timeRandomRange = false,
@@ -409,14 +390,15 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Dragon Sight On",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 20,
-			timerEndOffset = 1,
+			timerEndOffset = 4,
 			timerOffset = 2,
-			timerStartOffset = 0,
+			timerStartOffset = 2,
 			used = false,
 			uuid = "cbc2c175-2ad6-a778-a6bd-e6c3934086f6",
 		},
@@ -437,6 +419,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Jump on",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -468,6 +451,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -499,6 +483,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -530,6 +515,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -561,6 +547,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -575,34 +562,6 @@ local tbl =
 	},
 	[33] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Sprint",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 33,
-			timerEndOffset = 0,
-			timerOffset = -2,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "2bfcdef7-779d-2c50-98d5-94a20438620d",
-		},
 	},
 	[34] = 
 	{
@@ -615,24 +574,25 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Toggles.Dragoon.Stardiver(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dragon Sight Off",
+			name = "Stardiver Off",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 34,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
+			timerEndOffset = 4,
+			timerOffset = 2,
+			timerStartOffset = 2,
 			used = false,
-			uuid = "d821dfb2-5981-e088-b1f5-de31afe2a849",
+			uuid = "3949d74d-4b67-cb6e-a36c-ba8bad2bcf5f",
 		},
 	},
 	[35] = 
@@ -654,50 +614,20 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Sprint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 35,
-			timerEndOffset = 3,
+			timerEndOffset = -0.5,
 			timerOffset = -2,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "12b9b523-a130-100e-a17d-3d1f8a849ff1",
-		},
-	},
-	[38] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Jump off",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 38,
-			timerEndOffset = 2,
-			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "84857a71-b794-d115-a951-7622b4123ceb",
+			uuid = "01e1bb39-3e12-4967-bcc8-c1c8e35d323c",
 		},
 	},
-	[39] = 
+	[37] = 
 	{
 		
 		{
@@ -708,25 +638,32 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Jump on",
+			name = "Jump off",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 39,
-			timerEndOffset = 2,
-			timerOffset = -1,
-			timerStartOffset = -1,
+			timelineIndex = 37,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "5eda28bb-d654-419f-8c27-0c4b89943ea4",
+			uuid = "ad34132d-608a-dfae-ad8a-44a37376bc36",
 		},
+	},
+	[38] = 
+	{
+	},
+	[39] = 
+	{
 		
 		{
 			actions = 
@@ -797,6 +734,7 @@ local tbl =
 					channelCheckType = 1,
 					clusterMinPercent = false,
 					clusterMinTarget = 1,
+					clusterOriginalTarget = false,
 					clusterRadius = 8,
 					clusterRange = 30,
 					comparator = 1,
@@ -849,6 +787,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 100,
 			time = 0,
 			timeRandomRange = false,
@@ -875,24 +814,54 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Toggles.Dragoon.DragonSight(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			execute = "NilsReactionCore.Toggles.Dragoon.Stardiver(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Dragon Sight On",
+			name = "Stardiver On",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 42,
-			timerEndOffset = 3,
-			timerOffset = 3,
-			timerStartOffset = 1,
+			timerEndOffset = 2,
+			timerOffset = 2,
+			timerStartOffset = -1,
 			used = false,
-			uuid = "8e81f434-4b4e-ba73-978c-96edab780df4",
+			uuid = "8509f5d1-9d6c-f858-a59a-e5fa7601e734",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Jump on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 42,
+			timerEndOffset = 2,
+			timerOffset = -1,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "2cd7beaa-77c2-f944-abc2-6f1f894d2eb6",
 		},
 	},
 	[43] = 
@@ -914,6 +883,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -928,65 +898,9 @@ local tbl =
 	},
 	[45] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 45,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "03c32348-b272-32ab-b774-630fd635781c",
-		},
 	},
 	[46] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 46,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "db494a7f-df38-53e3-9d4e-2e4535f7e3b9",
-		},
 	},
 	[47] = 
 	{
@@ -1007,6 +921,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1021,220 +936,24 @@ local tbl =
 	},
 	[48] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 48,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "cb5df9c5-d023-8fd5-999d-21ee466d40d3",
-		},
 	},
 	[49] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 49,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "5e90d7f7-f11b-9d60-8608-aff060b0d94d",
-		},
 	},
 	[50] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 50,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "838056e8-5d03-0c2d-bc17-1369d8ef26a9",
-		},
 	},
 	[51] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 51,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "ae0bb217-8be9-d74e-abb7-2b3610bc7103",
-		},
 	},
 	[53] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 53,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "61a843b2-dbc4-1daa-aa13-cc0ded85303a",
-		},
 	},
 	[54] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 54,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "aeefca56-b0d3-fbc8-9c6d-2bd87eaaa040",
-		},
 	},
 	[55] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 55,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "6fe09f97-4150-ffe7-b540-ff9ad33e6fbf",
-		},
 	},
 	[57] = 
 	{
@@ -1255,6 +974,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1286,6 +1006,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1317,6 +1038,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1351,6 +1073,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Sprint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1382,14 +1105,15 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Jump off",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 70,
-			timerEndOffset = 2,
+			timerEndOffset = 0,
 			timerOffset = 3,
-			timerStartOffset = -1,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "1701e8d6-68c3-34e0-aa7e-26c20c06af78",
 		},
@@ -1466,6 +1190,7 @@ local tbl =
 					channelCheckType = 1,
 					clusterMinPercent = false,
 					clusterMinTarget = 1,
+					clusterOriginalTarget = false,
 					clusterRadius = 8,
 					clusterRange = 30,
 					comparator = 1,
@@ -1518,6 +1243,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "target boss",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 100,
 			time = 0,
 			timeRandomRange = false,
@@ -1549,14 +1275,15 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Jump on",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 73,
-			timerEndOffset = 2,
+			timerEndOffset = 3,
 			timerOffset = 2,
-			timerStartOffset = 0,
+			timerStartOffset = 1,
 			used = false,
 			uuid = "c2ad4a10-0904-a80b-b5f6-b9926f378783",
 		},
@@ -1580,6 +1307,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1594,34 +1322,6 @@ local tbl =
 	},
 	[78] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.Mechanics.ChaosStrike() > 4 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Draw Clouds",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 78,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "4e150740-404d-3304-9265-c01832a85688",
-		},
 	},
 	[81] = 
 	{
@@ -1642,6 +1342,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Knockback",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1670,6 +1371,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Burn Boss",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1684,65 +1386,9 @@ local tbl =
 	},
 	[83] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 83,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "1afab7a5-1a46-781e-aba1-3e2fe0ed07b0",
-		},
 	},
 	[84] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 84,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "fed42ff7-7747-a0ef-9bd9-7ed15c8f2605",
-		},
 	},
 	[85] = 
 	{
@@ -1763,6 +1409,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Feint",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -1777,220 +1424,24 @@ local tbl =
 	},
 	[86] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 86,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "190e3a0f-ddac-447c-925d-bcecde058d43",
-		},
 	},
 	[87] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 87,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "01cf5cee-befe-401f-8f56-8ec8bfc41082",
-		},
 	},
 	[88] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 88,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "80e4a049-6b27-8f17-81c6-7ce40451f015",
-		},
 	},
 	[89] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 89,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "5721a584-8808-db82-ac3f-56fe18d45b70",
-		},
 	},
 	[91] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 91,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "1ffcb2bb-d954-ec09-8aa8-48356c5566c8",
-		},
 	},
 	[92] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 92,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "00ddac6e-7178-c354-81ed-c16b4049e444",
-		},
 	},
 	[93] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Raid.ChainLightning() > 1 then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Electrify",
-			randomOffset = 0,
-			throttleTime = 0,
-			time = 0,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 93,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "41b98509-88a5-592e-8bb8-9ca8d4d691c4",
-		},
 	},
 	[95] = 
 	{
@@ -2011,6 +1462,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -2042,6 +1494,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
@@ -2073,6 +1526,7 @@ local tbl =
 			luaReturnsAction = false,
 			name = "Get Orb TTS",
 			randomOffset = 0,
+			randomTimeout = 3,
 			throttleTime = 0,
 			time = 0,
 			timeRandomRange = false,
