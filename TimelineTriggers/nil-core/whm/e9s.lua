@@ -1,5 +1,37 @@
 local tbl = 
 {
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "0d69db19-91f0-f4d5-a3a0-c671a4fdcc5e",
+		},
+	},
 	[13] = 
 	{
 		
@@ -29,7 +61,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "094d37ed-4424-312b-802e-e0a2a3d90943",
+			uuid = "aefac54c-2b6b-dc78-92e2-9dc8737b7d8f",
 		},
 	},
 	[34] = 
@@ -61,7 +93,71 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "04c6768e-8cec-6840-938e-a01f88007e25",
+			uuid = "7c933328-8dd0-07ae-bace-867aa5c1648c",
+		},
+	},
+	[42] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Burn Boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 343.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 42,
+			timerEndOffset = 200,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "e086b96b-57d7-d81f-ac67-1b63afbb6b11",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 369.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "05d43852-e99f-f4e6-88f7-ac8ff79bb35b",
 		},
 	},
 	mapID = 946,
