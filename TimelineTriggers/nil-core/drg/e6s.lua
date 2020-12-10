@@ -1,11 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-	},
-	[3] = 
-	{
-	},
 	[5] = 
 	{
 		
@@ -27,7 +21,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 39.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 5,
@@ -59,7 +53,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 73.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 8,
@@ -91,7 +85,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 88,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 10,
@@ -123,7 +117,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 95.2,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 11,
@@ -152,7 +146,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 95.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 11,
@@ -184,7 +178,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 110.8,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 15,
@@ -194,9 +188,6 @@ local tbl =
 			used = false,
 			uuid = "890bf10e-64b8-766d-a83e-7ab4b6f9819f",
 		},
-	},
-	[17] = 
-	{
 	},
 	[18] = 
 	{
@@ -325,7 +316,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 100,
-			time = 0,
+			time = 122.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 18,
@@ -354,7 +345,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 122.5,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 18,
@@ -383,7 +374,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 122.5,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 18,
@@ -415,7 +406,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 143.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 21,
@@ -425,9 +416,6 @@ local tbl =
 			used = false,
 			uuid = "236107cc-6905-d3be-a16f-c7b5f463e99e",
 		},
-	},
-	[22] = 
-	{
 	},
 	[24] = 
 	{
@@ -439,7 +427,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -450,7 +438,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 172.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 24,
@@ -458,7 +446,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "331d3f91-61f0-c796-99ce-d3ff01ae43d1",
+			uuid = "88592da5-2249-25fb-bc60-40e7783f1606",
 		},
 		
 		{
@@ -468,7 +456,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -479,7 +467,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 172.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 24,
@@ -487,7 +475,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "c97c2cb7-88cd-63f7-b221-5541f3cc9e68",
+			uuid = "99a3a59c-2190-f78d-8049-9728248f94a2",
 		},
 	},
 	[26] = 
@@ -511,7 +499,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 184.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 26,
@@ -543,7 +531,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 215.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 30,
@@ -561,7 +549,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -572,7 +560,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 215.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 30,
@@ -580,7 +568,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "b025f856-6d45-c8bd-94ac-d23d40007bf0",
+			uuid = "9ea8a4a3-5cf6-838b-a337-fa227cccef0f",
 		},
 		
 		{
@@ -590,7 +578,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -601,7 +589,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 215.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 30,
@@ -609,7 +597,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "d6853b3e-f0a0-521a-a536-6380d448d8a7",
+			uuid = "71e04230-c6ad-f777-94c6-999e726ce300",
 		},
 	},
 	[34] = 
@@ -633,7 +621,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 232.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 34,
@@ -665,7 +653,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 235.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 35,
@@ -675,9 +663,6 @@ local tbl =
 			used = false,
 			uuid = "0363cd6d-114a-8d45-80c4-5c3660514dae",
 		},
-	},
-	[36] = 
-	{
 	},
 	[37] = 
 	{
@@ -806,7 +791,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 100,
-			time = 0,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1050,7 +1035,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 248.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 38,
@@ -1079,7 +1064,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 248.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 38,
@@ -1108,7 +1093,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 248.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 38,
@@ -1140,7 +1125,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 273.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 43,
@@ -1169,7 +1154,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 273.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 43,
@@ -1187,7 +1172,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1198,7 +1183,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 273.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 43,
@@ -1206,11 +1191,8 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "fafd84c1-02ed-d5c3-82d6-19096d8cf450",
+			uuid = "64079fe3-4194-9c93-a804-ba4031e3ff90",
 		},
-	},
-	[44] = 
-	{
 	},
 	[47] = 
 	{
@@ -1233,7 +1215,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 284.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 47,
@@ -1265,7 +1247,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 293.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 49,
@@ -1275,9 +1257,6 @@ local tbl =
 			used = false,
 			uuid = "fa8f89f2-9bb4-1314-be19-281b14e4e0f9",
 		},
-	},
-	[50] = 
-	{
 	},
 	[55] = 
 	{
@@ -1300,7 +1279,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 298.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 55,
@@ -1318,7 +1297,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1329,7 +1308,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 298.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 55,
@@ -1337,7 +1316,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "f749d45d-5c23-a6b5-b36c-6289b4d0f2b4",
+			uuid = "3dd3e246-96a8-3d85-89d4-e11f8fa34f28",
 		},
 	},
 	[58] = 
@@ -1361,7 +1340,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 320.4,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 58,
@@ -1499,7 +1478,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 100,
-			time = 0,
+			time = 324.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 59,
@@ -1528,7 +1507,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 324.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 59,
@@ -1549,7 +1528,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1560,7 +1539,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 343.8,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 60,
@@ -1568,7 +1547,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a2c45d15-9c7d-92de-a0b4-dc36ab229152",
+			uuid = "300c3097-26ef-d45b-83e7-63397bf4e903",
 		},
 		
 		{
@@ -1578,7 +1557,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1589,7 +1568,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 343.8,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 60,
@@ -1597,7 +1576,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "336a54c7-eb87-ae4b-b886-d1742655b97c",
+			uuid = "4b41b887-a192-d3ed-b7c4-fdfdd8ae1186",
 		},
 	},
 	[63] = 
@@ -1621,7 +1600,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 361.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 63,
@@ -1639,7 +1618,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1650,7 +1629,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 361.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 63,
@@ -1658,7 +1637,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "3fa39ab1-2443-df3d-af76-da3926d68d13",
+			uuid = "8a1820dd-440c-e1e1-b546-2902c61ceaf8",
 		},
 		
 		{
@@ -1668,7 +1647,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1679,7 +1658,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 361.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 63,
@@ -1687,11 +1666,8 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "c72959d6-c60f-4aa8-b290-000dfb591ef5",
+			uuid = "995c60e9-aa08-1b1e-af4a-c8263594da05",
 		},
-	},
-	[67] = 
-	{
 	},
 	[69] = 
 	{
@@ -1714,7 +1690,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 394.8,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 69,
@@ -1746,7 +1722,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 419.2,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 76,
@@ -1756,9 +1732,6 @@ local tbl =
 			used = false,
 			uuid = "f8f5f0eb-5e58-833c-98d3-21e2b041e2c1",
 		},
-	},
-	[77] = 
-	{
 	},
 	[78] = 
 	{
@@ -1781,7 +1754,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 436.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 78,
@@ -1810,7 +1783,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 436.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 78,
@@ -1948,7 +1921,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 100,
-			time = 0,
+			time = 436.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 79,
@@ -1969,7 +1942,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1980,7 +1953,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 445.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 81,
@@ -1988,7 +1961,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "5a544a35-897e-4ea9-a7b2-68759abdc91a",
+			uuid = "ad9da56b-56a0-fae5-a16b-2f97fe088778",
 		},
 	},
 	[90] = 
@@ -2012,7 +1985,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 465.8,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 90,
@@ -2022,9 +1995,6 @@ local tbl =
 			used = false,
 			uuid = "9126eb28-3a93-c70f-8c28-62d34ebf8f92",
 		},
-	},
-	[92] = 
-	{
 	},
 	[93] = 
 	{
@@ -2047,7 +2017,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 476,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 93,
@@ -2068,7 +2038,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2079,7 +2049,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 490.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 94,
@@ -2087,7 +2057,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "5b66dcd7-8e13-4909-99bd-7a5d21456aac",
+			uuid = "628c626f-28d7-c022-a828-db865c4c6017",
 		},
 	},
 	[96] = 
@@ -2100,7 +2070,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2111,7 +2081,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 499.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 96,
@@ -2119,7 +2089,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "53e2d910-d18b-ead1-a2dd-089b2bcb19c9",
+			uuid = "4c3994c5-db72-28aa-a3c1-fc94fdcc1757",
 		},
 	},
 	[100] = 
@@ -2132,7 +2102,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2143,7 +2113,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 529.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 100,
@@ -2151,7 +2121,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "ddd3c0d2-9e98-b3cd-a7de-a824415300f2",
+			uuid = "b69de399-409b-be88-88b3-e993c64b1d65",
 		},
 		
 		{
@@ -2161,7 +2131,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2172,7 +2142,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 529.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 100,
@@ -2180,7 +2150,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "68562d88-6d64-06dd-9790-fee5ca0a789c",
+			uuid = "d0a0c8f7-78ef-5c29-8e08-6eb07dc64433",
 		},
 	},
 	[104] = 
@@ -2193,7 +2163,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2204,7 +2174,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 546.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 104,
@@ -2212,7 +2182,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "1e82631e-5e3e-66ae-893c-15354be6010b",
+			uuid = "2d1e9fae-0961-fef5-a09e-61c2b6814c8c",
 		},
 		
 		{
@@ -2222,7 +2192,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2233,7 +2203,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 546.6,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 104,
@@ -2241,7 +2211,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "e1dc3f5d-7960-e89c-a88a-091f48febcef",
+			uuid = "863e398e-e3ea-537d-964f-656368e05303",
 		},
 	},
 	[111] = 
@@ -2265,7 +2235,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 565,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 111,
@@ -2297,7 +2267,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 594.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 114,
@@ -2326,7 +2296,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 594.5,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 114,
@@ -2464,7 +2434,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 100,
-			time = 0,
+			time = 603.3,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 115,
@@ -2476,7 +2446,7 @@ local tbl =
 		},
 	},
 	mapID = 907,
-	version = 4,
+	version = 5,
 }
 
 

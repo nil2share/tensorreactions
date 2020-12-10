@@ -1,8 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-	},
 	[22] = 
 	{
 		
@@ -5149,7 +5146,7 @@ local tbl =
 		},
 	},
 	mapID = 908,
-	version = 6,
+	version = 7,
 }
 
 

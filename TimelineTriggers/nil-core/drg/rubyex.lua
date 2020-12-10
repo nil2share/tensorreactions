@@ -527,7 +527,7 @@ local tbl =
 		},
 	},
 	mapID = 912,
-	version = 2,
+	version = 3,
 }
 
 

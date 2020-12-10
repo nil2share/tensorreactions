@@ -61,9 +61,6 @@ local tbl =
 			uuid = "5142205a-3396-e3f6-b1e5-c3f12db72145",
 		},
 	},
-	[3] = 
-	{
-	},
 	[5] = 
 	{
 		
@@ -250,9 +247,6 @@ local tbl =
 			uuid = "d1735e21-d5c9-7a80-97d0-42277f4b4d22",
 		},
 	},
-	[15] = 
-	{
-	},
 	[16] = 
 	{
 		
@@ -274,7 +268,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 119.4,
+			time = 119,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 16,
@@ -303,7 +297,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 119.4,
+			time = 119,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 16,
@@ -932,7 +926,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 240.9,
+			time = 241.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 36,
@@ -961,7 +955,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 240.9,
+			time = 241.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 36,
@@ -993,7 +987,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 245.1,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1128,7 +1122,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 245.1,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1157,7 +1151,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 245.1,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1186,7 +1180,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 245.1,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1215,7 +1209,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 245.1,
+			time = 245.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 37,
@@ -1530,9 +1524,6 @@ local tbl =
 			used = false,
 			uuid = "a59c2500-d3e2-b36e-aeb3-a007b027b096",
 		},
-	},
-	[44] = 
-	{
 	},
 	[47] = 
 	{
@@ -2230,12 +2221,6 @@ local tbl =
 			uuid = "ce91fc7f-0550-734c-8c5a-ffec1279f9c9",
 		},
 	},
-	[75] = 
-	{
-	},
-	[77] = 
-	{
-	},
 	[78] = 
 	{
 		
@@ -2326,7 +2311,7 @@ local tbl =
 			uuid = "69ab9933-f348-10f0-bd98-ccd0a7c33e2a",
 		},
 	},
-	[79] = 
+	[80] = 
 	{
 		
 		{
@@ -2456,7 +2441,7 @@ local tbl =
 			time = 441,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 79,
+			timelineIndex = 80,
 			timerEndOffset = 3,
 			timerOffset = 1.375,
 			timerStartOffset = -3,
@@ -2485,7 +2470,7 @@ local tbl =
 			time = 441,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 79,
+			timelineIndex = 80,
 			timerEndOffset = 1,
 			timerOffset = 0,
 			timerStartOffset = -0.5,
@@ -2493,7 +2478,7 @@ local tbl =
 			uuid = "9010bd64-3d84-6dbe-80d5-fcf937fe7057",
 		},
 	},
-	[82] = 
+	[83] = 
 	{
 		
 		{
@@ -2517,7 +2502,7 @@ local tbl =
 			time = 457.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 82,
+			timelineIndex = 83,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -2525,7 +2510,7 @@ local tbl =
 			uuid = "bff6d171-3a20-c81e-8a14-c9dcb692f559",
 		},
 	},
-	[84] = 
+	[85] = 
 	{
 		
 		{
@@ -2549,7 +2534,7 @@ local tbl =
 			time = 459.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 84,
+			timelineIndex = 85,
 			timerEndOffset = 1.5,
 			timerOffset = 0,
 			timerStartOffset = -0.5,
@@ -2557,7 +2542,7 @@ local tbl =
 			uuid = "3f7d9e30-804a-595f-90fd-5d3e244b6c98",
 		},
 	},
-	[86] = 
+	[87] = 
 	{
 		
 		{
@@ -2581,7 +2566,7 @@ local tbl =
 			time = 462.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 86,
+			timelineIndex = 87,
 			timerEndOffset = 4,
 			timerOffset = 0,
 			timerStartOffset = 2,
@@ -2589,16 +2574,7 @@ local tbl =
 			uuid = "647f2185-30c9-aae9-935e-7432dd6c86f3",
 		},
 	},
-	[90] = 
-	{
-	},
-	[92] = 
-	{
-	},
-	[93] = 
-	{
-	},
-	[97] = 
+	[98] = 
 	{
 		
 		{
@@ -2622,7 +2598,7 @@ local tbl =
 			time = 509.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 97,
+			timelineIndex = 98,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -2630,7 +2606,7 @@ local tbl =
 			uuid = "de96ef71-78d1-5dae-9432-bac8f23c5c54",
 		},
 	},
-	[103] = 
+	[104] = 
 	{
 		
 		{
@@ -2654,7 +2630,7 @@ local tbl =
 			time = 546.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 103,
+			timelineIndex = 104,
 			timerEndOffset = 3,
 			timerOffset = -6,
 			timerStartOffset = 0,
@@ -2662,7 +2638,7 @@ local tbl =
 			uuid = "8a198677-2780-edb7-9054-5908da813c77",
 		},
 	},
-	[114] = 
+	[115] = 
 	{
 		
 		{
@@ -2686,7 +2662,7 @@ local tbl =
 			time = 603.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 114,
+			timelineIndex = 115,
 			timerEndOffset = 0,
 			timerOffset = -4,
 			timerStartOffset = -5.5,
@@ -2821,7 +2797,7 @@ local tbl =
 			time = 603.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 114,
+			timelineIndex = 115,
 			timerEndOffset = 3,
 			timerOffset = 1.375,
 			timerStartOffset = -3,
@@ -2830,7 +2806,7 @@ local tbl =
 		},
 	},
 	mapID = 907,
-	version = 4,
+	version = 5,
 }
 
 

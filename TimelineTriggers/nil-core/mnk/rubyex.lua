@@ -910,9 +910,6 @@ local tbl =
 			uuid = "bfedb632-9b98-471a-ac38-56fe9b588b54",
 		},
 	},
-	[75] = 
-	{
-	},
 	[82] = 
 	{
 		
@@ -1042,7 +1039,7 @@ local tbl =
 		},
 	},
 	mapID = 912,
-	version = 2,
+	version = 3,
 }
 
 

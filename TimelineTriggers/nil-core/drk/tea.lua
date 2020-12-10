@@ -5057,7 +5057,7 @@ local tbl =
 		},
 	},
 	mapID = 887,
-	version = 1,
+	version = 2,
 }
 
 

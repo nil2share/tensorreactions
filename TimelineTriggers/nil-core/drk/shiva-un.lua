@@ -693,7 +693,7 @@ local tbl =
 		},
 	},
 	mapID = 930,
-	version = 1,
+	version = 2,
 }
 
 

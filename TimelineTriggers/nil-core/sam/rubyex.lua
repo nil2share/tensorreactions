@@ -1,40 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Toggles.Handler.Reset()\nself.used = true\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Reset Toggle Controls",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 14.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 2,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -16,
-			used = false,
-			uuid = "1447597a-d5c8-3abc-83fc-77add051ed3d",
-		},
-	},
-	[3] = 
-	{
-	},
 	[14] = 
 	{
 		
@@ -1385,9 +1350,6 @@ local tbl =
 			uuid = "b0729888-0c91-2225-9ba2-5d49bea341cc",
 		},
 	},
-	[75] = 
-	{
-	},
 	[82] = 
 	{
 		
@@ -1581,7 +1543,7 @@ local tbl =
 		},
 	},
 	mapID = 912,
-	version = 2,
+	version = 3,
 }
 
 

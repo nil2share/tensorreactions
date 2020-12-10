@@ -1,37 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Toggles.Handler.Reset()\nself.used = true\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Reset Toggle Controls",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 14.5,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 2,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "326b0290-b363-d4a0-b9bb-5e2e80929669",
-		},
-	},
 	[14] = 
 	{
 		
@@ -271,7 +239,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local actionskill =  ActionList:Get(1, 7546)\nif actionskill.cdmax - actionskill.cd < 1 then \n  if SallyNIN ~= nil then SallyNIN.HotBarConfig.TrueNorth.enabled = true = false else\tactionskill:Get(1, 7546):Cast(Player.id) end\n  SallyNIN.SkillSettings.TrueNorth.enabled = true\n  self.used = true\nend\t\t\n\n\n\n\n",
+			execute = "local actionskill =  ActionList:Get(1, 7546)\nif actionskill.cdmax - actionskill.cd < 1 then \n -- if SallyNIN ~= nil then SallyNIN.HotBarConfig.TrueNorth.enabled = true = false else\tactionskill:Get(1, 7546):Cast(Player.id) end\n  SallyNIN.SkillSettings.TrueNorth.enabled = true\n  self.used = true\nend\t\t\n\n\n\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -965,9 +933,6 @@ local tbl =
 			uuid = "07686bed-c39b-2a9d-8a7b-90912148b0bc",
 		},
 	},
-	[90] = 
-	{
-	},
 	[91] = 
 	{
 		
@@ -1129,7 +1094,7 @@ local tbl =
 		},
 	},
 	mapID = 912,
-	version = 2,
+	version = 3,
 }
 
 

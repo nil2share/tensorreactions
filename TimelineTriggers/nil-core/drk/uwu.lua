@@ -482,9 +482,6 @@ local tbl =
 			uuid = "fa105ea7-ea28-2e03-8ddb-899b4a4f3dc1",
 		},
 	},
-	[9] = 
-	{
-	},
 	[10] = 
 	{
 		
@@ -716,9 +713,6 @@ local tbl =
 			uuid = "fd487c7a-a2e2-6bae-a340-baf97f28a6ac",
 		},
 	},
-	[15] = 
-	{
-	},
 	[16] = 
 	{
 		
@@ -915,9 +909,6 @@ local tbl =
 			uuid = "dc9e4218-8e2d-7455-9272-9b6ca355c14d",
 		},
 	},
-	[17] = 
-	{
-	},
 	[18] = 
 	{
 		
@@ -1010,9 +1001,6 @@ local tbl =
 			used = false,
 			uuid = "d97fe712-dd32-1df9-a91b-2fb2f51ffb5f",
 		},
-	},
-	[24] = 
-	{
 	},
 	[25] = 
 	{
@@ -1110,9 +1098,6 @@ local tbl =
 			uuid = "591237dd-63b3-b71e-8b4d-14a3ddf060ff",
 		},
 	},
-	[33] = 
-	{
-	},
 	[36] = 
 	{
 		
@@ -1202,9 +1187,6 @@ local tbl =
 			used = false,
 			uuid = "c65c8fb9-52b1-9003-b1bc-ce599d273469",
 		},
-	},
-	[37] = 
-	{
 	},
 	[38] = 
 	{
@@ -1523,9 +1505,6 @@ local tbl =
 			used = false,
 			uuid = "6f480dfc-7add-6f5c-b430-0ae1aab3aa84",
 		},
-	},
-	[43] = 
-	{
 	},
 	[44] = 
 	{
@@ -1851,12 +1830,6 @@ local tbl =
 			uuid = "a573f870-1d90-e7a8-9347-ae6adf4485d2",
 		},
 	},
-	[53] = 
-	{
-	},
-	[57] = 
-	{
-	},
 	[58] = 
 	{
 		
@@ -1979,9 +1952,6 @@ local tbl =
 			uuid = "ee13f8f4-67ef-d747-a91e-3385acec7c7e",
 		},
 	},
-	[63] = 
-	{
-	},
 	[65] = 
 	{
 		
@@ -2013,9 +1983,6 @@ local tbl =
 			used = false,
 			uuid = "876dbc43-fad5-2b55-826a-d4230786c461",
 		},
-	},
-	[68] = 
-	{
 	},
 	[69] = 
 	{
@@ -2241,12 +2208,6 @@ local tbl =
 			used = false,
 			uuid = "de110e12-2bb0-4de0-a3ac-24b6753f96de",
 		},
-	},
-	[71] = 
-	{
-	},
-	[72] = 
-	{
 	},
 	[74] = 
 	{
@@ -4247,7 +4208,7 @@ local tbl =
 		},
 	},
 	mapID = 777,
-	version = 1,
+	version = 2,
 }
 
 

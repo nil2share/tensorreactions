@@ -1,8 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-	},
 	[22] = 
 	{
 		
@@ -555,9 +552,6 @@ local tbl =
 			uuid = "25f0311a-1f26-ff52-bc0e-b8c441ccb0aa",
 		},
 	},
-	[45] = 
-	{
-	},
 	[47] = 
 	{
 		
@@ -756,9 +750,6 @@ local tbl =
 			used = false,
 			uuid = "1dd2b3bc-c032-e78b-ad11-15c7a75a02b7",
 		},
-	},
-	[52] = 
-	{
 	},
 	[53] = 
 	{
@@ -1055,9 +1046,6 @@ local tbl =
 			uuid = "61146784-1e93-fa38-8157-78f6e9b404dc",
 		},
 	},
-	[63] = 
-	{
-	},
 	[64] = 
 	{
 		
@@ -1118,9 +1106,6 @@ local tbl =
 			used = false,
 			uuid = "665eea2f-6b89-de2e-ba35-0183ec1df289",
 		},
-	},
-	[69] = 
-	{
 	},
 	[71] = 
 	{
@@ -1692,12 +1677,6 @@ local tbl =
 			used = false,
 			uuid = "b5b4e870-6c60-0cea-bcc7-d6aa196c6d9c",
 		},
-	},
-	[104] = 
-	{
-	},
-	[106] = 
-	{
 	},
 	[107] = 
 	{
@@ -2460,7 +2439,7 @@ local tbl =
 		},
 	},
 	mapID = 908,
-	version = 6,
+	version = 7,
 }
 
 
