@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[10] = 
+	[8] = 
 	{
 		
 		{
@@ -21,10 +21,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 74.6,
+			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 10,
+			timelineIndex = 8,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -32,7 +32,7 @@ local tbl =
 			uuid = "202500ef-3f6d-a122-a1f5-58099d0a25a4",
 		},
 	},
-	[13] = 
+	[9] = 
 	{
 		
 		{
@@ -53,10 +53,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 82.1,
+			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 13,
+			timelineIndex = 9,
 			timerEndOffset = 4,
 			timerOffset = -2,
 			timerStartOffset = 2,
@@ -64,39 +64,10 @@ local tbl =
 			uuid = "4057f21a-803b-f62e-814b-ee9d3651f336",
 		},
 	},
-	[34] = 
+	[25] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shadeshift",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 264.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 34,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "cea03572-e9c3-30e2-8b35-a925356747f6",
-		},
 	},
-	[42] = 
+	[31] = 
 	{
 		
 		{
@@ -117,10 +88,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 343.7,
+			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 42,
+			timelineIndex = 31,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -128,7 +99,7 @@ local tbl =
 			uuid = "d48b95c9-6ec3-776c-a81c-4b8ac790bc40",
 		},
 	},
-	[44] = 
+	[33] = 
 	{
 		
 		{
@@ -149,10 +120,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 369.8,
+			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 44,
+			timelineIndex = 33,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -161,7 +132,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 1,
+	version = 2,
 }
 
 

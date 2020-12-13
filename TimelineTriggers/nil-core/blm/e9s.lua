@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[9] = 
+	[7] = 
 	{
 		
 		{
@@ -21,10 +21,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 63.4,
+			time = 63.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 7,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -32,7 +32,7 @@ local tbl =
 			uuid = "ff60c627-51b4-4ab7-be7d-9a1b1da78e3e",
 		},
 	},
-	[10] = 
+	[8] = 
 	{
 		
 		{
@@ -53,10 +53,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 74.6,
+			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 10,
+			timelineIndex = 8,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -64,7 +64,7 @@ local tbl =
 			uuid = "dc12acb6-ece1-bdbb-a59d-8ab4449504f7",
 		},
 	},
-	[13] = 
+	[9] = 
 	{
 		
 		{
@@ -85,10 +85,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 82.1,
+			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 13,
+			timelineIndex = 9,
 			timerEndOffset = 4,
 			timerOffset = -2,
 			timerStartOffset = 2,
@@ -96,39 +96,10 @@ local tbl =
 			uuid = "d752557f-97e8-7b5c-bce9-756356d073c4",
 		},
 	},
-	[34] = 
+	[25] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shadeshift",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 264.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 34,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "86909e85-6346-c48a-ae11-3d110a178d2f",
-		},
 	},
-	[35] = 
+	[26] = 
 	{
 		
 		{
@@ -149,10 +120,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 279.6,
+			time = 279,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 35,
+			timelineIndex = 26,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -160,7 +131,7 @@ local tbl =
 			uuid = "ad3736a9-f407-4535-a40c-d83e518eb358",
 		},
 	},
-	[42] = 
+	[31] = 
 	{
 		
 		{
@@ -181,10 +152,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 343.7,
+			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 42,
+			timelineIndex = 31,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -192,7 +163,7 @@ local tbl =
 			uuid = "6374a7a6-4054-a522-a493-bb52870ae2c5",
 		},
 	},
-	[44] = 
+	[33] = 
 	{
 		
 		{
@@ -213,10 +184,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 369.8,
+			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 44,
+			timelineIndex = 33,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -225,7 +196,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 1,
+	version = 2,
 }
 
 

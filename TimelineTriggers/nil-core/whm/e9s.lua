@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[10] = 
+	[8] = 
 	{
 		
 		{
@@ -21,10 +21,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 74.6,
+			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 10,
+			timelineIndex = 8,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -32,7 +32,7 @@ local tbl =
 			uuid = "0d69db19-91f0-f4d5-a3a0-c671a4fdcc5e",
 		},
 	},
-	[13] = 
+	[9] = 
 	{
 		
 		{
@@ -53,10 +53,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 82.1,
+			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 13,
+			timelineIndex = 9,
 			timerEndOffset = 4,
 			timerOffset = -2,
 			timerStartOffset = 2,
@@ -64,7 +64,7 @@ local tbl =
 			uuid = "aefac54c-2b6b-dc78-92e2-9dc8737b7d8f",
 		},
 	},
-	[34] = 
+	[25] = 
 	{
 		
 		{
@@ -85,10 +85,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 264.8,
+			time = 264.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 25,
 			timerEndOffset = 0,
 			timerOffset = -4,
 			timerStartOffset = -3,
@@ -96,7 +96,7 @@ local tbl =
 			uuid = "7c933328-8dd0-07ae-bace-867aa5c1648c",
 		},
 	},
-	[42] = 
+	[31] = 
 	{
 		
 		{
@@ -117,10 +117,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 343.7,
+			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 42,
+			timelineIndex = 31,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -128,7 +128,7 @@ local tbl =
 			uuid = "e086b96b-57d7-d81f-ac67-1b63afbb6b11",
 		},
 	},
-	[44] = 
+	[33] = 
 	{
 		
 		{
@@ -149,10 +149,10 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 369.8,
+			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 44,
+			timelineIndex = 33,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -161,7 +161,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 1,
+	version = 2,
 }
 
 
