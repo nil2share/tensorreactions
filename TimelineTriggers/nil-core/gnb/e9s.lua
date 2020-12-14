@@ -29,7 +29,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "5f3da352-706c-e80c-9156-02c085a74b1d",
+			uuid = "88741fc2-8069-f5e7-b604-c30b30daffc4",
 		},
 	},
 	[3] = 
@@ -53,7 +53,7 @@ local tbl =
 			randomOffset = 2,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 27.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 3,
@@ -61,7 +61,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "2300a6a3-1631-8032-8138-262752f88e7b",
+			uuid = "2ede2e27-b28f-487e-946c-0671b9e36a7e",
 		},
 	},
 	[5] = 
@@ -93,7 +93,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "9a6a135e-3367-c27a-9ae0-543434c2a262",
+			uuid = "82e41105-ddd7-053b-936b-acc09d534924",
 		},
 		
 		{
@@ -122,7 +122,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "b055ef3b-84e2-c652-9570-f57558dd8e28",
+			uuid = "6fd2a0a5-8074-3efa-86c1-227ada77fd79",
 		},
 		
 		{
@@ -143,7 +143,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 47.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 5,
@@ -151,7 +151,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "32768820-0264-aa67-8af2-b0b1cbcbfe49",
+			uuid = "25febc28-c43d-b846-bc8c-2db0064017d9",
 		},
 		
 		{
@@ -172,7 +172,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 47.5,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 5,
@@ -180,7 +180,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "fcb5da67-b899-96d5-ae53-6dc0bf29cd5c",
+			uuid = "e0301d6e-9f55-d8ce-9882-be9863baa9c2",
 		},
 	},
 	[7] = 
@@ -212,7 +212,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a310704c-1320-3b25-9def-66aeaecbaea2",
+			uuid = "63d71611-1197-670c-897a-ad07aebb71d8",
 		},
 	},
 	[8] = 
@@ -226,7 +226,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
+			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -244,7 +244,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "f7a56166-97df-7473-9d5a-07bfd03ef4de",
+			uuid = "ac06ee57-9bdb-791c-b3af-ba7bc6ca9629",
 		},
 		
 		{
@@ -273,7 +273,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "4f6b4593-a702-8294-b370-809534ba9448",
+			uuid = "fb883bc5-5a5d-9299-871b-0d8d76b862ed",
 		},
 		
 		{
@@ -302,7 +302,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "b428e667-9889-661e-87b9-eccd3b5bcf8b",
+			uuid = "e477c9db-f3ba-8c3e-87d4-b725c4f5419b",
 		},
 	},
 	[9] = 
@@ -334,7 +334,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "b9eb8758-e285-e69d-9d5a-741cd80c819d",
+			uuid = "ffa754b7-5a98-d1ae-8bed-fd9fe6793992",
 		},
 		
 		{
@@ -363,7 +363,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 4,
 			used = false,
-			uuid = "abac0bd2-e189-3dc3-ab1e-fb0c7ecb529a",
+			uuid = "74322587-4da1-8bfe-b4cb-650f0b14bd5d",
 		},
 	},
 	[11] = 
@@ -395,7 +395,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "2816d0ef-f891-6155-bbd2-d28f3751ce64",
+			uuid = "819fdcde-8e2a-177d-a723-bf60fbbe2772",
 		},
 		
 		{
@@ -424,7 +424,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "4106b54d-a816-5ab7-af04-3c44ca2e350d",
+			uuid = "0db6b7b0-4413-c0bb-a2cb-daa66e8ebb30",
 		},
 		
 		{
@@ -453,7 +453,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "0b218461-578c-d5b1-92e8-9bcd586aaf9c",
+			uuid = "e44e6dc8-daf8-33b5-99f5-b882ab99b598",
 		},
 	},
 	[13] = 
@@ -485,7 +485,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -13,
 			used = false,
-			uuid = "e06503cf-d0b2-f75b-a293-a5ac3392d70e",
+			uuid = "d02613be-3aa5-f109-81d7-678012a787c6",
 		},
 	},
 	[15] = 
@@ -517,7 +517,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "1fdd3235-a5fe-3909-9b10-ac2cb2301ff5",
+			uuid = "0b61be02-287e-e248-a757-7363819081dd",
 		},
 		
 		{
@@ -546,7 +546,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 5,
 			used = false,
-			uuid = "988f9afa-e348-4c82-b91b-9c33c32635ba",
+			uuid = "fb626eec-9a39-5be1-b7bc-ddafd98301da",
 		},
 	},
 	[16] = 
@@ -578,7 +578,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "9eb1d84b-fd03-e242-8abb-b3dfcf65a656",
+			uuid = "b1418ee1-89eb-b730-a157-c7fb4ff32454",
 		},
 		
 		{
@@ -607,7 +607,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 11,
 			used = false,
-			uuid = "31fc5067-7028-2395-a97f-8a7fea51968f",
+			uuid = "658eb0a3-e7c9-d66d-8e3d-adf012216f91",
 		},
 		
 		{
@@ -636,7 +636,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "7a622885-a44f-c53a-af65-fd897a097aef",
+			uuid = "cfd9eb84-a54a-dd38-a2fe-0edb4ffeb89e",
 		},
 		
 		{
@@ -665,7 +665,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "e3165f95-9c23-9aa5-bcde-8e49062f2d5a",
+			uuid = "57a9da5f-2564-1479-9a41-dea997e5f6e2",
 		},
 	},
 	[17] = 
@@ -697,7 +697,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "ed6467b3-04f5-e55b-90c9-35f08f2a5d4b",
+			uuid = "71b4cc84-922b-0491-a0bc-572e926247b8",
 		},
 		
 		{
@@ -726,7 +726,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "8e0c0e29-4544-883a-ab3b-eb296609396b",
+			uuid = "5ba0f50a-e390-8b87-97f3-1373942f26d0",
 		},
 		
 		{
@@ -755,7 +755,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "66ccc92e-68b5-d7e8-92e9-10cbfc9e387e",
+			uuid = "cd2e174e-d9b5-b6b8-acc8-df6acba36465",
 		},
 		
 		{
@@ -784,7 +784,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "033c348b-90d4-e7e3-a375-643f1ef518c7",
+			uuid = "7ae02954-eeb8-e647-a7db-ac29f084f334",
 		},
 	},
 	[19] = 
@@ -819,7 +819,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "7c1f331d-d126-e803-b2c4-34b3a8274638",
+			uuid = "8ac06ef2-1cda-06a9-bcf4-09dcaa29deb9",
 		},
 	},
 	[25] = 
@@ -851,7 +851,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "caca967d-9b2f-8e8c-bfac-dcbad46bbf4f",
+			uuid = "c1c2b66e-8a96-f134-95f6-c073207e7567",
 		},
 	},
 	[26] = 
@@ -883,7 +883,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "4e5caeb6-6142-0c33-867c-ba5fd221252f",
+			uuid = "1d435e2c-bb5f-b4d0-93da-8b2112671561",
 		},
 	},
 	[28] = 
@@ -915,7 +915,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "0371a101-cb36-eee7-8ec0-dfeb9c1d2880",
+			uuid = "c23d4721-63aa-1b82-92a6-667f7ed063b1",
 		},
 		
 		{
@@ -944,7 +944,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -6,
 			used = false,
-			uuid = "8e21a0a2-10e7-255b-a988-0164ffd31be1",
+			uuid = "ab8eefe0-1a2b-fe84-8854-86981e768bcd",
 		},
 		
 		{
@@ -973,7 +973,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "3dfce639-e69a-5ae0-8aba-4eafb43568bb",
+			uuid = "df305e72-1e4a-8b28-93f5-5e56de57c3ac",
 		},
 	},
 	[29] = 
@@ -1005,7 +1005,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "ae18457f-bcaa-452c-a9a5-e2e653292837",
+			uuid = "13e653a2-3534-6f29-8288-f3d41ef7ae8a",
 		},
 		
 		{
@@ -1034,7 +1034,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "17be4ff0-0726-12cc-804e-38fe2321c109",
+			uuid = "1c6f1aa9-cdb0-205e-892d-e6ff92b73887",
 		},
 		
 		{
@@ -1063,7 +1063,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "520f0ad9-bc97-3796-ae6b-2604af70c1ac",
+			uuid = "81830b19-cdf8-23d9-8e0c-82d44345b1d3",
 		},
 		
 		{
@@ -1092,7 +1092,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "3dccc28f-d9f5-5633-8160-4c277e1b8a08",
+			uuid = "ad481db3-3b5f-cc5b-830a-0948959d1c09",
 		},
 	},
 	[31] = 
@@ -1124,7 +1124,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "30d30858-b3ad-dbbb-af47-a41cee61fa1f",
+			uuid = "a7222f07-5131-ca7f-9f45-822c2c16b148",
 		},
 		
 		{
@@ -1153,7 +1153,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 5,
 			used = false,
-			uuid = "a927acc7-7179-0eb2-9112-8883b20b4d9d",
+			uuid = "24102008-ec1c-e210-a333-0cd6315651e5",
 		},
 	},
 	[33] = 
@@ -1167,7 +1167,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
+			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1185,7 +1185,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "c0f9bad3-1a21-bf93-91c6-79da3366dded",
+			uuid = "bb95b66d-d6af-6b98-90b8-dc0604b64441",
 		},
 		
 		{
@@ -1214,7 +1214,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "ee166e3f-864f-da2a-924f-01123ac7aa2f",
+			uuid = "28fa08a8-6ff4-0ac4-8101-f7ba6d9fb17e",
 		},
 		
 		{
@@ -1243,7 +1243,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "24ea52a0-8e77-df5c-9582-449aa3feb39b",
+			uuid = "d89c4cca-a397-3099-9d1a-9c4d3bb02630",
 		},
 	},
 	[34] = 
@@ -1275,7 +1275,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "3d046e52-ab5a-fc72-bb75-3a00eb9027b4",
+			uuid = "c0c69d00-006d-b9ce-bb9b-49fe9e012159",
 		},
 		
 		{
@@ -1304,7 +1304,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 4,
 			used = false,
-			uuid = "352c064a-80f9-4192-8265-b4a3e9ec4c5a",
+			uuid = "fd1af746-e5d9-93b1-a193-1418c1f30d17",
 		},
 	},
 	[36] = 
@@ -1336,7 +1336,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "c00aaacc-9c1e-4b91-aaec-3628b882868f",
+			uuid = "1b5d593d-92fe-0ece-8c51-ec44872759e5",
 		},
 	},
 	[38] = 
@@ -1368,7 +1368,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -13,
 			used = false,
-			uuid = "7f152f18-e770-8721-8a75-6b27cc7dfc86",
+			uuid = "969e2d70-c03f-52db-a5c8-389b2d81eb46",
 		},
 	},
 	[41] = 
@@ -1400,7 +1400,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "9ae8a6d6-8008-0ae3-8d84-a2eb06eef44a",
+			uuid = "f91c3a4c-c02f-0e2b-8931-33bc3cbc76ee",
 		},
 		
 		{
@@ -1429,7 +1429,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 5,
 			used = false,
-			uuid = "6435ac4f-080a-6612-83f2-0bac101f6368",
+			uuid = "86cc1428-06b3-1613-96ff-a7a4522425cb",
 		},
 	},
 	[43] = 
@@ -1461,7 +1461,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "6176f0f2-52ac-e6f3-bedc-5538e68495ee",
+			uuid = "cc74b773-c053-a5f9-b60d-7bd5afdffbd6",
 		},
 		
 		{
@@ -1490,7 +1490,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "b39ea002-216e-52f4-8b57-fe3f9024732c",
+			uuid = "1653e0a8-2ecf-bb5e-8e0c-5ac9ff80c4b7",
 		},
 		
 		{
@@ -1519,7 +1519,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "da6e32b2-c969-89b9-b5d1-dda367c64921",
+			uuid = "fc3459e2-28d1-607e-a33c-fc0dfdacbb75",
 		},
 		
 		{
@@ -1548,7 +1548,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "7ac01b40-97ff-b710-9d64-3a45eeb38fc8",
+			uuid = "6440b234-7c30-c05b-ade5-2cf6e45e9dfb",
 		},
 	},
 	[53] = 
@@ -1580,7 +1580,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a2530694-3894-dd7d-a4b1-3a9dc6845679",
+			uuid = "91dba49d-4447-9672-9cda-d916a66b10ba",
 		},
 	},
 	[55] = 
@@ -1612,7 +1612,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "55ea27f9-5a77-ed9b-bb57-758999dfecdf",
+			uuid = "c332d5e9-2e82-b906-b5f5-19c01d64a3f7",
 		},
 	},
 	mapID = 946,
