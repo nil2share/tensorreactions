@@ -787,9 +787,6 @@ local tbl =
 			uuid = "033c348b-90d4-e7e3-a375-643f1ef518c7",
 		},
 	},
-	[19] = 
-	{
-	},
 	[24] = 
 	{
 		
@@ -1551,7 +1548,7 @@ local tbl =
 			uuid = "7ac01b40-97ff-b710-9d64-3a45eeb38fc8",
 		},
 	},
-	[53] = 
+	[52] = 
 	{
 		
 		{
@@ -1575,7 +1572,7 @@ local tbl =
 			time = 527.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 53,
+			timelineIndex = 52,
 			timerEndOffset = 0,
 			timerOffset = -2,
 			timerStartOffset = -2,
@@ -1583,7 +1580,7 @@ local tbl =
 			uuid = "a2530694-3894-dd7d-a4b1-3a9dc6845679",
 		},
 	},
-	[55] = 
+	[54] = 
 	{
 		
 		{
@@ -1607,7 +1604,7 @@ local tbl =
 			time = 543.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 55,
+			timelineIndex = 54,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -1616,7 +1613,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

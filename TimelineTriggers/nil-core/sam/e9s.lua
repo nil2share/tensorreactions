@@ -604,10 +604,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Target Cloud",
@@ -618,11 +618,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 21,
-			timerEndOffset = 15,
+			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "4fc1a20d-29f6-fbc2-a1e1-a6a9d79bf36d",
+			uuid = "68299605-2368-f769-82bd-4deaec4801aa",
 		},
 	},
 	[25] = 
@@ -1191,7 +1191,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.GetNerestEntity()\nself.used = true",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = true,
@@ -1209,10 +1209,10 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "ac4860c9-a1ef-3b00-a668-1af5fd7eee93",
+			uuid = "30d2b00c-0972-1abc-9850-1c2c4baa5627",
 		},
 	},
-	[55] = 
+	[54] = 
 	{
 		
 		{
@@ -1236,7 +1236,7 @@ local tbl =
 			time = 543.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 55,
+			timelineIndex = 54,
 			timerEndOffset = 0,
 			timerOffset = -2,
 			timerStartOffset = -2,
@@ -1245,7 +1245,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

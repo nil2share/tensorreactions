@@ -499,10 +499,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Target Cloud",
@@ -1086,7 +1086,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.GetNerestEntity()\nself.used = true",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = true,
@@ -1108,7 +1108,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

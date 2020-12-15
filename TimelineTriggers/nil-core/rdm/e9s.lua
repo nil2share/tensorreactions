@@ -557,10 +557,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Target Cloud",
@@ -571,15 +571,12 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 21,
-			timerEndOffset = 15,
+			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "2783f5ad-39cd-8222-b799-3d005d9bd9a7",
+			uuid = "57672e07-be84-9865-afad-79c6c4a420a8",
 		},
-	},
-	[25] = 
-	{
 	},
 	[26] = 
 	{
@@ -1315,10 +1312,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Target Cloud",
@@ -1329,15 +1326,15 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 49,
-			timerEndOffset = 15,
+			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "a22d970f-ac08-06d0-af2c-c34e1632f6c8",
+			uuid = "1f9ae7f3-f804-480c-bd37-b6bd2263a4cd",
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

@@ -50,7 +50,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Mantra",
-			randomOffset = 0,
+			randomOffset = 1,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 27.1,
@@ -58,7 +58,7 @@ local tbl =
 			timeRange = false,
 			timelineIndex = 3,
 			timerEndOffset = 0,
-			timerOffset = -5,
+			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
 			uuid = "3b744d69-e8f1-d32e-a8cf-92b141465943",
@@ -548,6 +548,93 @@ local tbl =
 			used = false,
 			uuid = "185ca133-81c0-b3b9-87d0-e4cd5b8b44e0",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.RiddleOfFire(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Fire Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 159.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "a5c43b89-48d7-0591-8471-88c88d14fc1a",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.PerfectBalance(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Perfect Balance Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 159.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "424a22a1-e8c7-1d3d-aa73-5415b2680ddd",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.BrotherHood(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Brotherhood Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 159.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 16,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "0b9bb30b-988d-ba5e-b42d-2aae7fdd7b61",
+		},
 	},
 	[17] = 
 	{
@@ -579,6 +666,96 @@ local tbl =
 			timerStartOffset = -7,
 			used = false,
 			uuid = "c7ecaf99-a436-84aa-aea0-23e2a84bfeab",
+		},
+	},
+	[19] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.RiddleOfFire(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Fire On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 197.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "b418ba4d-9eb8-b018-a9cd-c40d317e3d6c",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.PerfectBalance(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Perfect Balance On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 197.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "890e40fc-8b64-ddd8-9d82-f77fe4acc672",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.BrotherHood(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Brotherhood On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 197.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
+			used = false,
+			uuid = "3c9d452b-532b-858f-931f-63049f599bed",
 		},
 	},
 	[20] = 
@@ -624,10 +801,10 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
-			loop = false,
+			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			name = "Target Cloud",
@@ -638,11 +815,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 21,
-			timerEndOffset = 15,
+			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "0cced326-533a-10cf-a160-68beefec5d46",
+			uuid = "58c8e30e-2389-dada-8244-27bacdec9202",
 		},
 	},
 	[23] = 
@@ -707,6 +884,35 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "219e719f-9f74-8ced-b35c-74ae18f9ecc5",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 1,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 248.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 24,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "b920e7c6-65fe-ed6b-8dfe-9efb9e800dcb",
 		},
 	},
 	[25] = 
@@ -1391,7 +1597,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.GetNerestEntity()\nself.used = true",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = true,
@@ -1409,7 +1615,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "0f03d279-d83c-0756-b92c-ee87dd6e1fba",
+			uuid = "f64ae442-60fc-4620-a380-69f64876988b",
 		},
 	},
 	[51] = 
@@ -1433,7 +1639,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 508.3,
+			time = 510.2,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 51,
@@ -1444,7 +1650,7 @@ local tbl =
 			uuid = "8899cd84-8d4c-6e4c-9dc4-c93c35bac73f",
 		},
 	},
-	[53] = 
+	[52] = 
 	{
 		
 		{
@@ -1468,15 +1674,44 @@ local tbl =
 			time = 527.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 53,
+			timelineIndex = 52,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
 			uuid = "59d43d3c-8d92-d195-91a1-a1a4146af8a2",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 1,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 527.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 52,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "3c28f24c-f48e-eb68-b1ff-dc85c48337ae",
+		},
 	},
-	[55] = 
+	[54] = 
 	{
 		
 		{
@@ -1500,7 +1735,7 @@ local tbl =
 			time = 543.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 55,
+			timelineIndex = 54,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -1509,7 +1744,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

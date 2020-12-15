@@ -29,7 +29,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "361c958d-42c9-8367-a291-1990a35016de",
+			uuid = "1254a7fb-55c6-4612-ae96-1ffd00fd725b",
 		},
 	},
 	[60] = 
@@ -61,7 +61,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "a199065b-f51b-e829-ad36-f9a0a8c33b11",
+			uuid = "8484f42c-8a2c-b32e-8642-90fcb4518124",
 		},
 	},
 	[93] = 
@@ -93,7 +93,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "0dd19a58-3d17-d482-a3f3-0d251c540db6",
+			uuid = "815d44cc-eef9-9fca-9f05-5f3832f422d1",
 		},
 	},
 	mapID = 947,

@@ -64,6 +64,38 @@ local tbl =
 			uuid = "09eb640a-bb71-5c16-be58-09080cce6324",
 		},
 	},
+	[21] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = true,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Target Cloud",
+			randomOffset = 1,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 216,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = 20,
+			timerOffset = -3,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "59688aa1-e6c7-b4b5-b756-07a94a0ff543",
+		},
+	},
 	[25] = 
 	{
 		
@@ -160,8 +192,40 @@ local tbl =
 			uuid = "930ff0f4-f399-cc9d-b972-5c3ad5ddb131",
 		},
 	},
+	[49] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = true,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Target Cloud",
+			randomOffset = 1,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 495,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 49,
+			timerEndOffset = 20,
+			timerOffset = -3,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "86bbfac6-077f-9690-8563-7a951022472a",
+		},
+	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 

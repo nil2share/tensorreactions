@@ -32,7 +32,7 @@ local tbl =
 			uuid = "2482bc71-2ebe-f139-b012-f6c60e56c773",
 		},
 	},
-	[4] = 
+	[3] = 
 	{
 		
 		{
@@ -53,16 +53,19 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 36.8,
+			time = 27.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 4,
+			timelineIndex = 3,
 			timerEndOffset = 0,
 			timerOffset = -4,
-			timerStartOffset = -5,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "b231bab6-23c6-b62b-9589-38ea153046ea",
+			uuid = "e368c6c8-9163-2b02-bb95-88ddea983635",
 		},
+	},
+	[4] = 
+	{
 	},
 	[5] = 
 	{
@@ -620,7 +623,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -641,7 +644,7 @@ local tbl =
 			uuid = "69cbe2ea-6127-b6b9-ab1e-1d4c6a6679a6",
 		},
 	},
-	[25] = 
+	[24] = 
 	{
 		
 		{
@@ -662,15 +665,15 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 264.3,
+			time = 248.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 25,
+			timelineIndex = 24,
 			timerEndOffset = 0,
 			timerOffset = -4,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "ee580d0f-2dfb-998c-8a26-7eb8b1b0c9ea",
+			uuid = "350f49d2-3fec-b72e-95e3-3c66a772cbf7",
 		},
 		
 		{
@@ -691,16 +694,19 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 264.3,
+			time = 248.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 25,
+			timelineIndex = 24,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "f22dc673-7802-9ad2-937d-f7db399838c4",
+			uuid = "d1339333-d634-5d1e-aefc-8477d5ed51dd",
 		},
+	},
+	[25] = 
+	{
 	},
 	[26] = 
 	{
@@ -1284,7 +1290,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.GetNerestEntity()\nself.used = true",
+			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = true,
@@ -1306,7 +1312,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 2,
+	version = 3,
 }
 
 
