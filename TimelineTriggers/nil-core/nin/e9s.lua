@@ -1039,7 +1039,7 @@ local tbl =
 					setFirstMatch = false,
 				},
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline,NilsReactionCore.params.on,9000) then self.used=true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1068,7 +1068,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "local p = Player\nif p.hp.percent == 0 or NilsReactionCore.Helpers.WasKnockbackedUsed() then\n  NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend ",
 			executeType = 2,
 			lastUse = 0,

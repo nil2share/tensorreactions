@@ -34,35 +34,6 @@ local tbl =
 	},
 	[3] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Mantra",
-			randomOffset = 1,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 27.1,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 3,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "3b744d69-e8f1-d32e-a8cf-92b141465943",
-		},
 	},
 	[5] = 
 	{
@@ -94,6 +65,38 @@ local tbl =
 			timerStartOffset = -7,
 			used = false,
 			uuid = "82d8a310-f11a-8d01-85e6-afbc6866bfb0",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = -2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 63.1,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = -9,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "64605133-49a3-d77a-947f-32d20201aeab",
 		},
 	},
 	[8] = 
@@ -185,6 +188,93 @@ local tbl =
 			used = false,
 			uuid = "d1d5a465-26f8-035e-87aa-f0f08bacfdfc",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.RiddleOfFire(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Fire Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "a9ed2949-e713-365b-9a11-2a200db1ce83",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.PerfectBalance(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Perfect Balance Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "998a6cc7-aa25-aa94-8e79-f9b6ec64097e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.BrotherHood(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Brotherhood Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "56510b79-e5c0-8011-926f-3de621fba55b",
+		},
 	},
 	[9] = 
 	{
@@ -242,7 +332,7 @@ local tbl =
 			timelineIndex = 9,
 			timerEndOffset = 7,
 			timerOffset = 0,
-			timerStartOffset = 4,
+			timerStartOffset = 5,
 			used = false,
 			uuid = "1d27cbf4-3bfc-f01e-8358-5953e70a65d2",
 		},
@@ -301,9 +391,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 11,
-			timerEndOffset = 0,
+			timerEndOffset = 1,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = 0,
 			used = false,
 			uuid = "a7f1dadd-76f1-6690-ae24-e0d1c312d01c",
 		},
@@ -367,6 +457,93 @@ local tbl =
 			timerStartOffset = -13,
 			used = false,
 			uuid = "817b8f49-76c2-f3cd-9776-2631d7d7d38b",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.RiddleOfFire(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle of Fire On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 126.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "5e79712c-823c-7450-af51-a006586b2197",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.PerfectBalance(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Perfect Balance On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 126.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "55b418bc-ae39-c9ef-8061-16774f4eb5bf",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Monk.BrotherHood(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Brotherhood On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 126.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
+			used = false,
+			uuid = "2f58d111-c81e-8d29-a41a-ef9af896674c",
 		},
 	},
 	[15] = 
