@@ -1,5 +1,69 @@
 local tbl = 
 {
+	[3] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "1facbe57-75e6-828c-9516-517bb1d2ec8c",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 63.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "5326996e-b80a-452a-b135-e05a5fdc0e8f",
+		},
+	},
 	[8] = 
 	{
 		
@@ -126,6 +190,38 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "d48b95c9-6ec3-776c-a81c-4b8ac790bc40",
+		},
+	},
+	[32] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 358,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 32,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "67a83904-3442-dc91-ad23-588e96196709",
 		},
 	},
 	[33] = 

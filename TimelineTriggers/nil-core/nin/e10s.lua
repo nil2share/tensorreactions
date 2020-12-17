@@ -363,6 +363,35 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "-- timeline control, if you want shadowfang to be enabled\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then\nself.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 438.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 60,
+			timerEndOffset = -4,
+			timerOffset = -1,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "c5b7307b-2862-b56e-babc-092d30dea1fa",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -382,6 +411,35 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "7955e38c-b2fa-0fbc-b316-beb624a978a3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- timeline control\nNilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 438.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 60,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "dd7a3d22-ecfc-06b3-8bd3-bf976ed7356f",
 		},
 	},
 	[64] = 
