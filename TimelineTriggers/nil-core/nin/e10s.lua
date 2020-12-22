@@ -64,6 +64,38 @@ local tbl =
 			uuid = "9ecb6201-9393-0fe1-ab27-342765b288aa",
 		},
 	},
+	[12] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 94,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 12,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "1e54607b-97f6-37a9-9a57-986aa890d1c6",
+		},
+	},
 	[18] = 
 	{
 		
