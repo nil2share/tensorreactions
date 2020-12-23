@@ -40,7 +40,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -69,7 +69,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -101,7 +101,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -133,7 +133,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -258,7 +258,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -290,7 +290,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -328,7 +328,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =100, y = 0, z = 100}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -389,7 +389,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -453,7 +453,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -485,7 +485,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -549,7 +549,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -642,7 +642,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x =101.80, y = 0, z = 100.30}) then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -674,7 +674,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 6\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
