@@ -69,7 +69,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local minPartyMembersInRange = 4\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
