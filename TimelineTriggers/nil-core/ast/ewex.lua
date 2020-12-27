@@ -11,13 +11,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "if NilsReactionCore.Toggles.Astrologian.LightSpeed(NilsReactionCore.params.on, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 10000) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Feint",
+			name = "Lightspeed Toggle",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -26,10 +26,68 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 2,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
+			timerOffset = -1,
+			timerStartOffset = -18,
 			used = false,
-			uuid = "261f3790-72b7-4121-8695-a8ac32e9a5fd",
+			uuid = "ada7ef74-2626-5afc-920b-64c102950db9",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = -9,
+			timerOffset = 0,
+			timerStartOffset = -12,
+			used = false,
+			uuid = "f5f4f47e-2bbe-5be9-8e02-4f517aa0f1ca",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Big Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "e8558688-0ae2-2f05-aadb-8d55bc0ae05e",
 		},
 	},
 	[4] = 
@@ -43,13 +101,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -58,10 +116,42 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 4,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "47df0acb-e93f-1d42-a962-c6f76b2e3773",
+			uuid = "727555b2-0ac9-59af-88e9-5959dd17fb81",
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.LightSpeed() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "LightSpeed",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 138.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "8205643a-3b90-3d79-bff2-5d6c531c4fa4",
 		},
 	},
 	[15] = 
@@ -75,13 +165,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -90,10 +180,42 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 15,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "2754a441-81d2-b9dd-8a73-b74e999541b9",
+			uuid = "d0f3f264-6efe-c4dd-a1bb-e786d0d9fd9d",
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 171.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = -9,
+			timerOffset = 0,
+			timerStartOffset = -12,
+			used = false,
+			uuid = "a2a64778-5f78-fd8a-98e8-f4e266420834",
 		},
 	},
 	[27] = 
@@ -107,13 +229,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -122,10 +244,42 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 27,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "79f15641-5c73-4691-a254-9b8e859cb1d3",
+			uuid = "e873a4a2-ec2c-dd74-b28c-ba2f6cf81a34",
+		},
+	},
+	[29] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 291.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 29,
+			timerEndOffset = -9,
+			timerOffset = 0,
+			timerStartOffset = -12,
+			used = false,
+			uuid = "7c3c3d89-2917-0c5e-888f-79e1f4fd8ae4",
 		},
 	},
 	[32] = 
@@ -139,13 +293,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -154,13 +308,13 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 32,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "18c9fbbd-6426-9620-8bba-6171ef202b13",
+			uuid = "b428defc-143d-b200-9183-feb630385dbc",
 		},
 	},
-	[50] = 
+	[37] = 
 	{
 		
 		{
@@ -171,25 +325,246 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Toggles.Astrologian.LightSpeed(NilsReactionCore.params.on, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 10000) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Lightspeed Toggle",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1135.4,
+			time = 1000,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 50,
+			timelineIndex = 37,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = -1,
+			timerStartOffset = -18,
 			used = false,
-			uuid = "39030a04-b3ce-003e-ab78-483f4b50f525",
+			uuid = "cdd05959-f612-c8a9-85ad-f1a88a6b6e3d",
+		},
+	},
+	[39] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1015,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 9,
+			timerOffset = 0,
+			timerStartOffset = 6,
+			used = false,
+			uuid = "b422ba6e-16cf-23a0-adec-427f7f93f4f2",
+		},
+	},
+	[45] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.LightSpeed() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "LightSpeed",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1075.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 45,
+			timerEndOffset = 17,
+			timerOffset = 0,
+			timerStartOffset = 14,
+			used = false,
+			uuid = "fce36e1e-1984-a96b-bf97-3ce32a025c7e",
+		},
+	},
+	[48] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Big Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1117.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 48,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "2ec20f8c-cde3-0e24-93cf-386455f8d884",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1117.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 48,
+			timerEndOffset = 14,
+			timerOffset = 0,
+			timerStartOffset = 10,
+			used = false,
+			uuid = "1334e46b-4acb-4d10-ae90-0d920d1d27c6",
+		},
+	},
+	[50] = 
+	{
+	},
+	[58] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.LightSpeed() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "LightSpeed",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1205.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 58,
+			timerEndOffset = 17,
+			timerOffset = 0,
+			timerStartOffset = 14,
+			used = false,
+			uuid = "2c55e2eb-09b5-f64d-b6d3-6bab2e86a5da",
+		},
+	},
+	[63] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local minPartyMembersInRange = 3\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Big Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1247.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "90c235a3-4c7b-a4d2-9750-d52e6da0446c",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Astrologian.EarthlyStar({pos = {x = 101.80, y = 0, z = 100.30}}) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Earthly Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1247.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 14,
+			timerOffset = 0,
+			timerStartOffset = 10,
+			used = false,
+			uuid = "9bf37fd6-bbfb-532f-b499-312d979c8df9",
 		},
 	},
 	mapID = 935,

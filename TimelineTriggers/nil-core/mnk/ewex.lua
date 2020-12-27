@@ -29,7 +29,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "72672211-b5e9-424c-865e-c799833a9872",
+			uuid = "deeaa09d-eb9c-8cfb-82b8-3158cdfdca36",
 		},
 	},
 	[4] = 
@@ -43,13 +43,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -58,10 +58,193 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 4,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "442c8226-fa43-8807-ad00-e91564c3a5d0",
+			uuid = "e22d69d5-b854-8422-86a7-93c98165b353",
+		},
+	},
+	[6] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 39.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a5ba2f40-c41b-ea6d-84bf-b1c6b398611c",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 39.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 4,
+			used = false,
+			uuid = "1ad34da1-799a-2b20-833e-eaadf4af7760",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 65.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "8c177377-498f-6b3a-9292-e003877fed1b",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 65.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "1e270011-8821-d8f1-816f-8d889c7e3653",
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 138.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4f0ddaab-39c6-93c5-a109-3b7fd8b7cf7f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 138.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "2017ca1c-7894-26a9-8e5b-3454616f4322",
 		},
 	},
 	[15] = 
@@ -75,13 +258,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -90,10 +273,10 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 15,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "7eb3ce53-79ff-01d6-8776-c9b7d88b226a",
+			uuid = "a0c52804-eb4d-80ba-9bc2-3c36a44cac6c",
 		},
 	},
 	[27] = 
@@ -107,13 +290,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -122,10 +305,10 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 27,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "897f99c7-f924-6f07-a276-ffca8409b4ad",
+			uuid = "2d6c0b18-4310-3023-9037-29c9ed23f939",
 		},
 	},
 	[32] = 
@@ -139,13 +322,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -154,10 +337,138 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 32,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "751a2b43-8c14-e29c-8eeb-0a7146b7658c",
+			uuid = "d9ca20e4-ded8-b8d8-952c-42dc4d7431f8",
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1031.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 41,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "2c0f2662-c6aa-636d-b8b9-30228ba6778c",
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1046.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 43,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 4,
+			used = false,
+			uuid = "1828c427-97d3-fa28-9e45-95251545277b",
+		},
+	},
+	[45] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1075.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 45,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "79489965-2de0-fe62-95ce-96d88b188ada",
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1096.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 47,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "69b73ea3-265f-b48a-941f-4a6f56147413",
 		},
 	},
 	[50] = 
@@ -171,13 +482,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -186,10 +497,202 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 50,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "8ee28ce3-d47b-048e-9652-2543ccedcfe0",
+			uuid = "5bc434ee-be93-45cf-bf2a-8a4ebf98b0fb",
+		},
+	},
+	[54] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1162,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 54,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "3cfe98fa-b2d2-335b-84d5-07f299c182ac",
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1174.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "2a4e99bb-157e-e2ab-8728-ca7ff21d75d3",
+		},
+	},
+	[58] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1205.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 58,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "2178d93b-e903-ac23-a430-0ef05cac4647",
+		},
+	},
+	[62] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1238.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 62,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "76d6c247-4a4c-2abb-a814-64ced567de78",
+		},
+	},
+	[65] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap Close Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1269.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 65,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0b15129b-b30a-0ffb-8b1b-916b9cceb6f1",
+		},
+	},
+	[68] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1298.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "b784089e-c8bf-85bc-9eba-9e7e84749866",
 		},
 	},
 	mapID = 935,

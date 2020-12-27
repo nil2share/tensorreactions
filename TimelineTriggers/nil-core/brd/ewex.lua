@@ -2,35 +2,6 @@ local tbl =
 {
 	[2] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Feint",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 17.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 2,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -7,
-			used = false,
-			uuid = "8b2bbac1-1e9d-d0cc-9ad8-5778fc19e479",
-		},
 	},
 	[4] = 
 	{
@@ -43,13 +14,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -57,12 +28,47 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 4,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "f6f7ae7d-810f-a92a-bd0e-bc98a0f08550",
+			uuid = "85643545-c892-c8ba-9dc3-7c7da59e2234",
 		},
+	},
+	[6] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 39.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "d7d7d678-3d32-e02f-95ec-65825513c52b",
+		},
+	},
+	[11] = 
+	{
 	},
 	[15] = 
 	{
@@ -75,13 +81,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -89,12 +95,47 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 15,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "0700dc02-0307-4f6d-8a87-58c7eebe02ae",
+			uuid = "29f605f1-bdd9-b337-88f2-d2361f9d66af",
 		},
+	},
+	[18] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 178.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 18,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "4968a185-4225-c775-a75e-a36ce0b25dd7",
+		},
+	},
+	[21] = 
+	{
 	},
 	[27] = 
 	{
@@ -107,13 +148,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -121,11 +162,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 27,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "8f31eb7c-74e4-833a-bf9d-9c1771af5edd",
+			uuid = "cea555cc-52ba-4c51-ac2d-1a0f8c1a3ae9",
 		},
 	},
 	[32] = 
@@ -139,13 +180,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -153,12 +194,47 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 32,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "64e2974c-e357-7e8c-8450-2dea60d1441b",
+			uuid = "995845b3-dc5e-4096-a23a-eb6fc39f5578",
 		},
+	},
+	[39] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1015,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
+			used = false,
+			uuid = "8e64786b-2727-410c-8fc3-b36f7976a576",
+		},
+	},
+	[41] = 
+	{
 	},
 	[50] = 
 	{
@@ -171,13 +247,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shadeshift",
+			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -186,10 +262,42 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 50,
 			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
 			used = false,
-			uuid = "e9b22fd4-58a8-7926-9396-3cf793ae0b4f",
+			uuid = "66f0920d-7b29-d57e-8857-b4b1164b0ed9",
+		},
+	},
+	[63] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Group Shield",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1247.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
+			used = false,
+			uuid = "3be3dc1f-8b3f-9c34-a1fb-598079e13f75",
 		},
 	},
 	mapID = 935,
