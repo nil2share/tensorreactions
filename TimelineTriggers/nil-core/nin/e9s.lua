@@ -813,6 +813,93 @@ local tbl =
 			used = false,
 			uuid = "278a3ef3-f0fa-4fe3-9f8a-000de7355541",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.AOEOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn off AOE",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 208.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "8f7b3549-db5c-ba9f-91eb-021565a51e94",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- toggle off, and override by timeline\nif NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn off Ninjutsu",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 208.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "5a9668f2-009f-5cc7-a0c5-08d8dc6923ab",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- timeline control, if you want shadowfang to be enabled\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 208.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 2,
+			timerOffset = -1,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "458ba5ad-7eeb-1ee4-81f8-852be8fc0228",
+		},
 	},
 	[21] = 
 	{
@@ -844,6 +931,38 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "69cbe2ea-6127-b6b9-ab1e-1d4c6a6679a6",
+		},
+	},
+	[23] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.Doton() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Doton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 231.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 23,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "f5b21500-c51b-055d-a3dd-9c03768a5cac",
 		},
 	},
 	[24] = 
@@ -905,6 +1024,122 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "d1339333-d634-5d1e-aefc-8477d5ed51dd",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.Suiton() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Suiton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 248.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -8.5,
+			used = false,
+			uuid = "4e6b2949-6067-edf3-a943-5aa9b92e91f6",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if HasBuff(Player.id, NilsReactionCore.Hotbar.Actions.Suiton.BuffID) then\nif NilsReactionCore.Hotbar.Ninja.Kassatsu() then self.used = true end\n\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Kassatsu",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 248.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -8.5,
+			used = false,
+			uuid = "bfcd1493-4fa6-0f3c-9317-feccf6d7ec09",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 248.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 5,
+			timerOffset = -1,
+			timerStartOffset = 3.2000000476837,
+			used = false,
+			uuid = "45ce70b5-ff12-8ab1-b164-fed0f733ee1c",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- toggle off, and override by timeline\nif NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn on Ninjutsu",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 248.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 3.2999999523163,
+			used = false,
+			uuid = "03e96bf6-73f6-065f-b3cf-dd7db04c9162",
 		},
 	},
 	[25] = 
