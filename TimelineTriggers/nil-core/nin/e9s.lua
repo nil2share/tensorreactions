@@ -508,7 +508,7 @@ local tbl =
 				},
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline,NilsReactionCore.params.on,9000) then self.used=true end",
+			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 9000) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
