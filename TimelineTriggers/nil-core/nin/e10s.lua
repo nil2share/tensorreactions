@@ -32,6 +32,38 @@ local tbl =
 			uuid = "3d6a16c1-9846-7c90-9fe9-f26443c21a00",
 		},
 	},
+	[5] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- For alignment sake later on in the fight\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 40.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 7,
+			timerOffset = -1,
+			timerStartOffset = 5,
+			used = false,
+			uuid = "92667cc7-cdb9-ac08-9906-c40683d8e3ee",
+		},
+	},
 	[6] = 
 	{
 		
@@ -62,6 +94,35 @@ local tbl =
 			timerStartOffset = -1,
 			used = false,
 			uuid = "9ecb6201-9393-0fe1-ab27-342765b288aa",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 53.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "09cd866a-ae74-7272-84c6-34ce8898f466",
 		},
 	},
 	[12] = 
@@ -537,6 +598,67 @@ local tbl =
 			used = false,
 			uuid = "b310210f-543d-512b-96ad-83825f31029d",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn Off TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 491.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "c3eee5cb-88c0-5e89-8cd0-093d4360296c",
+		},
+	},
+	[70] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn On TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 502.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "7978e418-5d20-f4a1-b78a-b0c38fb68e91",
+		},
 	},
 	[72] = 
 	{
@@ -633,6 +755,35 @@ local tbl =
 			used = false,
 			uuid = "22556836-40fd-f640-9c4f-a2b621657af1",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn Off TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 621.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 92,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "485c77ff-2e7f-4905-bbac-d5e009ed5ba9",
+		},
 	},
 	[93] = 
 	{
@@ -664,6 +815,38 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "359ed69e-a0cb-f1e6-a0d9-c4e0be8f6e30",
+		},
+	},
+	[94] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn On TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 631.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = 1,
+			timerOffset = -1,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "9e2b6b37-96bc-4492-a707-2535bffc5858",
 		},
 	},
 	[95] = 
