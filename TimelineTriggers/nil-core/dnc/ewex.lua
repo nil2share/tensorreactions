@@ -355,6 +355,38 @@ local tbl =
 			uuid = "c7ab63fc-5e99-3418-a23f-a81309ce13fe",
 		},
 	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1174.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "d4b7443c-7bb3-66cb-b9e0-a260d8f75888",
+		},
+	},
 	[63] = 
 	{
 		
@@ -385,6 +417,38 @@ local tbl =
 			timerStartOffset = -1.5,
 			used = false,
 			uuid = "a97f6f95-db1a-9eab-8c42-5ac6733892ee",
+		},
+	},
+	[68] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1298.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "907adfa9-b42c-cd0c-9996-6f2e2fc76a8b",
 		},
 	},
 	mapID = 935,
