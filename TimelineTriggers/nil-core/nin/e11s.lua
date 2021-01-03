@@ -1636,6 +1636,38 @@ local tbl =
 			uuid = "cfb67115-7c05-9ea6-97c7-0e3c8b1b8a54",
 		},
 	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.Bunshin(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "turn off bunshin",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 471.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "ea280de5-f8cb-f83f-b556-bbe1fcd112f1",
+		},
+	},
 	[83] = 
 	{
 	},
@@ -2071,6 +2103,35 @@ local tbl =
 			timerStartOffset = -2.5,
 			used = false,
 			uuid = "8c5c6afe-39fe-4f7f-8ecc-72c463ce9909",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.Bunshin(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "turn on bunshin",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 537.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 90,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "7fa433de-6561-d49b-ba7b-4865f4b29835",
 		},
 		
 		{
