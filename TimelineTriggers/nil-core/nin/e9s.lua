@@ -742,7 +742,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.Doton() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.Doton()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1544,6 +1544,38 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "ac478c9e-d49f-2157-90dd-5210e06d2081",
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.Doton()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Doton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 510.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 51,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "467f44f8-97c9-596b-a08a-9133accbaca5",
 		},
 	},
 	mapID = 946,
