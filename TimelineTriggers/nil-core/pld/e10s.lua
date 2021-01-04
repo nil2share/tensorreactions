@@ -308,6 +308,38 @@ local tbl =
 			uuid = "6b32f2b5-7d6a-3d24-9e46-6d47ac01bc58",
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "--  Shadow's Edge (23308)\nif NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  local remaining = NilsReactionCore.Helpers.Target.Enemy.GetCastTimeRemainingBySpellID(23308) \n  if remaining > 0.6 and remaining < 3 then\n    NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if mt (special)",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 66.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "523d8bad-2861-c233-9209-42089e6558f6",
+		},
+	},
 	[11] = 
 	{
 		
@@ -652,6 +684,38 @@ local tbl =
 			timerStartOffset = -1.5,
 			used = false,
 			uuid = "98038609-f767-ac8f-bcd0-6c66e117cb2c",
+		},
+	},
+	[22] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "--  Shadow's Edge (23308)\nif NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  local remaining = NilsReactionCore.Helpers.Target.Enemy.GetCastTimeRemainingBySpellID(23308) \n  if remaining > 0.6 and remaining < 3 then\n    NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if mt (special)",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 132.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 22,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "fc76e675-2eaa-3798-ab65-66dc9bd79d7c",
 		},
 	},
 	[26] = 
@@ -1122,6 +1186,38 @@ local tbl =
 			uuid = "3a83454d-5735-b017-94de-0b6293b2d301",
 		},
 	},
+	[51] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "--  Shadow's Edge (23308)\nif NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  local remaining = NilsReactionCore.Helpers.Target.Enemy.GetCastTimeRemainingBySpellID(23308) \n  if remaining > 0.6 and remaining < 3 then\n    NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if mt (special)",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 354.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 51,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "72716585-2ceb-f495-9dac-ef2d6b903885",
+		},
+	},
 	[59] = 
 	{
 		
@@ -1434,6 +1530,38 @@ local tbl =
 			timerStartOffset = -1.5,
 			used = false,
 			uuid = "15bec568-b4fc-4811-b86c-2bbbb340c334",
+		},
+	},
+	[91] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "--  Shadow's Edge (23308)\nif NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  local remaining = NilsReactionCore.Helpers.Target.Enemy.GetCastTimeRemainingBySpellID(23308) \n  if remaining > 0.6 and remaining < 3 then\n    NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if mt (special)",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 614.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 91,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "6feea6b2-7e7a-06bd-ae0d-e8e7ef7b3f64",
 		},
 	},
 	[92] = 

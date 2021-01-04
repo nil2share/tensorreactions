@@ -1,5 +1,37 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "662d4e81-b7d5-3e45-a8c5-6d78380121c0",
+		},
+	},
 	[5] = 
 	{
 		
@@ -29,11 +61,136 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4.5,
 			used = false,
-			uuid = "db43c275-87c4-666c-b850-c49dd776854c",
+			uuid = "a4b76427-0f6f-bf38-9cfc-a695e81e43ba",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 46.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "db94645c-569d-051e-8137-4301dd6b33c8",
+		},
+	},
+	[9] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 59.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 9,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "ee669f5c-ba78-6089-90aa-f965ea2d70eb",
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 117.6,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 17,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "b020770d-0842-0bf8-a7cb-fd612d747348",
 		},
 	},
 	[19] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 132.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "bf7d0f5f-21c8-158f-bc20-7c43291f40de",
+		},
 	},
 	[20] = 
 	{
@@ -234,6 +391,35 @@ local tbl =
 			timerStartOffset = -1,
 			used = false,
 			uuid = "e4e8c1b1-ae46-a98d-b654-a691bde0b059",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 135.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "c360eb44-7e87-1f15-9e41-0040c29e9971",
 		},
 	},
 	[28] = 
@@ -466,7 +652,36 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3.5,
 			used = false,
-			uuid = "7d5d200f-35cc-0b07-a2f9-03e76dd3ed29",
+			uuid = "603d40e0-6e6e-4835-85e6-820e5883039f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 176,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 30,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "17f6cab3-4750-a865-82b4-059370b12106",
 		},
 	},
 	[31] = 
@@ -543,7 +758,7 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "60c83c2c-0594-cca2-b776-7b5e5af2978a",
+			uuid = "b19a894e-6cfc-473a-a0a8-3af2e179cdf1",
 		},
 		
 		{
@@ -773,6 +988,70 @@ local tbl =
 			uuid = "acb373dc-be24-e69d-8f3c-84cc7cfb8876",
 		},
 	},
+	[33] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 191.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "c1dba362-53c2-a997-b1ff-54b75d95e80d",
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 204,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "c8dca41c-5cce-fa78-9aa0-b9c1beba279a",
+		},
+	},
 	[36] = 
 	{
 		
@@ -803,6 +1082,134 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "2b743748-b281-ba97-a1b2-7ae5336bd740",
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 250.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 41,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "54f193f4-0691-4fd7-85bb-71a6200d9522",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 264.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "46bb7627-c7c6-ee67-bb24-5a940d240935",
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 321.9,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 51,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "0dee2b38-ec3b-d814-b269-07fb58deb105",
+		},
+	},
+	[54] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 336.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 54,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "0f48a4aa-af46-84ad-b28e-6fdb15b39a3f",
 		},
 	},
 	[56] = 
@@ -1063,6 +1470,35 @@ local tbl =
 			used = false,
 			uuid = "c6c897cf-10bf-1065-a635-a2ab343c5e56",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 351.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "b72aa67b-dbb7-d307-b7c3-ff9bf704b08d",
+		},
 	},
 	[64] = 
 	{
@@ -1300,7 +1736,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "d311b116-64d4-87f2-962e-39be23950559",
+			uuid = "c097d8d6-15ce-f321-8bf5-834ae7da05df",
 		},
 		
 		{
@@ -1359,6 +1795,35 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "18237e20-ecbf-b91d-82b5-8ffeb11efe3b",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 385.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "63ffd5db-129d-abca-abf3-c6c2fb8c26cb",
 		},
 	},
 	[69] = 
@@ -1432,7 +1897,71 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "ec2a6df1-d992-6da1-9318-dc5a805a840b",
+			uuid = "8c12780c-fa7b-9520-8822-1726d7665d34",
+		},
+	},
+	[70] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 397.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "eaaf2718-4a9b-639f-9d6d-d40bb0654c23",
+		},
+	},
+	[72] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 409.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "74e9bae2-f727-ad1a-9a37-b102c4897b0c",
 		},
 	},
 	[73] = 
@@ -1636,6 +2165,70 @@ local tbl =
 			uuid = "cfb67115-7c05-9ea6-97c7-0e3c8b1b8a54",
 		},
 	},
+	[75] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 438.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 75,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "c92ac557-221b-aec9-9881-f36364dd2bfb",
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 469.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 81,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "9de94761-985d-a4e2-9318-b5422bd59e5c",
+		},
+	},
 	[82] = 
 	{
 		
@@ -1666,6 +2259,35 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "ea280de5-f8cb-f83f-b556-bbe1fcd112f1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 471.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "dddb6920-9f13-210e-b5a2-2f0ca6d0e8ef",
 		},
 	},
 	[83] = 
@@ -2072,6 +2694,35 @@ local tbl =
 			used = false,
 			uuid = "9b59e338-3aab-1e38-babb-40f837d37fd4",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 532,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 89,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "df3ec9e5-144e-67eb-bdf3-428df8e304d1",
+		},
 	},
 	[90] = 
 	{
@@ -2202,7 +2853,199 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "6090922e-f3c2-70cf-955e-e6771e8b047c",
+			uuid = "d39a48e9-ba2a-acde-ab41-02339d751c06",
+		},
+	},
+	[91] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 549.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 91,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "51abcebf-92b5-7a90-bd53-15aafd85f4b1",
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 570.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "7adfdfaf-d81f-77f0-b2f6-fb31099ae7a7",
+		},
+	},
+	[104] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 700.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 104,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "c82880cd-6874-d7b9-890c-68eab4245091",
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 725.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 111,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "55ef471b-b129-6831-baf5-96e194c69774",
+		},
+	},
+	[115] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 737.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 115,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "42f124de-a43f-af7f-8382-d7c7d9c8040c",
+		},
+	},
+	[122] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 800.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 122,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "38beaeb3-4b2b-ac46-801c-35fb59dbfe57",
 		},
 	},
 	[123] = 
@@ -2237,6 +3080,102 @@ local tbl =
 			uuid = "896456a0-e9e2-e896-ba96-384bf158daa1",
 		},
 	},
+	[129] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 825.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 129,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "a5491617-3c07-447f-9866-19cdc133cf6f",
+		},
+	},
+	[133] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 837.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 133,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "a8cb2274-31dc-db8d-9c76-990201a5b9c7",
+		},
+	},
+	[140] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 900.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "56bffa49-e3ab-6e05-9047-b34f4d2c0109",
+		},
+	},
 	[143] = 
 	{
 		
@@ -2266,7 +3205,103 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3.5,
 			used = false,
-			uuid = "1b24d263-8e48-1db6-8bf1-bcaded151188",
+			uuid = "692b803b-cec9-432e-9bb5-7855b7d2ac67",
+		},
+	},
+	[146] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 925.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 146,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "355f1394-2a76-b777-b77f-04baae6a02d4",
+		},
+	},
+	[150] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 937.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 150,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "6f36d291-bc73-c921-9af4-ee7b2e1fcfe9",
+		},
+	},
+	[155] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 992.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 155,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "f55a83ee-bd29-6189-88cd-9065ecbee64b",
 		},
 	},
 	mapID = 948,

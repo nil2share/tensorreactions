@@ -1,0 +1,1564 @@
+local tbl = 
+{
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "25448bc1-8968-9ef1-8964-927281fe2e8c",
+		},
+	},
+	[5] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback() == true\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 33,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 5,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "6303d49c-adc4-21e0-9633-eb6eea4fef63",
+		},
+	},
+	[7] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 46.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 7,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "7b0827be-613e-2a2c-9f7b-7f3cdc06675b",
+		},
+	},
+	[9] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 59.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 9,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "2529387f-4edb-2d13-90da-28316a34d77e",
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 117.6,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 17,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "a24f5ce7-513f-1470-81e7-18e35b652afd",
+		},
+	},
+	[19] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 132.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "d2b361c5-8d1e-14c1-9c03-9f9569a4f0f1",
+		},
+	},
+	[20] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 135.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "54d17c5d-0bf6-510a-be40-96660a91a6af",
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Alert.Send(\"Use Meditate\")\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Meditate TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 165.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "6515a7ad-ea37-0af4-9dcf-9263477d461a",
+		},
+	},
+	[28] = 
+	{
+	},
+	[30] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 176,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 30,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3.5,
+			used = false,
+			uuid = "347f0def-c2af-f666-bc8c-4b01f65781d0",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 176,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 30,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "50229b4e-52b9-aa32-bda6-b06a60892d29",
+		},
+	},
+	[31] = 
+	{
+	},
+	[32] = 
+	{
+		
+		{
+			actions = 
+			{
+				
+				{
+					aType = 3,
+					actionID = -1,
+					actionLua = "",
+					allowInterrupt = false,
+					atomicPriority = false,
+					castAtMouse = false,
+					castPosX = 0,
+					castPosY = 0,
+					castPosZ = 0,
+					clusterMinPercent = false,
+					clusterMinTarget = 1,
+					clusterRadius = 8,
+					clusterRange = 30,
+					conditions = 
+					{
+					},
+					endIfUsed = false,
+					gVar = "",
+					gVarValue = 1,
+					ignoreWeaveRules = false,
+					isAreaTarget = false,
+					luaNeedsWeaveWindow = false,
+					luaReturnsAction = false,
+					name = "",
+					potType = 1,
+					setTarget = true,
+					showPositionPreview = false,
+					stopCasting = false,
+					stopMoving = false,
+					targetContentID = -1,
+					targetName = "",
+					targetSubType = "Nearest",
+					targetType = "Enemy",
+					untarget = false,
+					useForWeaving = false,
+					usePot = false,
+					used = false,
+					variableIsHover = false,
+					variableTogglesType = 1,
+				},
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "target boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 180.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 32,
+			timerEndOffset = 3,
+			timerOffset = -5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "8cf89816-7bd7-31e9-af43-cab1b1d1c91c",
+		},
+	},
+	[33] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 191.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "72c97e32-7c7c-87c9-ba1b-8a7346dc3356",
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 204,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "d6ee034f-2867-da57-96de-c78bc6d0a715",
+		},
+	},
+	[36] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 221.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 36,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "33d9e8ae-8f14-0c32-b06b-f807c277e754",
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 250.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 41,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "ad9c780c-5d17-7305-a6bc-fc1632098fb8",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 264.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "50982b5f-de59-90c9-b47f-eae4388f8002",
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 321.9,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 51,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "2d7cb87e-6601-47cb-bfe6-80b377e4d19c",
+		},
+	},
+	[54] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 336.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 54,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "40cb8401-aa2b-5c05-98fa-60598219121c",
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 351.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "9b1d7653-875d-a0bc-adb7-7b94b5a85873",
+		},
+	},
+	[58] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Alert.Send(\"Use Meditate\")\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Meditate TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 359,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 58,
+			timerEndOffset = 7,
+			timerOffset = 0,
+			timerStartOffset = 5,
+			used = false,
+			uuid = "e33a3e2e-cc82-d326-a7ed-024189a366f4",
+		},
+	},
+	[64] = 
+	{
+	},
+	[66] = 
+	{
+	},
+	[67] = 
+	{
+	},
+	[68] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 385.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "704a35c5-861f-5c6d-9594-7d22f3a7976f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 385.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 68,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "54f5e03d-cfbe-ae9e-b7d3-17a0f2fe2f01",
+		},
+	},
+	[69] = 
+	{
+		
+		{
+			actions = 
+			{
+				
+				{
+					aType = 3,
+					actionID = -1,
+					actionLua = "",
+					allowInterrupt = false,
+					atomicPriority = false,
+					castAtMouse = false,
+					castPosX = 0,
+					castPosY = 0,
+					castPosZ = 0,
+					clusterMinPercent = false,
+					clusterMinTarget = 1,
+					clusterRadius = 8,
+					clusterRange = 30,
+					conditions = 
+					{
+					},
+					endIfUsed = false,
+					gVar = "",
+					gVarValue = 1,
+					ignoreWeaveRules = false,
+					isAreaTarget = false,
+					luaNeedsWeaveWindow = false,
+					luaReturnsAction = false,
+					name = "",
+					potType = 1,
+					setTarget = true,
+					showPositionPreview = false,
+					stopCasting = false,
+					stopMoving = false,
+					targetContentID = -1,
+					targetName = "",
+					targetSubType = "Nearest",
+					targetType = "Enemy",
+					untarget = false,
+					useForWeaving = false,
+					usePot = false,
+					used = false,
+					variableIsHover = false,
+					variableTogglesType = 1,
+				},
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "target boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 386.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 69,
+			timerEndOffset = 3,
+			timerOffset = -5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "3916fe6a-479d-b133-b844-ce9454548a39",
+		},
+	},
+	[70] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 397.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4dd6b369-0ccc-d98e-9691-1ab435fe8c4b",
+		},
+	},
+	[72] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 409.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0c8102ba-e8b7-b082-892a-4423f75cfe18",
+		},
+	},
+	[73] = 
+	{
+	},
+	[75] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 438.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 75,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "f3ed38c5-4d9a-0a6d-a122-27c4f7289dc8",
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Handled in core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 469.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 81,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "bd2ef183-be3d-e056-b7f3-b72ff0489fee",
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 471.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "3490cc8b-1e76-1ca4-9cd1-c76356f08cfd",
+		},
+	},
+	[83] = 
+	{
+	},
+	[86] = 
+	{
+	},
+	[88] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Alert.Send(\"Use Meditate\")\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Meditate TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 513.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 88,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "49eafb1d-0c91-0fbf-a13e-5f3e2687b3a2",
+		},
+	},
+	[89] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 532,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 89,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "0d98c7b7-c473-4386-8a8a-8b6db43412f0",
+		},
+	},
+	[90] = 
+	{
+		
+		{
+			actions = 
+			{
+				
+				{
+					aType = 3,
+					actionID = -1,
+					actionLua = "",
+					allowInterrupt = false,
+					atomicPriority = false,
+					castAtMouse = false,
+					castPosX = 0,
+					castPosY = 0,
+					castPosZ = 0,
+					clusterMinPercent = false,
+					clusterMinTarget = 1,
+					clusterRadius = 8,
+					clusterRange = 30,
+					conditions = 
+					{
+					},
+					endIfUsed = false,
+					gVar = "",
+					gVarValue = 1,
+					ignoreWeaveRules = false,
+					isAreaTarget = false,
+					luaNeedsWeaveWindow = false,
+					luaReturnsAction = false,
+					name = "",
+					potType = 1,
+					setTarget = true,
+					showPositionPreview = false,
+					stopCasting = false,
+					stopMoving = false,
+					targetContentID = -1,
+					targetName = "",
+					targetSubType = "Nearest",
+					targetType = "Enemy",
+					untarget = false,
+					useForWeaving = false,
+					usePot = false,
+					used = false,
+					variableIsHover = false,
+					variableTogglesType = 1,
+				},
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "target boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 537.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 90,
+			timerEndOffset = 3,
+			timerOffset = -5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "2192278c-f22d-0e46-bcae-a46f46cc5db1",
+		},
+	},
+	[91] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 549.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 91,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a5752cd2-f05e-1b30-a5f5-0383393e44c5",
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 570.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "fa814676-27a1-e750-9580-3545b8465521",
+		},
+	},
+	[104] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 700.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 104,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "74ad9750-0d1b-34ed-8caa-4ca0ed3e9ce2",
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 725.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 111,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "13d2e45e-d82e-76da-84ab-e95ddd5e2711",
+		},
+	},
+	[115] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 737.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 115,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "f2ca1d3f-d119-d7d2-814b-e6c70fc31c70",
+		},
+	},
+	[122] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 800.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 122,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "ad9bbf90-80d5-af3b-84d8-a991be4d34af",
+		},
+	},
+	[123] = 
+	{
+	},
+	[129] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 825.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 129,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "c7ad6e72-c480-e749-b27e-3377c5e61e11",
+		},
+	},
+	[133] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 837.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 133,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "af93d192-4c9e-47e4-99b5-9eac15b88ec2",
+		},
+	},
+	[140] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 900.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0c9c7bd6-3b0c-bf01-871c-961a076dc22d",
+		},
+	},
+	[143] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 906.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 143,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3.5,
+			used = false,
+			uuid = "83307903-7c5e-af56-94b3-76642930d51a",
+		},
+	},
+	[146] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 925.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 146,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "6ec134f4-5f08-6b15-b526-23baa9810a29",
+		},
+	},
+	[150] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 937.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 150,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "166d10a6-1898-51c4-a02a-72e96073ac4c",
+		},
+	},
+	[155] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 992.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 155,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "b202bf75-4bde-1d50-ac42-0de9037dc8e2",
+		},
+	},
+	mapID = 948,
+	version = 4,
+}
+
+
+
+return tbl
