@@ -81,7 +81,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -97,7 +97,7 @@ local tbl =
 			timelineIndex = 30,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -2,
 			used = false,
 			uuid = "b6548691-f1e9-3838-a54e-5a548d396768",
 		},
@@ -251,9 +251,6 @@ local tbl =
 	},
 	[67] = 
 	{
-	},
-	[68] = 
-	{
 		
 		{
 			actions = 
@@ -273,16 +270,19 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 385.6,
+			time = 383.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
+			timelineIndex = 67,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -1,
 			used = false,
-			uuid = "6246c01a-ff8b-a5e6-b115-add1c4531e28",
+			uuid = "a758b4a3-4b97-6f1c-b686-2eabaaa65c4c",
 		},
+	},
+	[68] = 
+	{
 		
 		{
 			actions = 

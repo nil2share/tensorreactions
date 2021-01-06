@@ -1,5 +1,66 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = -8,
+			timerOffset = 0,
+			timerStartOffset = -10,
+			used = false,
+			uuid = "f7c182fa-804b-a272-b00f-183b32aaa335",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "29198f9b-493a-af1e-8314-b7a38f2a1833",
+		},
+	},
 	[5] = 
 	{
 		
@@ -90,6 +151,250 @@ local tbl =
 			uuid = "f9391835-a172-bb11-bc0f-fddb606b6dd4",
 		},
 	},
+	[6] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 34.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 6,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "70d41cae-63e7-8050-875c-f94c63ebe106",
+		},
+	},
+	[8] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 50.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 0,
+			timerOffset = -5,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "7236af96-a8a0-3dba-b6bd-f6e5a8b9fb14",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 50.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "38d4e4cd-9898-81ad-83e1-eca38d22f35f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 50.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "d988dd92-88b0-f492-b84c-85bdf643b7b1",
+		},
+	},
+	[9] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 59.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 9,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "c658ffcb-13a6-c60a-be37-d73124c05ef3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 59.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 9,
+			timerEndOffset = 0.5,
+			timerOffset = 0,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "352c26c3-3b22-d080-81eb-48aed37b230a",
+		},
+	},
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Tank Swap TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 70.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = -4,
+			timerOffset = 0,
+			timerStartOffset = -6,
+			used = false,
+			uuid = "6e64d261-e696-c7f5-ad50-6c696828e263",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary if MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 70.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "d0716041-4446-71d3-b6df-1019de2cc652",
+		},
+	},
 	[11] = 
 	{
 		
@@ -120,6 +425,67 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "11223c4e-5053-c2a7-9d3d-3ce549272544",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 77.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 11,
+			timerEndOffset = 3,
+			timerOffset = -5,
+			timerStartOffset = 1.2999999523163,
+			used = false,
+			uuid = "eac5578e-ee69-2b7f-a417-f7d6d3aadc3f",
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.InvulnerabilityOrTankbuster()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Invuln if OT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 89.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 12,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "750269a4-2b6b-c9a2-af40-942ab586c1c5",
 		},
 	},
 	[13] = 
@@ -215,8 +581,72 @@ local tbl =
 			uuid = "e90ee91f-c6ac-640c-82dc-724224c9fdae",
 		},
 	},
+	[16] = 
+	{
+	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 117.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "6d2f2911-51a6-8617-86a6-a7cab05d1a9a",
+		},
+	},
 	[19] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 132.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "37d633f1-65f0-9e15-93a3-befc56ea27ee",
+		},
 	},
 	[20] = 
 	{
@@ -248,6 +678,96 @@ local tbl =
 			timerStartOffset = -0.5,
 			used = false,
 			uuid = "746f355e-b78e-c39c-8d95-b11482a6ccea",
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 165.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -2,
+			timerOffset = -2,
+			timerStartOffset = -6,
+			used = false,
+			uuid = "341d4697-a191-3f86-af38-5042faf2e831",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 165.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 0,
+			timerOffset = -5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "1ef0ebcd-2854-4230-86e6-1e12c3ad011f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Warrior.RawIntuition()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Raw",
+			randomOffset = -0.5,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 0,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -0.5,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0e27c50c-fd41-5da9-916f-7f585837ab12",
 		},
 	},
 	[28] = 
@@ -322,7 +842,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -338,7 +858,7 @@ local tbl =
 			timelineIndex = 30,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -2,
 			used = false,
 			uuid = "282964d4-a3fc-7420-92d6-17e2a87f89de",
 		},
@@ -507,8 +1027,130 @@ local tbl =
 			uuid = "c8824f07-ff46-51ec-8bd9-34d9f5e7a72b",
 		},
 	},
+	[33] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 191.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "5c3479d0-d50f-10f8-9842-823109c86d55",
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 204,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2.2000000476837,
+			used = false,
+			uuid = "de3b8088-6c68-9ff1-97ca-da92bdc3dbd4",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 204,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 35,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "2e3f158a-60d4-edcd-a287-45654adc6ad3",
+		},
+	},
 	[36] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Warrior.RawIntuition()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Raw",
+			randomOffset = -0.5,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 221.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 36,
+			timerEndOffset = -3,
+			timerOffset = -2,
+			timerStartOffset = -6,
+			used = false,
+			uuid = "23748927-8807-e92d-8f8f-48ae8736ce80",
+		},
 	},
 	[39] = 
 	{
@@ -569,6 +1211,189 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "39e21baa-2c48-2aea-8d0c-eb39dd2ca721",
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 259.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 43,
+			timerEndOffset = 1,
+			timerOffset = -2,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "1539198f-a8bd-8d8a-b5c9-57bf837f0dcb",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 259.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 43,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "6cacbb7f-6782-89c7-89f6-6d02762ce41a",
+		},
+	},
+	[45] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Tank Swap TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 274.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 45,
+			timerEndOffset = -4,
+			timerOffset = 0,
+			timerStartOffset = -5.5999999046326,
+			used = false,
+			uuid = "cdfb85c8-0261-32e2-988b-e189eac8bf94",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == true and NilsReactionCore.Helpers.Tanks.HasCoTankInvulnerability() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nelseif NilsReactionCore.Helpers.Tanks.AmIMainTank() == false and NilsReactionCore.Helpers.Tanks.HasCoTankInvulnerability() == false then\n  NilsReactionCore.Hotbar.Warrior.ShieldOtherTank()\nend\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 274.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 45,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "0795cd5f-2f00-c3c2-a5d1-d83c45d34a08",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 274.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 45,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "bf62a650-a358-4a07-aafb-ebfe9d1fbdd4",
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.InvulnerabilityOrTankbuster()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Invuln if OT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 293.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 47,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "06cee5c7-18e4-b496-b18c-134fb7cad316",
 		},
 	},
 	[49] = 
@@ -849,9 +1674,6 @@ local tbl =
 			used = false,
 			uuid = "74e5f444-5941-5f78-9cd0-fcb5d98d8313",
 		},
-	},
-	[68] = 
-	{
 		
 		{
 			actions = 
@@ -871,16 +1693,19 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 385.6,
+			time = 383.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
+			timelineIndex = 67,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -1,
 			used = false,
-			uuid = "e60665b6-8fe6-9e7a-bfc2-845ef70086ec",
+			uuid = "61e01804-62dd-b655-aeee-62ce3b03f62b",
 		},
+	},
+	[68] = 
+	{
 		
 		{
 			actions = 
@@ -985,8 +1810,284 @@ local tbl =
 			uuid = "dedac49e-a3c1-7d52-a02b-c847315dc81b",
 		},
 	},
+	[70] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 397.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "3341e521-68da-95fe-a30b-f04133f9ad81",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 397.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2.2000000476837,
+			used = false,
+			uuid = "2dbfe57f-f4d4-8e8b-9415-8932f24fee07",
+		},
+	},
+	[72] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 409.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "cfea2828-f760-efe3-8821-1931d081108a",
+		},
+	},
 	[73] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 427.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 73,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -1.2000000476837,
+			used = false,
+			uuid = "83b7792d-025e-4d10-83d1-b68d171b2512",
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Tank Swap TTS",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 450.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 77,
+			timerEndOffset = -4,
+			timerOffset = 0,
+			timerStartOffset = -5.5999999046326,
+			used = false,
+			uuid = "10e43c0b-34a8-3f5a-a435-9e18c1030d0e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == true and NilsReactionCore.Helpers.Tanks.HasCoTankInvulnerability() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nelseif NilsReactionCore.Helpers.Tanks.AmIMainTank() == false and NilsReactionCore.Helpers.Tanks.HasCoTankInvulnerability() == false then\n  NilsReactionCore.Hotbar.Warrior.ShieldOtherTank()\nend\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 450.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 77,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "845c3803-04e1-401c-aee7-1c736aa00705",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if MT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 450.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 77,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "8c5a3ca1-9d8f-d5d8-8e47-899054ecf0a9",
+		},
+	},
+	[78] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\n \nend\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown if OT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 458.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 78,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -1.5,
+			used = false,
+			uuid = "26d59aac-0a1d-10c2-af21-23e41c267a87",
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  NilsReactionCore.Helpers.Tanks.Cooldown.InvulnerabilityOrTankbuster()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Invuln if OT",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 469.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 80,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "e949aaba-4316-1b5c-9bb4-0a636fb0aab7",
+		},
 	},
 	[82] = 
 	{
@@ -1132,6 +2233,38 @@ local tbl =
 			uuid = "6105c59f-a08d-783f-b51f-23c040e711f4",
 		},
 	},
+	[91] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 549.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 91,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "333e4fa6-a2e0-27f3-bcb0-e13cae463b71",
+		},
+	},
 	[98] = 
 	{
 		
@@ -1191,6 +2324,38 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "b1707391-7892-5b60-a668-4fd5b0e203db",
+		},
+	},
+	[104] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 700.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 104,
+			timerEndOffset = 1,
+			timerOffset = -2,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "9bba7d22-ed22-5b3c-9cde-cfcc9089ff58",
 		},
 	},
 	[106] = 
@@ -1254,6 +2419,99 @@ local tbl =
 			uuid = "ddfb25e8-f89d-7005-89f4-81d08f07e875",
 		},
 	},
+	[108] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 711.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 108,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -3.5,
+			used = false,
+			uuid = "2a1d7fef-cca9-061e-86a5-e4e02556d2c3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 711.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 108,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "440aebeb-3dff-d4e8-92a8-83bb90de0bf6",
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 725.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 111,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "514af510-bb1a-0041-95e9-183ee1894742",
+		},
+	},
 	[117] = 
 	{
 		
@@ -1313,6 +2571,38 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "583bd2b2-40a6-3ec8-9bfc-e607d78d6ab4",
+		},
+	},
+	[122] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 800.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 122,
+			timerEndOffset = 1,
+			timerOffset = -2,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "58d3ed05-7f34-6325-913a-805fb0662cf6",
 		},
 	},
 	[123] = 
@@ -1379,6 +2669,38 @@ local tbl =
 			uuid = "189f90f7-3546-a809-a845-eb09541ac079",
 		},
 	},
+	[129] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 825.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 129,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "0c6399e6-5868-4939-b170-a36161205ab3",
+		},
+	},
 	[135] = 
 	{
 		
@@ -1438,6 +2760,38 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "4df28062-ae1d-a0ab-bc5c-fc39fd88fe1e",
+		},
+	},
+	[140] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RaidWideShield()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shield Raid",
+			randomOffset = 2,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 900.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 1,
+			timerOffset = -2,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "3935ee13-e914-e0b8-af1f-c5df46dc4a13",
 		},
 	},
 	[142] = 
@@ -1531,6 +2885,38 @@ local tbl =
 			timerStartOffset = -3.5,
 			used = false,
 			uuid = "1c6e8685-ecd0-731f-ba97-69a01ad52056",
+		},
+	},
+	[146] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 925.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 146,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "89fa7cfa-b03b-fa92-a6d5-90f49a08a880",
 		},
 	},
 	[152] = 
