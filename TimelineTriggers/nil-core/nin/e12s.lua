@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[2] = 
+	[3] = 
 	{
 		
 		{
@@ -11,7 +11,39 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 16,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "9f230e26-0aec-7f66-8379-b4f0fc3b8625",
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -21,169 +53,15 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 17.1,
+			time = 68.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 2,
+			timelineIndex = 12,
 			timerEndOffset = 0,
 			timerOffset = -4,
-			timerStartOffset = -7,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "deeaa09d-eb9c-8cfb-82b8-3158cdfdca36",
-		},
-	},
-	[4] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle Of Earth",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 28.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "e22d69d5-b854-8422-86a7-93c98165b353",
-		},
-	},
-	[6] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap Close Off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "a5ba2f40-c41b-ea6d-84bf-b1c6b398611c",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "1ad34da1-799a-2b20-833e-eaadf4af7760",
-		},
-	},
-	[7] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap Close Off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 65.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "8c177377-498f-6b3a-9292-e003877fed1b",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 65.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3,
-			used = false,
-			uuid = "1e270011-8821-d8f1-816f-8d889c7e3653",
+			uuid = "495ad564-0c00-3c03-b4b2-3730b53b0f24",
 		},
 	},
 	[13] = 
@@ -197,57 +75,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Gap Close Off",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 138.1,
+			time = 71.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 13,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "4f0ddaab-39c6-93c5-a109-3b7fd8b7cf7f",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 138.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 13,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3,
-			used = false,
-			uuid = "2017ca1c-7894-26a9-8e5b-3454616f4322",
+			uuid = "ee5d3327-c117-5046-9575-49cfad35ff15",
 		},
 	},
-	[15] = 
+	[14] = 
 	{
 		
 		{
@@ -258,29 +107,87 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Riddle Of Earth",
+			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 160.3,
+			time = 81.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 15,
+			timelineIndex = 14,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "ea922074-74c5-84da-baa6-23a6ef243953",
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- For alignment sake later on in the fight\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = 0,
+			timerOffset = -1,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "015ff607-9d55-3cff-8226-b45334ff94ae",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "CD Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "a0c52804-eb4d-80ba-9bc2-3c36a44cac6c",
+			uuid = "87681a5b-71c7-ee89-acc8-dbd1dfb33032",
 		},
-	},
-	[27] = 
-	{
 		
 		{
 			actions = 
@@ -289,29 +196,177 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			enabled = false,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Riddle Of Earth",
+			name = "Turn Off TCJ",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 278.1,
+			time = 106.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 27,
+			timelineIndex = 17,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
+			timerOffset = -1,
+			timerStartOffset = -1,
 			used = false,
-			uuid = "2d6c0b18-4310-3023-9037-29c9ed23f939",
+			uuid = "c48cb0be-356b-1813-85ad-528fe1058c91",
 		},
 	},
-	[32] = 
+	[21] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn Off TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = -5,
+			timerOffset = -1,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "7e0d3d59-4ec6-6d59-a0b8-fe74f83a748e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn Off Meisui",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = -5,
+			timerOffset = -1,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "6f867109-b65a-314f-b819-9a65e830223b",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2.7999999523163,
+			used = false,
+			uuid = "68d610b3-7652-9913-bbf0-d3c78f9417df",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn On TCJ",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = 4,
+			timerOffset = -1,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "e1e4daf2-558a-5b32-85ee-4e7b9ba4774e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Turn On Meisui",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = 4,
+			timerOffset = -1,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "42f88077-fac5-0090-a67a-973e5ea1ddc8",
+		},
+	},
+	[24] = 
 	{
 		
 		{
@@ -322,185 +377,185 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Riddle Of Earth",
+			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 312.5,
+			time = 155,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
+			timelineIndex = 24,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "12594e8a-287d-be0d-9fa7-3f2f3fae4210",
+		},
+	},
+	[26] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 168.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 26,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "a8844431-a6d8-d4cb-99e5-7c29950f5b70",
+		},
+	},
+	[40] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 239.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 40,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "4ca2fca6-39b8-5e9f-b150-127cc289962f",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 269.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "b4a21a9e-7d16-c01d-be64-c655855cbe3f",
+		},
+	},
+	[55] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 327.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 55,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "5d182440-7986-d05e-a0b2-60a06073e551",
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 335.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "d9ca20e4-ded8-b8d8-952c-42dc4d7431f8",
-		},
-	},
-	[41] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap Close Off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1031.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 41,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "2c0f2662-c6aa-636d-b8b9-30228ba6778c",
-		},
-	},
-	[43] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1046.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 43,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "1828c427-97d3-fa28-9e45-95251545277b",
-		},
-	},
-	[48] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap Close Off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1075.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 48,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "79489965-2de0-fe62-95ce-96d88b188ada",
-		},
-	},
-	[50] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1096.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 50,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "69b73ea3-265f-b48a-941f-4a6f56147413",
-		},
-	},
-	[53] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Monk.RiddleOfEarth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Riddle Of Earth",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1135.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 53,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "5bc434ee-be93-45cf-bf2a-8a4ebf98b0fb",
+			uuid = "09e40e8e-cd99-850d-aca7-72d9bf2cc207",
 		},
 	},
 	[57] = 
@@ -514,118 +569,25 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Gap Close Off",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1168.1,
+			time = 338.1,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 57,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "3cfe98fa-b2d2-335b-84d5-07f299c182ac",
-		},
-	},
-	[58] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1174.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 58,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "2a4e99bb-157e-e2ab-8728-ca7ff21d75d3",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1174.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 58,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "bb0c1db8-193f-a437-ae27-13fca7d138df",
-		},
-	},
-	[63] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Gap Close Off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1205.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 63,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "2178d93b-e903-ac23-a430-0ef05cac4647",
+			uuid = "bb092743-3099-e824-8970-aa76d0cd8fef",
 		},
 	},
 	[67] = 
@@ -639,28 +601,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Gap closer On",
+			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1238.4,
+			time = 401.7,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 67,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "76d6c247-4a4c-2abb-a814-64ced567de78",
+			uuid = "818d82d6-664a-68f2-a8da-ea61dca96568",
 		},
 	},
-	[70] = 
+	[74] = 
 	{
 		
 		{
@@ -671,28 +633,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Gap Close Off",
+			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1269.4,
+			time = 445.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 70,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
+			timelineIndex = 74,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "0b15129b-b30a-0ffb-8b1b-916b9cceb6f1",
+			uuid = "79206734-3599-3ebe-8a17-f7f95fa1d1e4",
 		},
 	},
-	[73] = 
+	[79] = 
 	{
 		
 		{
@@ -703,26 +665,29 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Gap closer On",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1298.5,
+			time = 478.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 73,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
+			timelineIndex = 79,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "b784089e-c8bf-85bc-9eba-9e7e84749866",
+			uuid = "413bf7ed-a9c2-0f3e-8e3f-1ff07283c479",
 		},
+	},
+	[80] = 
+	{
 		
 		{
 			actions = 
@@ -732,29 +697,93 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Knockback",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1298.5,
+			time = 480.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 73,
+			timelineIndex = 80,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "5dcba60e-24bc-d20d-82a7-39342b054838",
+			uuid = "f4dfd874-978f-9f0a-b4a2-7072295a061b",
 		},
 	},
-	mapID = 935,
-	version = 2,
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 489.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "39d32434-5e1b-daf4-94f7-acee83c7db29",
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 498.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "4d963fc4-9e88-d8a5-a024-184bb093aeaf",
+		},
+	},
+	mapID = 949,
+	version = 4,
 }
 
 

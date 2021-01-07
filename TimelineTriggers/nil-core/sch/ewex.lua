@@ -1,8 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-	},
 	[4] = 
 	{
 		
@@ -619,7 +616,7 @@ local tbl =
 			uuid = "df5d71d5-e9cb-5e50-be71-3bbe226b9d33",
 		},
 	},
-	[45] = 
+	[48] = 
 	{
 		
 		{
@@ -643,7 +640,7 @@ local tbl =
 			time = 1075.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 48,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 1,
@@ -672,7 +669,7 @@ local tbl =
 			time = 1075.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 48,
 			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 4,
@@ -680,7 +677,7 @@ local tbl =
 			uuid = "d9bb0880-2656-710a-a461-fbe1be7ef4fa",
 		},
 	},
-	[48] = 
+	[51] = 
 	{
 		
 		{
@@ -704,7 +701,7 @@ local tbl =
 			time = 1117.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 48,
+			timelineIndex = 51,
 			timerEndOffset = -4,
 			timerOffset = 0,
 			timerStartOffset = -6,
@@ -733,7 +730,7 @@ local tbl =
 			time = 1117.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 48,
+			timelineIndex = 51,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -762,7 +759,7 @@ local tbl =
 			time = 1117.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 48,
+			timelineIndex = 51,
 			timerEndOffset = 2,
 			timerOffset = -7,
 			timerStartOffset = 0,
@@ -791,7 +788,7 @@ local tbl =
 			time = 1117.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 48,
+			timelineIndex = 51,
 			timerEndOffset = 7,
 			timerOffset = -7,
 			timerStartOffset = 5,
@@ -820,7 +817,7 @@ local tbl =
 			time = 1117.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 48,
+			timelineIndex = 51,
 			timerEndOffset = 12,
 			timerOffset = 0,
 			timerStartOffset = 10,
@@ -828,10 +825,7 @@ local tbl =
 			uuid = "fba761ad-9b79-c973-a456-8023cb955dd7",
 		},
 	},
-	[50] = 
-	{
-	},
-	[56] = 
+	[58] = 
 	{
 		
 		{
@@ -855,7 +849,7 @@ local tbl =
 			time = 1174.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 56,
+			timelineIndex = 58,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -4,
@@ -863,7 +857,7 @@ local tbl =
 			uuid = "5356312f-7185-086a-84fd-1c7877705525",
 		},
 	},
-	[58] = 
+	[63] = 
 	{
 		
 		{
@@ -887,7 +881,7 @@ local tbl =
 			time = 1205.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 58,
+			timelineIndex = 63,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 1,
@@ -916,7 +910,7 @@ local tbl =
 			time = 1205.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 58,
+			timelineIndex = 63,
 			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 4,
@@ -924,7 +918,7 @@ local tbl =
 			uuid = "07c6de16-0bb1-7133-acf3-7e6deb5e795d",
 		},
 	},
-	[63] = 
+	[68] = 
 	{
 		
 		{
@@ -948,7 +942,7 @@ local tbl =
 			time = 1247.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 68,
 			timerEndOffset = -4,
 			timerOffset = 0,
 			timerStartOffset = -6,
@@ -977,7 +971,7 @@ local tbl =
 			time = 1247.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 68,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -1006,7 +1000,7 @@ local tbl =
 			time = 1247.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 68,
 			timerEndOffset = 2,
 			timerOffset = -7,
 			timerStartOffset = 0,
@@ -1035,7 +1029,7 @@ local tbl =
 			time = 1247.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 68,
 			timerEndOffset = 7,
 			timerOffset = -7,
 			timerStartOffset = 5,
@@ -1064,7 +1058,7 @@ local tbl =
 			time = 1247.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
+			timelineIndex = 68,
 			timerEndOffset = 12,
 			timerOffset = 0,
 			timerStartOffset = 10,
@@ -1072,7 +1066,7 @@ local tbl =
 			uuid = "884417c8-163e-813e-a9a3-afa4f58120b8",
 		},
 	},
-	[68] = 
+	[73] = 
 	{
 		
 		{
@@ -1096,7 +1090,7 @@ local tbl =
 			time = 1298.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
+			timelineIndex = 73,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -4,
@@ -1105,7 +1099,7 @@ local tbl =
 		},
 	},
 	mapID = 935,
-	version = 1,
+	version = 2,
 }
 
 

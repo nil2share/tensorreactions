@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[4] = 
+	[3] = 
 	{
 		
 		{
@@ -11,118 +11,57 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "MedicaII",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 28.2,
+			time = 16,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "2deee3ce-3f4c-1c6c-a6eb-e69e7902ef8e",
-		},
-	},
-	[6] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "e915022d-80ce-9977-b62a-bce99b3dee3a",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 14,
-			timerOffset = 0,
-			timerStartOffset = 12,
-			used = false,
-			uuid = "df9edf48-e2b3-67fc-9098-06a9919415b2",
-		},
-	},
-	[9] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 92.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 9,
-			timerEndOffset = 2,
+			timelineIndex = 3,
+			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a6c62a35-38f1-6ba8-8721-9b2a51c87aef",
+			uuid = "13f6c075-14b9-3a90-a989-e91b434ddc5e",
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 68.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 12,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "02a63211-1fbe-7fa9-ac51-d643988c5ffb",
 		},
 	},
 	[13] = 
@@ -136,28 +75,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shield MT",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 138.1,
+			time = 71.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 13,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 2,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "c19d2d56-e0a0-8dfa-8360-8bf11a60935f",
+			uuid = "039e3d25-4381-8394-8738-5d2df4a15905",
 		},
 	},
-	[15] = 
+	[14] = 
 	{
 		
 		{
@@ -168,92 +107,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "MedicaII",
+			name = "Riddle Of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 160.3,
+			time = 81.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 15,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "855843df-cd32-863e-a2b4-d0fb55f9a72b",
-		},
-	},
-	[17] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 171.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 17,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3.5,
-			used = false,
-			uuid = "8c03b644-f048-84e3-995e-6285a0502e63",
-		},
-	},
-	[25] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 243.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 25,
-			timerEndOffset = 2,
+			timelineIndex = 14,
+			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "98fcb9cf-1b75-a624-a38b-9d240e0d8991",
+			uuid = "ea455e1b-b4e8-6a20-96f4-0fe270277e81",
 		},
 	},
-	[27] = 
+	[21] = 
 	{
 		
 		{
@@ -264,167 +139,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 278.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 27,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "f2038655-aefa-cd42-b1af-e842f3bda1ff",
-		},
-	},
-	[29] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 291.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 29,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3.5,
-			used = false,
-			uuid = "8fb45b7d-eed2-9729-9383-42f90e8d1eed",
-		},
-	},
-	[32] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 312.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "92d5cc17-c1ba-2095-9b2d-6c248b392ae5",
-		},
-	},
-	[48] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1075.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 48,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "d726766a-7de1-120e-8551-04e55d72de43",
-		},
-	},
-	[51] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1117.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 51,
-			timerEndOffset = 12,
-			timerOffset = 0,
-			timerStartOffset = 10,
-			used = false,
-			uuid = "797a5bc0-efc4-158e-9ee0-c3883797b228",
-		},
-	},
-	[58] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -434,18 +149,210 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1174.3,
+			time = 137.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 58,
+			timelineIndex = 21,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2.7999999523163,
+			used = false,
+			uuid = "c4111975-4fb2-b8db-aebc-f0c225b12817",
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 155,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "7f094ef4-645c-f2c5-bf0f-d4556c9b3030",
+		},
+	},
+	[26] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 168.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 26,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "8f1ad1ff-3993-c4ea-87a4-18614a835401",
+		},
+	},
+	[40] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 239.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 40,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4de403f7-eab2-dbc9-9d31-ec1a4ada74e2",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 269.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "cd818b13-7b79-73e2-a2eb-ae82d9fa84a8",
+		},
+	},
+	[55] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 327.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 55,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "d1625797-71ef-e4fb-86a2-9e0a97a755bd",
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 335.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "233db0b8-f8d8-7d69-b122-eddbe776e258",
+			uuid = "5d8b5207-84d0-ea04-9171-f8ce946d7777",
 		},
 	},
-	[63] = 
+	[57] = 
 	{
 		
 		{
@@ -456,93 +363,221 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shield MT",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1205.5,
+			time = 338.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "0b839342-b36e-2f12-8efd-4fb9f8efc66a",
-		},
-	},
-	[68] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1247.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 12,
-			timerOffset = 0,
-			timerStartOffset = 10,
-			used = false,
-			uuid = "91c0f16b-4240-c4f8-8116-6bc4548604f6",
-		},
-	},
-	[73] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1298.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 73,
+			timelineIndex = 57,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "fd2966ac-a145-2b69-b897-c160e30e6fdd",
+			uuid = "7abb40ab-a4f9-511a-8a32-f9f2a36968b0",
 		},
 	},
-	mapID = 935,
-	version = 2,
+	[67] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 401.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 67,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "fa69b64a-3869-c4d3-b4b9-e52668bec048",
+		},
+	},
+	[74] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 445.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 74,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "20791573-ecf0-6c38-a676-e054cdc81c3f",
+		},
+	},
+	[79] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 478.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 79,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "abd4df83-3a52-f596-b464-0fa99acfcfc5",
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 480.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 80,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "dcfc6e6b-c0cc-8913-ad87-2650822626ca",
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 489.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "3562d9f0-b9fb-8350-bef1-a10822dd2f18",
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 498.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "54c85365-2260-4cc1-a9ac-4a1d8ae3b603",
+		},
+	},
+	mapID = 949,
+	version = 4,
 }
 
 

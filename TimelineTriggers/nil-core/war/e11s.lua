@@ -616,6 +616,38 @@ local tbl =
 			uuid = "6d2f2911-51a6-8617-86a6-a7cab05d1a9a",
 		},
 	},
+	[18] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 121.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 18,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "c6d6a20f-7c95-1b3e-9e14-e0b7c6670ebb",
+		},
+	},
 	[19] = 
 	{
 		

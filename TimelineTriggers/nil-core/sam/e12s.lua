@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[4] = 
+	[3] = 
 	{
 		
 		{
@@ -11,118 +11,57 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "MedicaII",
+			name = "Third Eye",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 28.2,
+			time = 16,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 4,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "2deee3ce-3f4c-1c6c-a6eb-e69e7902ef8e",
-		},
-	},
-	[6] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "e915022d-80ce-9977-b62a-bce99b3dee3a",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 39.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 14,
-			timerOffset = 0,
-			timerStartOffset = 12,
-			used = false,
-			uuid = "df9edf48-e2b3-67fc-9098-06a9919415b2",
-		},
-	},
-	[9] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 92.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 9,
-			timerEndOffset = 2,
-			timerOffset = 0,
+			timelineIndex = 3,
+			timerEndOffset = -1,
+			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a6c62a35-38f1-6ba8-8721-9b2a51c87aef",
+			uuid = "602a2517-9f04-7999-97a5-1ae7675cb017",
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 68.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 12,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "6d1ced0f-3784-209c-bec2-c19430f6dec8",
 		},
 	},
 	[13] = 
@@ -136,28 +75,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shield MT",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 138.1,
+			time = 71.4,
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 13,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 2,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "c19d2d56-e0a0-8dfa-8360-8bf11a60935f",
+			uuid = "bc5d1ba2-a651-dfe5-a707-ba30f39e30c3",
 		},
 	},
-	[15] = 
+	[14] = 
 	{
 		
 		{
@@ -168,92 +107,28 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "MedicaII",
+			name = "Third Eye",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 160.3,
+			time = 81.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 15,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "855843df-cd32-863e-a2b4-d0fb55f9a72b",
-		},
-	},
-	[17] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 171.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 17,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3.5,
-			used = false,
-			uuid = "8c03b644-f048-84e3-995e-6285a0502e63",
-		},
-	},
-	[25] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 243.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 25,
-			timerEndOffset = 2,
-			timerOffset = 0,
+			timelineIndex = 14,
+			timerEndOffset = -1,
+			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "98fcb9cf-1b75-a624-a38b-9d240e0d8991",
+			uuid = "eda5f031-2747-1e41-b760-271e0ac2b6d5",
 		},
 	},
-	[27] = 
+	[21] = 
 	{
 		
 		{
@@ -264,167 +139,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 278.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 27,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "f2038655-aefa-cd42-b1af-e842f3bda1ff",
-		},
-	},
-	[29] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 291.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 29,
-			timerEndOffset = 5,
-			timerOffset = 0,
-			timerStartOffset = 3.5,
-			used = false,
-			uuid = "8fb45b7d-eed2-9729-9383-42f90e8d1eed",
-		},
-	},
-	[32] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Whitemage.MedicaII() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "MedicaII",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 312.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "92d5cc17-c1ba-2095-9b2d-6c248b392ae5",
-		},
-	},
-	[48] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shield MT",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1075.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 48,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "d726766a-7de1-120e-8551-04e55d72de43",
-		},
-	},
-	[51] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1117.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 51,
-			timerEndOffset = 12,
-			timerOffset = 0,
-			timerStartOffset = 10,
-			used = false,
-			uuid = "797a5bc0-efc4-158e-9ee0-c3883797b228",
-		},
-	},
-	[58] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -434,18 +149,210 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1174.3,
+			time = 137.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 58,
+			timelineIndex = 21,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2.7999999523163,
+			used = false,
+			uuid = "412a46a5-ffa6-c36b-a228-b8cdafb469e7",
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 155,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a031883b-a2b6-83e9-b0bc-d558b784dff4",
+		},
+	},
+	[26] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 168.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 26,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "c7e50743-56c9-fc29-8e7b-ec80c0a1d0cc",
+		},
+	},
+	[40] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 239.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 40,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "3ae893e0-8cde-51cb-abc5-d9e3b128dcd2",
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 269.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "6f8a2ec7-6e62-0b2f-a777-8dd80e4a4a1b",
+		},
+	},
+	[55] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 327.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 55,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "95bd3f93-702e-2ea0-8ebc-e0befd2616fc",
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 335.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "233db0b8-f8d8-7d69-b122-eddbe776e258",
+			uuid = "834e1eed-e720-e96e-aca9-a64976a253d5",
 		},
 	},
-	[63] = 
+	[57] = 
 	{
 		
 		{
@@ -456,93 +363,221 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.Healer.ShieldMainTank() then self.used = true end",
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Shield MT",
+			name = "Feint",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 1205.5,
+			time = 338.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 63,
-			timerEndOffset = 6,
-			timerOffset = 0,
-			timerStartOffset = 4,
-			used = false,
-			uuid = "0b839342-b36e-2f12-8efd-4fb9f8efc66a",
-		},
-	},
-	[68] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local minPartyMembersInRange = 1\nif NilsReactionCore.Helpers.Healer.CoolDown.BigShield(minPartyMembersInRange) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Big Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1247.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 12,
-			timerOffset = 0,
-			timerStartOffset = 10,
-			used = false,
-			uuid = "91c0f16b-4240-c4f8-8116-6bc4548604f6",
-		},
-	},
-	[73] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid[935][\"Knockback\"].Enabled then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1298.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 73,
+			timelineIndex = 57,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
 			used = false,
-			uuid = "fd2966ac-a145-2b69-b897-c160e30e6fdd",
+			uuid = "2a499425-086a-2df4-9644-e6edfb7dad18",
 		},
 	},
-	mapID = 935,
-	version = 2,
+	[67] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 401.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 67,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "e51238b6-292c-9ab3-875c-740631bfef34",
+		},
+	},
+	[74] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 445.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 74,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a64d53f5-90cd-0ba3-a4e3-39e2e33bcd80",
+		},
+	},
+	[79] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 478.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 79,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "b0374a14-9400-4b6f-be76-fdfd05669076",
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 480.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 80,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "66d4a8ba-191e-6884-bc06-e629ff637bf9",
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 489.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "b8dc947b-e151-6220-a925-036db427a221",
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 498.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 82,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "97f0f6d6-61ad-012c-9f6b-f405522d5264",
+		},
+	},
+	mapID = 949,
+	version = 4,
 }
 
 
