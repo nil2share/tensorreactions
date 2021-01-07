@@ -128,6 +128,38 @@ local tbl =
 			uuid = "eda5f031-2747-1e41-b760-271e0ac2b6d5",
 		},
 	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "73e03d63-7ebd-4fe9-a099-78bfa08d39e6",
+		},
+	},
 	[21] = 
 	{
 		
@@ -222,6 +254,38 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "c7e50743-56c9-fc29-8e7b-ec80c0a1d0cc",
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 179.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "2d637cbe-c5ca-3a2a-a4d1-f7d53ab6b6ce",
 		},
 	},
 	[40] = 

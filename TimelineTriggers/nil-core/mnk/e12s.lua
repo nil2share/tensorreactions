@@ -128,6 +128,38 @@ local tbl =
 			uuid = "ea455e1b-b4e8-6a20-96f4-0fe270277e81",
 		},
 	},
+	[17] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "35d5576b-0c98-4d9f-a135-24fb079abf54",
+		},
+	},
 	[21] = 
 	{
 		
@@ -158,6 +190,35 @@ local tbl =
 			timerStartOffset = -2.7999999523163,
 			used = false,
 			uuid = "c4111975-4fb2-b8db-aebc-f0c225b12817",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer OFF",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 3,
+			used = false,
+			uuid = "2caf3b31-4849-3230-92cb-a2318dda13aa",
 		},
 	},
 	[24] = 
@@ -191,6 +252,35 @@ local tbl =
 			used = false,
 			uuid = "7f094ef4-645c-f2c5-bf0f-d4556c9b3030",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) \nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Gap closer On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 155,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 24,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 1,
+			used = false,
+			uuid = "b43e80ad-bd64-4ea8-a4f0-196b2de9f7ca",
+		},
 	},
 	[26] = 
 	{
@@ -222,6 +312,38 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "8f1ad1ff-3993-c4ea-87a4-18614a835401",
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 179.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "fd7c01be-2dc1-10d3-8e74-3c5716fef870",
 		},
 	},
 	[40] = 

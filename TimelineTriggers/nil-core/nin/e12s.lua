@@ -217,6 +217,35 @@ local tbl =
 			used = false,
 			uuid = "c48cb0be-356b-1813-85ad-528fe1058c91",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "25855b26-5eed-b320-b177-579a22baaaea",
+		},
 	},
 	[21] = 
 	{
@@ -228,7 +257,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -257,7 +286,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -315,7 +344,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -344,7 +373,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -428,6 +457,38 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "a8844431-a6d8-d4cb-99e5-7c29950f5b70",
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 179.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = -1,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "05774b9e-28ed-d03f-9180-8badff29f613",
 		},
 	},
 	[40] = 
