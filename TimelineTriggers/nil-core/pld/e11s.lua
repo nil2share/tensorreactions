@@ -32,6 +32,38 @@ local tbl =
 			uuid = "9f9388a2-6f72-6fd2-a538-58d9db21b469",
 		},
 	},
+	[3] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary Special",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 19.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = -1.5,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "ae1b3884-4b6b-5c51-aef8-dac8fefe1d74",
+		},
+	},
 	[5] = 
 	{
 		
@@ -147,9 +179,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 8,
-			timerEndOffset = 0,
+			timerEndOffset = -2,
 			timerOffset = -5,
-			timerStartOffset = -5,
+			timerStartOffset = -6,
 			used = false,
 			uuid = "e2be4d5b-87c1-596b-bc55-0184f95a0560",
 		},
@@ -176,11 +208,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 8,
-			timerEndOffset = 0,
+			timerEndOffset = -2,
 			timerOffset = 0,
-			timerStartOffset = -3,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "cf1a08f6-6335-e4f1-8ab8-11eed52dc706",
+			uuid = "3e39b7d8-3ac2-ae9d-b2f9-5f0e1a6f0083",
 		},
 		
 		{
@@ -191,13 +223,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Secondary",
+			name = "Secondary Special",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -205,11 +237,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 8,
-			timerEndOffset = 0,
+			timerEndOffset = -1.5,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "74c6ed52-623e-6df6-91ce-574ca90daca1",
+			uuid = "0ea50d92-daee-67a7-bc66-c550ead4c75d",
 		},
 	},
 	[9] = 
@@ -239,7 +271,7 @@ local tbl =
 			timelineIndex = 9,
 			timerEndOffset = 0,
 			timerOffset = -2,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "1d0dda61-bd1c-f765-b249-f0b34f5b5f34",
 		},
@@ -268,9 +300,38 @@ local tbl =
 			timelineIndex = 9,
 			timerEndOffset = 0.5,
 			timerOffset = 0,
-			timerStartOffset = -0.5,
+			timerStartOffset = -1.5,
 			used = false,
 			uuid = "ae0b48a0-61a0-d97d-bf46-09cb7e41f377",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 59.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 9,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3.5,
+			used = false,
+			uuid = "1fc6810d-e879-e7a9-9df5-04615d7529cd",
 		},
 	},
 	[10] = 
@@ -327,9 +388,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 10,
-			timerEndOffset = -0.5,
+			timerEndOffset = -1.5,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -5,
 			used = false,
 			uuid = "2d8bac0b-210d-8c53-8622-ecc531864bd2",
 		},
@@ -566,13 +627,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Secondary",
+			name = "Secondary Special",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -580,11 +641,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 18,
-			timerEndOffset = -0.5,
+			timerEndOffset = -1.5,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "c715d2f3-ff3e-0d3c-8d74-3cd774962a80",
+			uuid = "d4db96dd-032d-a42f-a74f-e7bce2d870e1",
 		},
 	},
 	[19] = 
@@ -678,6 +739,35 @@ local tbl =
 			timerStartOffset = -0.5,
 			used = false,
 			uuid = "4496d99f-d5f7-1c7c-9d0f-84fe136cfa27",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary Special",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 135.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = -1.5,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "1e21b6db-1f12-ff7e-9b40-76bd10fe8086",
 		},
 	},
 	[24] = 
@@ -1052,9 +1142,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 33,
-			timerEndOffset = -1,
+			timerEndOffset = -2,
 			timerOffset = 0,
-			timerStartOffset = -3,
+			timerStartOffset = -5,
 			used = false,
 			uuid = "579c5609-fe5b-e657-8f70-f59682f7a5ad",
 		},
@@ -1125,35 +1215,6 @@ local tbl =
 	},
 	[37] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 223.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 37,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "75c3053d-9531-9a32-9018-97054dd09ea2",
-		},
 	},
 	[39] = 
 	{
@@ -1333,7 +1394,7 @@ local tbl =
 			timelineIndex = 45,
 			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "2e873121-ea34-7290-8555-d8b821d8de1d",
 		},
@@ -1362,7 +1423,7 @@ local tbl =
 			timelineIndex = 45,
 			timerEndOffset = -0.5,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "1be54a87-d362-fe66-95bf-e8c09a76a293",
 		},
@@ -1994,7 +2055,7 @@ local tbl =
 			timelineIndex = 77,
 			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "ba579797-cd6e-2bf5-9333-23082253f355",
 		},
@@ -2023,7 +2084,7 @@ local tbl =
 			timelineIndex = 77,
 			timerEndOffset = -0.5,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "0e4e1523-fdd9-3c03-9ee0-6df4fb945fcf",
 		},
@@ -2126,35 +2187,6 @@ local tbl =
 	},
 	[83] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 472.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 83,
-			timerEndOffset = 16,
-			timerOffset = 0,
-			timerStartOffset = 14,
-			used = false,
-			uuid = "d3c75d7b-af77-0736-8631-8f53c7a0127e",
-		},
 	},
 	[86] = 
 	{

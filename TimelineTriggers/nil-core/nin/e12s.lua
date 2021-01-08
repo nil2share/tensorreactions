@@ -316,7 +316,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			execute = "NilsReactionCore.Hotbar.Knockback({\n        IgnoreHotbars = true\n      })\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -332,7 +332,7 @@ local tbl =
 			timelineIndex = 21,
 			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.7999999523163,
+			timerStartOffset = -3.5,
 			used = false,
 			uuid = "68d610b3-7652-9913-bbf0-d3c78f9417df",
 		},
