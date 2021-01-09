@@ -157,7 +157,7 @@ local tbl =
 	[6] = 
 	{
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -167,114 +167,30 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Cooldown",
+			name = "Logic Handled in Core",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 50.1,
+			time = 0,
 			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -2,
-			timerOffset = -5,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "be1f0419-03ae-d8ec-b36e-94d3903f1427",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Darkknight.DarkMind()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Dark Mind",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 50.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -1.5,
+			timeRange = false,
+			timelineIndex = 7,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "8e67bc87-8a0d-554b-8478-fcd69506bcb0",
+			uuid = "505bf9a9-bc15-2daf-9f44-7ec2e5ab0262",
 		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Reprisal",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 50.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -2,
-			timerOffset = 0,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "573e9e17-9e2c-5485-b7ba-0f0ba1117910",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary Special",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 50.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -1.5,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "f4f50a88-c74d-95df-856c-960ac2e27277",
-		},
+	},
+	[8] = 
+	{
 	},
 	[9] = 
 	{
@@ -684,59 +600,30 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Reprisal",
+			name = "Logic Handled in Core",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 117.6,
 			timeRandomRange = false,
-			timeRange = true,
+			timeRange = false,
 			timelineIndex = 17,
-			timerEndOffset = -3,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -5,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "4a30e4fb-5eb3-1e3a-a10a-14477fa1e582",
+			uuid = "2583c718-0a17-c48e-a93f-c9f6a889dacd",
 		},
 	},
 	[18] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary Special",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 121.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 18,
-			timerEndOffset = -1.5,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "9ce924af-c0e4-008d-a137-456a05b4d824",
-		},
 	},
 	[19] = 
 	{
@@ -1335,6 +1222,38 @@ local tbl =
 			uuid = "efec287c-ffc6-d1e6-b47f-621a05927338",
 		},
 	},
+	[41] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Logic Handled in Core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 250.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 41,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "15bd16f1-80d2-ae70-aae0-509ac282319b",
+		},
+	},
 	[43] = 
 	{
 		
@@ -1577,6 +1496,38 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "9fd71bcd-6f0b-8da8-99cd-34248d76c4f9",
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Logic Handled in Core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 321.9,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 51,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "6760717e-2ed8-6a77-b208-8483ba3b22b5",
 		},
 	},
 	[54] = 
@@ -2302,6 +2253,38 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "62970283-3846-ff06-a7a5-ef9e0d949336",
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Logic Handled in Core",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 469.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 81,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "5a459308-1017-4cbc-887c-f5a4735edf60",
 		},
 	},
 	[82] = 

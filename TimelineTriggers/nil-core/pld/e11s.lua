@@ -154,7 +154,7 @@ local tbl =
 			uuid = "37dced50-8186-b102-a71a-05123115b03f",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -164,85 +164,30 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Cooldown",
+			name = "Logic Handled in Core",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 50.1,
+			time = 46.7,
 			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -2,
-			timerOffset = -5,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "e2be4d5b-87c1-596b-bc55-0184f95a0560",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Reprisal",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 50.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -2,
+			timeRange = false,
+			timelineIndex = 7,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "3e39b7d8-3ac2-ae9d-b2f9-5f0e1a6f0083",
+			uuid = "e87f5ae2-c3fa-4a65-af8f-13be1e961620",
 		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary Special",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 50.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = -1.5,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "0ea50d92-daee-67a7-bc66-c550ead4c75d",
-		},
+	},
+	[8] = 
+	{
 	},
 	[9] = 
 	{
@@ -594,59 +539,30 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Reprisal()\nself.used = true",
+			enabled = false,
+			execute = "-- Lightning\n-- Tanks: Cooldown + basic + Thrill (WAR)\n-- Melee: Defensive if tether target\n\n-- Player explodes\n-- Tank: Reprisal + Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive if tether target\n\n-- Stack\n-- Tank: Raid Shield + Dark Mind (DRK)\n-- Melee: Defensive\n\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Reprisal",
+			name = "Logic Handled in Core",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 117.6,
 			timeRandomRange = false,
-			timeRange = true,
+			timeRange = false,
 			timelineIndex = 17,
-			timerEndOffset = -3,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -5,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "f3ff3254-5ba8-136a-b0ee-ec57a899aa64",
+			uuid = "c920e53f-5e06-6831-a5f7-6563725ce380",
 		},
 	},
 	[18] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Argus.Tethers.TetherInPlay(NilsReactionCore.Argus.Tethers.Types.Lightning) == true then\n  NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Secondary Special",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 121.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 18,
-			timerEndOffset = -1.5,
-			timerOffset = 0,
-			timerStartOffset = -4,
-			used = false,
-			uuid = "d4db96dd-032d-a42f-a74f-e7bce2d870e1",
-		},
 	},
 	[19] = 
 	{
