@@ -128,6 +128,38 @@ local tbl =
 			uuid = "ee669f5c-ba78-6089-90aa-f965ea2d70eb",
 		},
 	},
+	[15] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 103.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 15,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "a16f7927-005a-39fd-b591-db78cea2428c",
+		},
+	},
 	[17] = 
 	{
 		
@@ -1084,6 +1116,38 @@ local tbl =
 			uuid = "2b743748-b281-ba97-a1b2-7ae5336bd740",
 		},
 	},
+	[39] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 237,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "b59c8fbc-f60d-4eb1-9bbb-0e2d6b290524",
+		},
+	},
 	[41] = 
 	{
 		
@@ -1705,35 +1769,6 @@ local tbl =
 			timerStartOffset = -1,
 			used = false,
 			uuid = "52e5a1b8-fdfe-8c42-bd1d-ba28abdd0f3e",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 383.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 67,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "3e741074-516a-89a0-9f1b-ffa9e5faa060",
 		},
 	},
 	[68] = 
@@ -3203,7 +3238,7 @@ local tbl =
 			timelineIndex = 143,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -2.5,
 			used = false,
 			uuid = "692b803b-cec9-432e-9bb5-7855b7d2ac67",
 		},

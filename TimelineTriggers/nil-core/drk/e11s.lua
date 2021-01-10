@@ -178,7 +178,7 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 0,
+			time = 46.7,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 7,
@@ -556,6 +556,35 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "b26b6f93-a0af-1cca-8487-ca0d82fd53f1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 103.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 15,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "a4095de5-2c6f-cf31-b83b-90cd4fd1773b",
 		},
 	},
 	[16] = 
@@ -1220,6 +1249,35 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "efec287c-ffc6-d1e6-b47f-621a05927338",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 237,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "45e20d1a-c253-4dd8-a6d4-c17a0d77522d",
 		},
 	},
 	[41] = 
@@ -3045,7 +3103,7 @@ local tbl =
 			timelineIndex = 143,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -2.5,
 			used = false,
 			uuid = "bbaf2dfd-b569-3ffb-b961-3af5387ef8ab",
 		},

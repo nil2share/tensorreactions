@@ -750,6 +750,9 @@ local tbl =
 			uuid = "05499b56-0e43-e048-8d66-195c89497444",
 		},
 	},
+	[27] = 
+	{
+	},
 	[28] = 
 	{
 		
@@ -761,13 +764,13 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "Secondary",
+			name = "Cooldown",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -775,11 +778,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 28,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -1.5,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
 			used = false,
-			uuid = "5435c738-fdea-de30-a9c4-acbf180914a8",
+			uuid = "907ec72d-65dc-13e3-9dfe-a7ba6e6f63d5",
 		},
 		
 		{
@@ -804,14 +807,46 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 28,
-			timerEndOffset = 0.5,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -1,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "63aa9572-ffdf-bab0-b2e6-ae2c9cbee59a",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Secondary",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 209.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 28,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "44316f72-b3ec-d5f7-b9e2-81a601813e82",
+		},
 	},
 	[32] = 
+	{
+	},
+	[33] = 
 	{
 		
 		{
@@ -822,7 +857,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- only rampart if it is up\nNilsReactionCore.Hotbar.Rampart()\nself.used = true\n",
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -832,19 +867,45 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 229.5,
+			time = 239.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = 0,
+			timelineIndex = 33,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "08fc060e-78f3-bbce-b5d8-33020ca96182",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.GunBreaker.Camouflage()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Camouflage",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 239.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "a52a747e-a8d4-3dd8-a889-3ec2a7dc1d10",
+			uuid = "221d6001-96d4-f345-889a-a41a93998d2f",
 		},
-	},
-	[33] = 
-	{
 		
 		{
 			actions = 
@@ -868,11 +929,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 33,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "de0b8f1e-6b6c-cc71-aba1-5fbe5f0d59cb",
+			uuid = "6ed16a3d-55e0-07b9-b95b-b4dda91b493f",
 		},
 	},
 	[34] = 
@@ -1264,6 +1325,64 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 440.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 61,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "16d0134a-6655-74d8-b343-2fd5d46c61ed",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.GunBreaker.Camouflage()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Camouflage",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 440.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 61,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "335b12e2-bc78-b970-ae13-d9dd29a8e749",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1278,11 +1397,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 61,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "959ff902-d1cc-6fbb-9505-e926a0f8c688",
+			uuid = "0bf36a6d-1197-09df-91c5-b896f5c61f15",
 		},
 	},
 	[64] = 
@@ -1348,6 +1467,12 @@ local tbl =
 	},
 	[68] = 
 	{
+	},
+	[70] = 
+	{
+	},
+	[71] = 
+	{
 		
 		{
 			actions = 
@@ -1357,7 +1482,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\nself.used = true\n",
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1367,22 +1492,45 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 491.9,
+			time = 503.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 1,
+			timelineIndex = 71,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
 			used = false,
-			uuid = "cb0febf2-7f7a-7029-83bd-f7c85baadd26",
+			uuid = "e9e7f678-9774-0340-a308-8046ff1c60a2",
 		},
-	},
-	[70] = 
-	{
-	},
-	[71] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.GunBreaker.Camouflage()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Camouflage",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 503.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 71,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "c6a6b16a-f89f-005c-99bd-97755f2de628",
+		},
 		
 		{
 			actions = 
@@ -1406,11 +1554,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 71,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "b7dde5e3-61ad-f5e9-bbd6-9e853d6250c8",
+			uuid = "d3b954fb-b6cb-d013-876e-d22258f55f2c",
 		},
 	},
 	[72] = 
@@ -1636,35 +1784,6 @@ local tbl =
 	},
 	[92] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\nself.used = true\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Cooldown",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 621.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 92,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 1,
-			used = false,
-			uuid = "1e042d7b-49eb-1c06-974e-36e28b9ba177",
-		},
 	},
 	[93] = 
 	{
@@ -1709,6 +1828,64 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 631.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "2c8e9668-6401-7277-abd5-90efdf37191d",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.GunBreaker.Camouflage()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Camouflage",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 631.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "bd0c2674-da91-9e4e-bfcd-cfbf960df8e5",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1723,11 +1900,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 94,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "e7d18b16-e8b6-d80f-8878-cdd9a15671b0",
+			uuid = "dc99e381-23ff-bcff-9450-c91b37207382",
 		},
 	},
 	mapID = 947,

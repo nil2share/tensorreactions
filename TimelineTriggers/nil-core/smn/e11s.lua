@@ -32,6 +32,38 @@ local tbl =
 			uuid = "7362097b-1e7a-950e-9177-e3ad0e226770",
 		},
 	},
+	[15] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 103.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 15,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "17f54268-1ef6-f1c5-83e0-78b87c1a4400",
+		},
+	},
 	[19] = 
 	{
 	},
@@ -210,6 +242,38 @@ local tbl =
 	},
 	[36] = 
 	{
+	},
+	[39] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 237,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4.5,
+			used = false,
+			uuid = "6081e99d-c194-fc87-9c71-f239cf8b90e4",
+		},
 	},
 	[56] = 
 	{
@@ -564,7 +628,7 @@ local tbl =
 			timelineIndex = 143,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3.5,
+			timerStartOffset = -2.5,
 			used = false,
 			uuid = "da1765d5-9bd1-3d3d-9a03-782db2bc1717",
 		},

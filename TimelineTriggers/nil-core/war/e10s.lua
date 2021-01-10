@@ -750,8 +750,40 @@ local tbl =
 			uuid = "30cf9189-359f-9387-9761-41588d588924",
 		},
 	},
+	[27] = 
+	{
+	},
 	[28] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 209.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 28,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "a33922e1-4a0a-c3b7-ae54-d2f6ff0e3e11",
+		},
 		
 		{
 			actions = 
@@ -775,43 +807,17 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 28,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -1.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "55fa46ca-620d-806d-9522-1b74539d121d",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Warrior.Thrill()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Thril",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 209.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 28,
-			timerEndOffset = 0.5,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "35b2a2bf-6226-cdf9-beae-d74f749c1ee2",
+			uuid = "f0fbf809-1c2c-f688-a10e-2db74217ace6",
 		},
 	},
 	[32] = 
+	{
+	},
+	[33] = 
 	{
 		
 		{
@@ -822,7 +828,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- only rampart if it is up\nNilsReactionCore.Hotbar.Rampart()\nself.used = true\n",
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -832,19 +838,16 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 229.5,
+			time = 239.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -4,
+			timelineIndex = 33,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
 			used = false,
-			uuid = "c52fc4c4-3b70-7595-aebc-27132e343e95",
+			uuid = "6ee08883-0e67-c746-8acd-2bd7e3d8f540",
 		},
-	},
-	[33] = 
-	{
 		
 		{
 			actions = 
@@ -868,11 +871,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 33,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "7e6fe004-c7de-c56a-88fb-4775a06deed2",
+			uuid = "cbb83f18-ee62-d140-937f-e858b6f31b5d",
 		},
 	},
 	[34] = 
@@ -1264,6 +1267,35 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 440.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 61,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "84dd4b15-6cf6-b771-a323-de5ef3e53e00",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1278,11 +1310,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 61,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "12e43a10-4ace-7562-a747-12fbe68f02aa",
+			uuid = "02d62ad3-767d-26bd-8e9e-e8728f62cbef",
 		},
 	},
 	[64] = 
@@ -1348,6 +1380,9 @@ local tbl =
 	},
 	[68] = 
 	{
+	},
+	[71] = 
+	{
 		
 		{
 			actions = 
@@ -1357,7 +1392,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\nself.used = true\n",
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1367,19 +1402,16 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 491.9,
+			time = 503.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 1,
+			timelineIndex = 71,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
 			used = false,
-			uuid = "6eb79788-41fc-55d0-9812-03c9de5704ca",
+			uuid = "f6461b89-23b2-7a28-8870-bf7f1976ace4",
 		},
-	},
-	[71] = 
-	{
 		
 		{
 			actions = 
@@ -1403,11 +1435,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 71,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "97bdc00f-5206-3824-90db-f7a22fa5de82",
+			uuid = "d8329766-360d-e6f6-bc80-52f179577a1c",
 		},
 	},
 	[72] = 
@@ -1633,35 +1665,6 @@ local tbl =
 	},
 	[92] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart()\nself.used = true\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Cooldown",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 621.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 92,
-			timerEndOffset = 4,
-			timerOffset = 0,
-			timerStartOffset = 1,
-			used = false,
-			uuid = "88bc4a95-1445-1754-ba5f-adf8554f1589",
-		},
 	},
 	[93] = 
 	{
@@ -1706,6 +1709,35 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.RampartOrHeavy()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Cooldown",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 631.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 94,
+			timerEndOffset = -1,
+			timerOffset = -5,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "401fe5cd-b93b-92d3-b035-35c2182913f5",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "NilsReactionCore.Helpers.Tanks.Cooldown.Basic()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1720,11 +1752,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 94,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "35bfd660-7cc5-7daf-b1ba-a972737083e9",
+			uuid = "78ded935-0c6e-4ff5-8408-6125ae92a912",
 		},
 	},
 	mapID = 947,
