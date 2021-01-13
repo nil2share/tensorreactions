@@ -45,7 +45,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -138,7 +138,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -275,6 +275,35 @@ local tbl =
 			used = false,
 			uuid = "56510b79-e5c0-8011-926f-3de621fba55b",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "a4e43647-7954-65bb-b3c5-2b3d34af59c1",
+		},
 	},
 	[9] = 
 	{
@@ -347,7 +376,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -823,7 +852,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1253,7 +1282,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1453,6 +1482,35 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "93b58691-d17d-82e2-81e9-23b813162538",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 369.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "f6c65030-be2a-c564-911a-7f74457460cb",
 		},
 	},
 	[34] = 
@@ -1709,7 +1767,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,

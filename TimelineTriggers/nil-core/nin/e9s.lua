@@ -170,7 +170,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -305,7 +305,7 @@ local tbl =
 					setFirstMatch = false,
 				},
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 9000) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -334,7 +334,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "local p = Player\nif p.hp.percent == 0 or NilsReactionCore.Helpers.WasKnockbackedUsed() then\n  NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend ",
 			executeType = 2,
 			lastUse = 0,
@@ -381,9 +381,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 9,
-			timerEndOffset = 4,
+			timerEndOffset = 2,
 			timerOffset = -2,
-			timerStartOffset = 2,
+			timerStartOffset = 0,
 			used = false,
 			uuid = "a99341f3-3be4-5d98-92ca-c95cd5d50f44",
 		},
@@ -398,7 +398,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -462,7 +462,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -494,7 +494,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -526,7 +526,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -648,7 +648,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- toggle off, and override by timeline\nif NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -677,7 +677,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- timeline control, if you want shadowfang to be enabled\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -741,7 +741,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Ninja.Doton()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -802,7 +802,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -831,7 +831,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Ninja.Suiton() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -860,7 +860,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if HasBuff(Player.id, NilsReactionCore.Hotbar.Actions.Suiton.BuffID) then\nif NilsReactionCore.Hotbar.Ninja.Kassatsu() then self.used = true end\n\nend",
 			executeType = 2,
 			lastUse = 0,
@@ -889,7 +889,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
 			lastUse = 0,
@@ -918,7 +918,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- toggle off, and override by timeline\nif NilsReactionCore.Toggles.Ninja.Ninjutsu(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -985,7 +985,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1017,7 +1017,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1049,7 +1049,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1139,7 +1139,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1335,7 +1335,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1418,7 +1418,7 @@ local tbl =
 			uuid = "c4b8b5c6-7b68-302f-898f-cf9ab0e4a9cc",
 		},
 	},
-	[43] = 
+	[40] = 
 	{
 		
 		{
@@ -1429,6 +1429,38 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 433,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 40,
+			timerEndOffset = 2,
+			timerOffset = -2,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "806c0647-8dc4-58ab-8b4c-e9e1a9691208",
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1492,7 +1524,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1556,7 +1588,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Ninja.Doton()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,

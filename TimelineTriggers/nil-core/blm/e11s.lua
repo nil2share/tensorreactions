@@ -2,6 +2,9 @@ local tbl =
 {
 	[5] = 
 	{
+	},
+	[6] = 
+	{
 		
 		{
 			actions = 
@@ -11,7 +14,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback() == true\n  self.used = true\nend\n",
+			execute = "-- Burnt Strike (22098)\n\nif NilsReactionCore.Helpers.Target.GetBySpellID(22098) ~= nil then\n  NilsReactionCore.Hotbar.Knockback()\n  self.used = true\nend\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -21,15 +24,15 @@ local tbl =
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 33,
+			time = 34.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 5,
+			timelineIndex = 6,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4.5,
+			timerStartOffset = -2.5,
 			used = false,
-			uuid = "db43c275-87c4-666c-b850-c49dd776854c",
+			uuid = "23b375c2-ea55-98ea-8738-49b06efab5c3",
 		},
 	},
 	[15] = 

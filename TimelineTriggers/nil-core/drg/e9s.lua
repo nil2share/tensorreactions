@@ -10,7 +10,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -466,7 +466,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -623,7 +623,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1021,7 +1021,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
