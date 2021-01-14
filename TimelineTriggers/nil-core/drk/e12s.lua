@@ -61,6 +61,38 @@ local tbl =
 			uuid = "870441ca-0035-6f12-84f6-3df737891326",
 		},
 	},
+	[5] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Potion Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 25.8,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 5,
+			timerEndOffset = 0,
+			timerOffset = -10,
+			timerStartOffset = -10,
+			used = false,
+			uuid = "b5f77e68-39de-7105-a83b-c6a6c1ab096c",
+		},
+	},
 	[8] = 
 	{
 		
@@ -213,7 +245,7 @@ local tbl =
 			timelineIndex = 21,
 			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.7999999523163,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "be539566-5105-ca2c-a62a-8fb82be670e7",
 		},
@@ -340,6 +372,38 @@ local tbl =
 			uuid = "6bba67e9-6554-9b5b-af1d-31de869cf75a",
 		},
 	},
+	[34] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "\nNilsReactionCore.Hotbar.Sprint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 206.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 34,
+			timerEndOffset = -7,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "a3df1126-256e-a975-a1ad-2ff86a6594f0",
+		},
+	},
 	[40] = 
 	{
 		
@@ -434,6 +498,70 @@ local tbl =
 			timerStartOffset = -1.2999999523163,
 			used = false,
 			uuid = "147fc0b0-a1e6-e554-9c65-1b8a7bc3fbae",
+		},
+	},
+	[62] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 370.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 62,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "d1c2a6ea-8b85-59ae-afc8-7200933755f3",
+		},
+	},
+	[64] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOn(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Potion On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 379.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 64,
+			timerEndOffset = 10,
+			timerOffset = 0,
+			timerStartOffset = 5,
+			used = false,
+			uuid = "c8e6f3a0-415a-2f8f-b0ec-0bdf769013e6",
 		},
 	},
 	[67] = 
@@ -562,6 +690,518 @@ local tbl =
 			timerStartOffset = -1.2999999523163,
 			used = false,
 			uuid = "8c611ead-df68-f5c2-a87a-2e10c496a60e",
+		},
+	},
+	[88] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1023.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 88,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "78742451-2a86-cba6-9c5a-c4b8c3e09c0a",
+		},
+	},
+	[95] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1080.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 95,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "cdfa3b84-decc-5e87-83c6-844a47c29816",
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1101.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "74c5e99e-9ba2-8ecb-949c-2738ed68955e",
+		},
+	},
+	[108] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1148.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 108,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "032817d4-c988-7027-8471-ce76e75f0178",
+		},
+	},
+	[124] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1206.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 124,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "76178dc0-2748-184d-a579-7d1c349a5b13",
+		},
+	},
+	[125] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1224.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 125,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "dbe76919-def7-55fe-89b7-7651b7c8a38c",
+		},
+	},
+	[127] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1265.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 127,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "a263a1ca-f27d-4867-8e62-695608a3b3b7",
+		},
+	},
+	[140] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1330.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "c2b68d95-6f5a-7dbb-af27-6253d536e2eb",
+		},
+	},
+	[141] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1349.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 141,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "1f2fbf02-3dc2-8e79-9938-0efdde8a0b8d",
+		},
+	},
+	[157] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1395.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 157,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "f63bec2b-5c1d-055f-a630-fd24405c62f3",
+		},
+	},
+	[163] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1427.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 163,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 1.5,
+			used = false,
+			uuid = "20eef430-be62-79a5-8746-639a6aa98c7d",
+		},
+	},
+	[164] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1439.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 164,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "09f91f6d-d688-e159-8789-d967f2c74991",
+		},
+	},
+	[166] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1471.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 166,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "4ba1ec91-f06a-8973-be02-a2cc4466f3cf",
+		},
+	},
+	[170] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1486.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 170,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "9ee9bbaa-83bc-ae6f-853f-4051978d8643",
+		},
+	},
+	[174] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1499.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 174,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "3750c55c-8f2d-be90-878c-eaac83a4bd66",
+		},
+	},
+	[178] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Actions.Reprisal.Execute() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Reprisal",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1513.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 178,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1.2999999523163,
+			used = false,
+			uuid = "81516ce2-0e52-57ce-9182-8ec16474495f",
 		},
 	},
 	mapID = 949,

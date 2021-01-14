@@ -32,6 +32,38 @@ local tbl =
 			uuid = "602a2517-9f04-7999-97a5-1ae7675cb017",
 		},
 	},
+	[5] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Potion Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 25.8,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 5,
+			timerEndOffset = 0,
+			timerOffset = -10,
+			timerStartOffset = -10,
+			used = false,
+			uuid = "e077cbfe-22c0-493c-b715-735847658427",
+		},
+	},
 	[12] = 
 	{
 		
@@ -187,7 +219,7 @@ local tbl =
 			timelineIndex = 21,
 			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.7999999523163,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "412a46a5-ffa6-c36b-a228-b8cdafb469e7",
 		},
@@ -286,6 +318,38 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "2d637cbe-c5ca-3a2a-a4d1-f7d53ab6b6ce",
+		},
+	},
+	[34] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "\nNilsReactionCore.Hotbar.Sprint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 206.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 34,
+			timerEndOffset = -7,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "8a5f9d75-5ecb-0880-8653-314f07e76d48",
 		},
 	},
 	[40] = 
@@ -446,6 +510,70 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "2a499425-086a-2df4-9644-e6edfb7dad18",
+		},
+	},
+	[62] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 370.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 62,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "cf08f8ad-cdb7-473d-84a2-68b4c636b183",
+		},
+	},
+	[64] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOn(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Potion On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 379.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 64,
+			timerEndOffset = 10,
+			timerOffset = 0,
+			timerStartOffset = 5,
+			used = false,
+			uuid = "3231a172-bc37-545a-8e97-3f2440bc6fb9",
 		},
 	},
 	[67] = 
@@ -638,6 +766,745 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "97f0f6d6-61ad-012c-9f6b-f405522d5264",
+		},
+	},
+	[88] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1023.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 88,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a67e92fb-7990-dfdc-b595-c93d43dc70e4",
+		},
+	},
+	[92] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1064.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 92,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "8c6a9a96-64aa-0518-b2ff-2aa40943a3a5",
+		},
+	},
+	[93] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1067.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 93,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "5b0dff92-d526-d9db-ad90-8a466757923b",
+		},
+	},
+	[95] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1080.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 95,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "aa5e8e4e-86c0-8560-9074-2da5a8fd8e5b",
+		},
+	},
+	[108] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1148.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 108,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "f1a4c6ef-eebe-18c1-951e-044c90817849",
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1181.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 111,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "d9a82f56-2b23-f24e-8100-680cf157fc1a",
+		},
+	},
+	[115] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1189,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 115,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4ebc89bb-f242-7749-a772-bcdda448b3e3",
+		},
+	},
+	[120] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1195,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 120,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "7ac088e8-d9f0-e0aa-8f2e-a1dcfc552a79",
+		},
+	},
+	[124] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1206.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 124,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "20ffc7bb-c09e-ca19-811b-0ce1f0b8a657",
+		},
+	},
+	[127] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1265.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 127,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "50e44319-a241-a396-bde5-278f1769342a",
+		},
+	},
+	[134] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1302.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 134,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "b8201a05-cc32-0c13-a64a-8e1f665a3e51",
+		},
+	},
+	[137] = 
+	{
+	},
+	[138] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1316.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 138,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "f6e9629e-ecbf-c64b-bc45-7dc55cb54284",
+		},
+	},
+	[139] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1322.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 139,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "9d92c029-4e74-c32d-91bc-96a4ea3f2d1d",
+		},
+	},
+	[140] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1330.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "81c9cf76-74e4-8c23-b8af-321d4d2ac3fd",
+		},
+	},
+	[157] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1395.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 157,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a80d6585-0772-4d39-a12d-afb40cd96d31",
+		},
+	},
+	[160] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1422.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 160,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "9ca23942-92f7-fba4-8f45-5a411d7cce40",
+		},
+	},
+	[162] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1425.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 162,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "cfea803c-f1c2-242e-9fc7-e2ed343f2642",
+		},
+	},
+	[163] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1427.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 163,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 1.5,
+			used = false,
+			uuid = "e84edbd2-147d-577f-9c6c-0489f07b981b",
+		},
+	},
+	[164] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1439.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 164,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "cf410c95-8a11-0d40-9b9b-0c4aba891775",
+		},
+	},
+	[165] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1447.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 165,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "0c7a66a7-9fb7-c5d1-948e-4ed4ff310fcd",
+		},
+	},
+	[170] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1486.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 170,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "ea31a12e-2d90-9f2e-94e0-f2378fa9912e",
+		},
+	},
+	[174] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1499.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 174,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "06f41f6a-f50a-41dd-92df-d2aa7711eb2e",
+		},
+	},
+	[178] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Third Eye",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1513.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 178,
+			timerEndOffset = -1,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "a930d79d-fb31-4d81-a78e-c4325976e109",
 		},
 	},
 	mapID = 949,

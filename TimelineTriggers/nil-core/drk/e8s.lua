@@ -801,7 +801,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- if sythe is first\nNilsReactionCore.Hotbar.Sprint()\nself.used = true",
+			execute = "\nNilsReactionCore.Hotbar.Sprint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1674,6 +1674,9 @@ local tbl =
 					targetType = "Enemy",
 					untarget = false,
 					useForWeaving = false,
+					useItem = false,
+					useItemID = 0,
+					useItemName = "",
 					usePot = false,
 					used = false,
 					variableIsHover = false,
