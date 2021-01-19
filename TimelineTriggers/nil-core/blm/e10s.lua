@@ -32,6 +32,38 @@ local tbl =
 			uuid = "28861a9c-cf3e-7a39-9e08-ae21991ea92f",
 		},
 	},
+	[4] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 33.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "ef4b42d0-ac16-51a7-83ec-7d2bfbb31cde",
+		},
+	},
 	[26] = 
 	{
 		
@@ -160,6 +192,70 @@ local tbl =
 			uuid = "5ae92c4b-d2cf-7ab8-81cc-16218f4cbf77",
 		},
 	},
+	[46] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 335.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 46,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "c1087bb4-9d28-805a-a569-2858eb6d8370",
+		},
+	},
+	[53] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Burn Boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 373.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 53,
+			timerEndOffset = 300,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "a8156aae-17a3-000e-bc66-d0cfa4a116fe",
+		},
+	},
 	[60] = 
 	{
 		
@@ -254,6 +350,38 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "ae9fefe9-28f6-36c8-8f14-1797a4d751fd",
+		},
+	},
+	[73] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 531.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 73,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "fe1ce0cb-d665-c89f-be47-85d8c90dbda0",
 		},
 	},
 	[93] = 

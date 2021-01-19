@@ -505,6 +505,35 @@ local tbl =
 			used = false,
 			uuid = "aa11bc3d-89f1-9a11-926e-bc69b170e398",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Burn Boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 301.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 28,
+			timerEndOffset = 250,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "81edbec6-4e5a-417d-a6d5-17f8ae2158dc",
+		},
 	},
 	[31] = 
 	{

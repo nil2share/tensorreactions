@@ -31,6 +31,35 @@ local tbl =
 			used = false,
 			uuid = "a02717c8-54bb-1f2d-bad0-fa00a486f848",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 11.3,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "c0e907a2-4b4e-7bec-a337-eed019a8b055",
+		},
 	},
 	[4] = 
 	{
@@ -502,6 +531,35 @@ local tbl =
 			used = false,
 			uuid = "bba73c63-235e-2ee4-b427-1df3b6db8b3b",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 253.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 34,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "17e8b5f2-9924-db3c-a101-93bb663e9079",
+		},
 	},
 	[40] = 
 	{
@@ -534,6 +592,35 @@ local tbl =
 			used = false,
 			uuid = "fd1cc9a8-5d4e-378d-800f-bc1abb3711e6",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 290.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 40,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "4a2f0bdb-f8f0-04b6-b182-1b588de1f87a",
+		},
 	},
 	[45] = 
 	{
@@ -565,6 +652,35 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "99ee6371-1d62-2877-9e95-0e921120928f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 323.4,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 45,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "510a0739-b7e9-694c-ad81-14552018223b",
 		},
 	},
 	[46] = 
@@ -721,6 +837,38 @@ local tbl =
 			uuid = "104637d1-e3cf-59ee-90c8-65449322cbbd",
 		},
 	},
+	[53] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Burn Boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 373.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 53,
+			timerEndOffset = 300,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "3fc57f43-8dc0-3dc2-9075-6e691a4beacb",
+		},
+	},
 	[59] = 
 	{
 		
@@ -816,6 +964,35 @@ local tbl =
 			used = false,
 			uuid = "556e3319-d339-b930-b2a8-ec0d47c8a24e",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 464.8,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 64,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "82dc024e-1692-9e3f-a2b5-14c8ec79661b",
+		},
 	},
 	[68] = 
 	{
@@ -879,6 +1056,35 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "bbb78e51-5444-9ea1-84f4-237e86fffd40",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 516,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 72,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "c9c67312-d2a5-52a5-8820-12ab86ac13aa",
 		},
 	},
 	[73] = 
@@ -1130,6 +1336,35 @@ local tbl =
 			used = false,
 			uuid = "bb0d37a2-820c-1669-bf22-672f34a842d4",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 642.3,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 95,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "f719e336-025d-2570-862d-75974bce7681",
+		},
 	},
 	[96] = 
 	{
@@ -1162,6 +1397,35 @@ local tbl =
 			used = false,
 			uuid = "d1628a2c-989b-f0af-bf7c-059993118173",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 654.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 96,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "1e5d8945-95fb-e586-bf9b-e23d0a7e10b5",
+		},
 	},
 	[97] = 
 	{
@@ -1193,6 +1457,35 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "0843de63-542b-95bc-9ad2-6a1b77b4effc",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Mantra",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 662.7,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 97,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "e3205a36-79ec-e13e-a65f-ecb212faf98f",
 		},
 	},
 	mapID = 947,

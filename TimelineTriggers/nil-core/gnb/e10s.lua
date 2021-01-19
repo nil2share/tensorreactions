@@ -150,6 +150,35 @@ local tbl =
 			used = false,
 			uuid = "056c1d6d-0fc8-9a98-84f4-ce185c3da634",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 33.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "694c6420-c0b7-009f-9c98-e9a1eb4fbd73",
+		},
 	},
 	[6] = 
 	{
@@ -162,7 +191,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"LivingDead\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -540,7 +569,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"LivingDead\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1090,6 +1119,38 @@ local tbl =
 			uuid = "bc6af3fe-9813-371d-bf1f-28117f7f5f87",
 		},
 	},
+	[46] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 335.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 46,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "8c4672d9-9ebc-483c-b614-a403ba126235",
+		},
+	},
 	[47] = 
 	{
 		
@@ -1101,7 +1162,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"LivingDead\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1277,6 +1338,38 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "8d16d9bf-8e78-851b-bf7b-7f897f5eec03",
+		},
+	},
+	[53] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Burn Boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 373.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 53,
+			timerEndOffset = 300,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "48b2abf0-354d-bb96-8488-69d340214a8b",
 		},
 	},
 	[59] = 
@@ -1593,6 +1686,38 @@ local tbl =
 			uuid = "c345ce1c-7bb0-5bcd-8c8d-2064f288982e",
 		},
 	},
+	[73] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 531.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 73,
+			timerEndOffset = -4,
+			timerOffset = -2,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "bc75ade1-6234-141d-9bd6-d139476d39ec",
+		},
+	},
 	[87] = 
 	{
 		
@@ -1604,7 +1729,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"LivingDead\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
