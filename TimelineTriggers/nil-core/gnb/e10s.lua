@@ -191,7 +191,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.GunBreaker.SuperBolide()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.GunBreaker.Nebula(()\n    NilsReactionCore.Hotbar.GunBreaker.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -569,7 +569,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.GunBreaker.SuperBolide()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.GunBreaker.Nebula(()\n    NilsReactionCore.Hotbar.GunBreaker.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1162,7 +1162,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.GunBreaker.SuperBolide()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.GunBreaker.Nebula(()\n    NilsReactionCore.Hotbar.GunBreaker.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1729,7 +1729,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.Darkknight.LivingDead()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.Darkknight.ShadowWall()\n    NilsReactionCore.Hotbar.Darkknight.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  if NilsReactionCore.Hotbar.Actions[\"SuperBolide\"].IsReady() then\n    NilsReactionCore.Hotbar.GunBreaker.SuperBolide()\n    self.used = true\n  else\n    NilsReactionCore.Hotbar.GunBreaker.Nebula(()\n    NilsReactionCore.Hotbar.GunBreaker.Rampart()\n    self.used = true\n  end\nelse\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
