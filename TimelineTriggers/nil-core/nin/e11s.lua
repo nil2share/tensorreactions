@@ -31,6 +31,35 @@ local tbl =
 			used = false,
 			uuid = "94a49d49-d484-7c31-a486-5b3635ae3af9",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "7d0eee03-4453-95ba-8cb2-f5e6ad64d1fe",
+		},
 	},
 	[5] = 
 	{
@@ -225,6 +254,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "3e2e0775-ea3d-94f2-8a40-fd90a901e096",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 132.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "a6a45fae-641a-96be-9ad7-cf8b4c264460",
 		},
 	},
 	[20] = 
@@ -438,7 +496,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -703,7 +761,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1013,7 +1071,7 @@ local tbl =
 					setFirstMatch = false,
 				},
 			},
-			enabled = true,
+			enabled = false,
 			execute = "",
 			executeType = 1,
 			lastUse = 0,
@@ -1065,6 +1123,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "1fe62684-3f2b-fa98-b8ee-97e722418063",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 191.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "c0c5b1a2-9a8a-41cb-9a09-f74cd2ff6374",
 		},
 	},
 	[35] = 
@@ -1129,6 +1216,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "d01f92d7-a7da-6e97-8179-277642684f3e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 221.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 36,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "0721c6bb-3123-a698-8769-379712b55bff",
 		},
 	},
 	[39] = 
@@ -1289,6 +1405,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "44b77e33-6d03-a3f0-8969-7d8012143e04",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 336.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 54,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "ea00de00-e171-e0da-b9e5-11e121e3c065",
 		},
 	},
 	[56] = 
@@ -1519,7 +1664,7 @@ local tbl =
 			timelineIndex = 56,
 			timerEndOffset = 1,
 			timerOffset = -2.5999999046326,
-			timerStartOffset = -5,
+			timerStartOffset = -6,
 			used = false,
 			uuid = "e555d03b-86b3-787a-8c68-6def925bc15e",
 		},
@@ -1560,7 +1705,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1577,7 +1722,7 @@ local tbl =
 			timelineIndex = 56,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3,
+			timerStartOffset = -5,
 			used = false,
 			uuid = "b72aa67b-dbb7-d307-b7c3-ff9bf704b08d",
 		},
@@ -2024,7 +2169,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -2076,6 +2221,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "ae637afa-f100-9c7f-ba0c-c8467acbb3e7",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 397.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 70,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "58dccd89-ae71-f08b-8bee-6103d32f0075",
 		},
 	},
 	[72] = 
@@ -2345,6 +2519,35 @@ local tbl =
 			used = false,
 			uuid = "55df3ae0-ec39-6863-9b17-2dfb9fd7489e",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 438.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 75,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "87e2f541-0314-0237-9d84-bd74ba9924a3",
+		},
 	},
 	[81] = 
 	{
@@ -2417,7 +2620,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -3007,9 +3210,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 90,
-			timerEndOffset = 2.5,
+			timerEndOffset = 4,
 			timerOffset = 0,
-			timerStartOffset = 1.5,
+			timerStartOffset = 2,
 			used = false,
 			uuid = "d89bfbaf-930c-dcd4-8b0f-2c86bb5356c4",
 		},
@@ -3036,9 +3239,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 90,
-			timerEndOffset = 3.5,
+			timerEndOffset = 5,
 			timerOffset = -1,
-			timerStartOffset = 2.5,
+			timerStartOffset = 4,
 			used = false,
 			uuid = "03d35f35-ffe7-5050-9acc-f6c5270d1ca2",
 		},
@@ -3050,7 +3253,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -3065,9 +3268,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 90,
-			timerEndOffset = 3.5,
+			timerEndOffset = 5,
 			timerOffset = 0,
-			timerStartOffset = 2.5,
+			timerStartOffset = 4,
 			used = false,
 			uuid = "e1af34e4-435a-d252-a5fe-daff981b2df8",
 		},
@@ -3094,9 +3297,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 90,
-			timerEndOffset = 2,
+			timerEndOffset = 5,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = 4,
 			used = false,
 			uuid = "fc9f8f15-9b18-7965-9ee8-2fe6adbe3615",
 		},
@@ -3164,6 +3367,35 @@ local tbl =
 			used = false,
 			uuid = "c2dc598b-ed4c-7e1a-99f2-28b27da882f4",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 570.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 96,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "a8c781ae-e5b7-ebb4-995e-d911e149b276",
+		},
 	},
 	[104] = 
 	{
@@ -3195,6 +3427,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "d443cd47-156f-34f8-9103-ef3c34980610",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 700.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 104,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "0f8d062e-6b20-be01-9196-466c862d32cd",
 		},
 	},
 	[111] = 
@@ -3260,6 +3521,35 @@ local tbl =
 			used = false,
 			uuid = "6ce3fe02-f3c6-e230-a835-118df96a380e",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 737.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 115,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "fddd97f4-e754-a2c7-89ee-3605dffefb61",
+		},
 	},
 	[122] = 
 	{
@@ -3291,6 +3581,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "b70c8932-bc52-88b9-a0d8-6aa4b2856344",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 800.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 122,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "267de9e5-ce7d-29a2-90fb-d065eb05dea5",
 		},
 	},
 	[123] = 
@@ -3388,6 +3707,35 @@ local tbl =
 			used = false,
 			uuid = "cdf52395-ec2f-1d94-8fc7-e99be226d7c1",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 837.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 133,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "416d9e7e-52fc-bb80-9a41-c652b015575e",
+		},
 	},
 	[140] = 
 	{
@@ -3419,6 +3767,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "5758173b-0ec2-ffd3-926d-656acc346a1d",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 900.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "67d2e1f8-787a-95c6-9a9b-64cc2f9d96ed",
 		},
 	},
 	[143] = 
@@ -3515,6 +3892,35 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "44689266-6fd3-7e9c-97d6-7e9f1487b1ad",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Feint() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			name = "Feint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 937.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 150,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "92c28681-0bf9-27a4-93e1-5ab9f4ae20a6",
 		},
 	},
 	[155] = 
