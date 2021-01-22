@@ -17,6 +17,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -32,7 +33,7 @@ local tbl =
 			uuid = "b04edb1a-2af7-2cca-bad6-0241101aa178",
 		},
 	},
-	[7] = 
+	[6] = 
 	{
 		
 		{
@@ -49,6 +50,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -56,7 +58,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -64,7 +66,7 @@ local tbl =
 			uuid = "ff60c627-51b4-4ab7-be7d-9a1b1da78e3e",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -81,6 +83,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -88,7 +91,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -96,7 +99,7 @@ local tbl =
 			uuid = "dc12acb6-ece1-bdbb-a59d-8ab4449504f7",
 		},
 	},
-	[9] = 
+	[8] = 
 	{
 		
 		{
@@ -113,6 +116,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -120,7 +124,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 4,
 			timerOffset = -2,
 			timerStartOffset = 2,
@@ -145,6 +149,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -160,7 +165,7 @@ local tbl =
 			uuid = "9af72a8a-e8d6-4c7c-ae30-d05899f31cf7",
 		},
 	},
-	[19] = 
+	[20] = 
 	{
 		
 		{
@@ -177,6 +182,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -184,7 +190,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -192,10 +198,7 @@ local tbl =
 			uuid = "bce6de96-c412-eb2c-b1d4-6813033ae072",
 		},
 	},
-	[20] = 
-	{
-	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -212,6 +215,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 216,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -219,7 +223,7 @@ local tbl =
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -244,6 +248,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -276,6 +281,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -291,7 +297,7 @@ local tbl =
 			uuid = "d5947164-9581-0d8d-b42d-186ed2ccea53",
 		},
 	},
-	[31] = 
+	[30] = 
 	{
 		
 		{
@@ -308,6 +314,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 337.4,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -315,7 +322,7 @@ local tbl =
 			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 31,
+			timelineIndex = 30,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -323,7 +330,7 @@ local tbl =
 			uuid = "6374a7a6-4054-a522-a493-bb52870ae2c5",
 		},
 	},
-	[33] = 
+	[32] = 
 	{
 		
 		{
@@ -340,6 +347,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -347,7 +355,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -372,6 +380,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -387,7 +396,7 @@ local tbl =
 			uuid = "c7df55b1-96c6-ad6c-b00e-17fb28b76887",
 		},
 	},
-	[45] = 
+	[42] = 
 	{
 		
 		{
@@ -404,6 +413,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Addle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -411,7 +421,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -419,7 +429,7 @@ local tbl =
 			uuid = "105c5097-0776-e077-a617-2ee6c6391f3a",
 		},
 	},
-	[49] = 
+	[44] = 
 	{
 		
 		{
@@ -436,6 +446,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 495,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -443,7 +454,7 @@ local tbl =
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 49,
+			timelineIndex = 44,
 			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -452,7 +463,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 3,
+	version = 4,
 }
 
 

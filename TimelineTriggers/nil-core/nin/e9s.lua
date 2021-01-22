@@ -17,6 +17,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -49,6 +50,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -64,13 +66,7 @@ local tbl =
 			uuid = "0b8ea855-0a0e-8415-bdba-59dbdad21393",
 		},
 	},
-	[4] = 
-	{
-	},
-	[5] = 
-	{
-	},
-	[7] = 
+	[6] = 
 	{
 		
 		{
@@ -87,6 +83,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -94,7 +91,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = -4,
 			timerOffset = -4,
 			timerStartOffset = -5,
@@ -102,7 +99,7 @@ local tbl =
 			uuid = "773dce62-500e-34b2-8a46-fadf52fb65a3",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -119,6 +116,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -126,7 +124,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -148,6 +146,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -155,7 +154,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -286,6 +285,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Ninjutsu Off",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -293,7 +293,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = 0,
 			timerOffset = -1,
 			timerStartOffset = -7,
@@ -315,6 +315,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Ninjutsu On",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -322,7 +323,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = 15,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -330,7 +331,7 @@ local tbl =
 			uuid = "1c74c621-a5a9-54d6-ae28-f5d7447cd02d",
 		},
 	},
-	[9] = 
+	[8] = 
 	{
 		
 		{
@@ -347,6 +348,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -354,7 +356,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 2,
 			timerOffset = -2,
 			timerStartOffset = 0,
@@ -362,7 +364,7 @@ local tbl =
 			uuid = "a99341f3-3be4-5d98-92ca-c95cd5d50f44",
 		},
 	},
-	[11] = 
+	[9] = 
 	{
 		
 		{
@@ -379,6 +381,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 101.6,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -386,7 +389,7 @@ local tbl =
 			time = 101.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 11,
+			timelineIndex = 9,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -411,6 +414,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -424,6 +428,39 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "a69af02d-8c79-bf55-8786-0dc8fe45b73d",
+		},
+	},
+	[14] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 144.4,
+			name = "True North",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 144.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 14,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "1960361b-a8a7-e16e-b336-3ab64b4b35a3",
 		},
 	},
 	[15] = 
@@ -443,38 +480,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 144.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 15,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "1960361b-a8a7-e16e-b336-3ab64b4b35a3",
-		},
-	},
-	[16] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
+			mechanicTime = 159.5,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -482,47 +488,12 @@ local tbl =
 			time = 159.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 16,
+			timelineIndex = 15,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
 			uuid = "d40847a6-2c4f-bded-ad83-4ea2d8aa7299",
-		},
-	},
-	[17] = 
-	{
-	},
-	[19] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			name = "Shadeshift",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 197.7,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 19,
-			timerEndOffset = -4,
-			timerOffset = -4,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "ed7b66c1-3faa-e77e-9084-7e9fd6a468a7",
 		},
 	},
 	[20] = 
@@ -542,6 +513,40 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 197.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "ed7b66c1-3faa-e77e-9084-7e9fd6a468a7",
+		},
+	},
+	[21] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 208.9,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -549,7 +554,7 @@ local tbl =
 			time = 208.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 20,
+			timelineIndex = 21,
 			timerEndOffset = -4,
 			timerOffset = -4,
 			timerStartOffset = -5,
@@ -571,6 +576,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 208.9,
 			name = "Turn off AOE",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -578,7 +584,7 @@ local tbl =
 			time = 208.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 20,
+			timelineIndex = 21,
 			timerEndOffset = 4,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -600,6 +606,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 208.9,
 			name = "Turn off Ninjutsu",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -607,7 +614,7 @@ local tbl =
 			time = 208.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 20,
+			timelineIndex = 21,
 			timerEndOffset = 4,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -629,6 +636,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 208.9,
 			name = "Trick window off",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -636,7 +644,7 @@ local tbl =
 			time = 208.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 20,
+			timelineIndex = 21,
 			timerEndOffset = 2,
 			timerOffset = -1,
 			timerStartOffset = -4,
@@ -644,7 +652,7 @@ local tbl =
 			uuid = "458ba5ad-7eeb-1ee4-81f8-852be8fc0228",
 		},
 	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -661,6 +669,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 216,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -668,7 +677,7 @@ local tbl =
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 15,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -693,6 +702,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 231.2,
 			name = "Doton",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -725,6 +735,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -754,6 +765,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -783,6 +795,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Suiton",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -812,6 +825,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Kassatsu",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -841,6 +855,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Trick window on",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -870,6 +885,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Turn on Ninjutsu",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -884,9 +900,6 @@ local tbl =
 			used = false,
 			uuid = "03e96bf6-73f6-065f-b3cf-dd7db04c9162",
 		},
-	},
-	[25] = 
-	{
 	},
 	[26] = 
 	{
@@ -905,6 +918,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -937,6 +951,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -966,6 +981,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -981,10 +997,7 @@ local tbl =
 			uuid = "f0cced55-58ff-aad1-8af7-cdb3bd46b947",
 		},
 	},
-	[29] = 
-	{
-	},
-	[31] = 
+	[30] = 
 	{
 		
 		{
@@ -1001,6 +1014,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 337.4,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1008,7 +1022,7 @@ local tbl =
 			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 31,
+			timelineIndex = 30,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -1030,6 +1044,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 337.4,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1037,7 +1052,7 @@ local tbl =
 			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 31,
+			timelineIndex = 30,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -1045,7 +1060,7 @@ local tbl =
 			uuid = "f11929d3-49e7-1b2a-856e-1c8590a8cd53",
 		},
 	},
-	[33] = 
+	[32] = 
 	{
 		
 		{
@@ -1062,6 +1077,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1069,7 +1085,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -1091,6 +1107,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1098,7 +1115,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -1229,6 +1246,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Ninjutsu Off",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1236,7 +1254,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = 0,
 			timerOffset = -1,
 			timerStartOffset = -8,
@@ -1258,6 +1276,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Ninjutsu On",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1265,7 +1284,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = 15,
 			timerOffset = 0,
 			timerStartOffset = -4,
@@ -1273,7 +1292,7 @@ local tbl =
 			uuid = "4319c5de-29ae-512e-9ace-61552255587a",
 		},
 	},
-	[36] = 
+	[34] = 
 	{
 		
 		{
@@ -1290,6 +1309,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 397.3,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1297,7 +1317,7 @@ local tbl =
 			time = 397.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 36,
+			timelineIndex = 34,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -1319,6 +1339,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 397.3,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1326,7 +1347,7 @@ local tbl =
 			time = 397.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 36,
+			timelineIndex = 34,
 			timerEndOffset = -4,
 			timerOffset = -4,
 			timerStartOffset = -5,
@@ -1351,6 +1372,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1366,7 +1388,7 @@ local tbl =
 			uuid = "0a0c739b-c4a8-10d3-852b-4b4f0c72e29f",
 		},
 	},
-	[40] = 
+	[39] = 
 	{
 		
 		{
@@ -1383,6 +1405,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 433,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1390,7 +1413,7 @@ local tbl =
 			time = 433,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 40,
+			timelineIndex = 39,
 			timerEndOffset = 2,
 			timerOffset = -2,
 			timerStartOffset = 0,
@@ -1398,10 +1421,7 @@ local tbl =
 			uuid = "806c0647-8dc4-58ab-8b4c-e9e1a9691208",
 		},
 	},
-	[43] = 
-	{
-	},
-	[45] = 
+	[42] = 
 	{
 		
 		{
@@ -1418,6 +1438,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Shadeshift",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1425,7 +1446,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = -4,
 			timerOffset = -4,
 			timerStartOffset = -5,
@@ -1433,7 +1454,7 @@ local tbl =
 			uuid = "aa8afbd3-2d4a-e7e8-9e19-b323b2e80c35",
 		},
 	},
-	[47] = 
+	[43] = 
 	{
 		
 		{
@@ -1450,6 +1471,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 487.9,
 			name = "True North",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1457,7 +1479,7 @@ local tbl =
 			time = 487.9,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 47,
+			timelineIndex = 43,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -1465,7 +1487,7 @@ local tbl =
 			uuid = "87faac2e-5ad3-9305-997d-89c2abf50722",
 		},
 	},
-	[49] = 
+	[44] = 
 	{
 		
 		{
@@ -1482,6 +1504,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 495,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -1489,7 +1512,7 @@ local tbl =
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 49,
+			timelineIndex = 44,
 			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -1497,7 +1520,7 @@ local tbl =
 			uuid = "ac478c9e-d49f-2157-90dd-5210e06d2081",
 		},
 	},
-	[51] = 
+	[45] = 
 	{
 		
 		{
@@ -1514,6 +1537,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 510.2,
 			name = "Doton",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1521,7 +1545,7 @@ local tbl =
 			time = 510.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 51,
+			timelineIndex = 45,
 			timerEndOffset = -3,
 			timerOffset = 0,
 			timerStartOffset = -7,
@@ -1530,7 +1554,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 3,
+	version = 4,
 }
 
 

@@ -17,6 +17,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Lightspeed Toggle",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -46,6 +47,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -75,6 +77,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -107,6 +110,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 47.5,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -122,7 +126,7 @@ local tbl =
 			uuid = "ecff693f-4680-293b-9745-6f75d0e103d2",
 		},
 	},
-	[7] = 
+	[6] = 
 	{
 		
 		{
@@ -139,6 +143,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -146,7 +151,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -154,7 +159,7 @@ local tbl =
 			uuid = "0ecae6e9-aee2-4dde-acc9-507ef5b94169",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -171,6 +176,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -178,7 +184,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -186,7 +192,7 @@ local tbl =
 			uuid = "27852c84-ff9d-f51e-b4b2-78f44adf127f",
 		},
 	},
-	[9] = 
+	[8] = 
 	{
 		
 		{
@@ -203,6 +209,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -210,7 +217,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 4,
 			timerOffset = -2,
 			timerStartOffset = 2,
@@ -218,7 +225,7 @@ local tbl =
 			uuid = "6b3df1c0-e42d-ddb6-aeed-034682374965",
 		},
 	},
-	[11] = 
+	[9] = 
 	{
 		
 		{
@@ -235,6 +242,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 101.6,
 			name = "LightSpeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -242,7 +250,7 @@ local tbl =
 			time = 101.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 11,
+			timelineIndex = 9,
 			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 3,
@@ -264,6 +272,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 101.6,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -271,7 +280,7 @@ local tbl =
 			time = 101.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 11,
+			timelineIndex = 9,
 			timerEndOffset = 10,
 			timerOffset = 0,
 			timerStartOffset = 8.1999998092651,
@@ -296,6 +305,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -311,13 +321,7 @@ local tbl =
 			uuid = "9b294e90-a654-be77-bb91-4429860ec5e3",
 		},
 	},
-	[15] = 
-	{
-	},
-	[16] = 
-	{
-	},
-	[17] = 
+	[19] = 
 	{
 		
 		{
@@ -334,6 +338,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 182.1,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -341,7 +346,7 @@ local tbl =
 			time = 182.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 17,
+			timelineIndex = 19,
 			timerEndOffset = -3,
 			timerOffset = 0,
 			timerStartOffset = -9,
@@ -363,6 +368,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 182.1,
 			name = "LightSpeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -370,7 +376,7 @@ local tbl =
 			time = 182.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 17,
+			timelineIndex = 19,
 			timerEndOffset = 9,
 			timerOffset = 0,
 			timerStartOffset = 6,
@@ -378,7 +384,7 @@ local tbl =
 			uuid = "dbdff411-3d61-5f2b-ba12-277263add16e",
 		},
 	},
-	[19] = 
+	[20] = 
 	{
 		
 		{
@@ -395,6 +401,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -402,7 +409,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -4,
@@ -410,7 +417,7 @@ local tbl =
 			uuid = "fbbeedbf-86c9-483d-be06-a6a6db6f2b3d",
 		},
 	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -427,6 +434,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 216,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -434,7 +442,7 @@ local tbl =
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -459,6 +467,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 231.2,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -491,6 +500,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -520,6 +530,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -535,7 +546,7 @@ local tbl =
 			uuid = "81edbec6-4e5a-417d-a6d5-17f8ae2158dc",
 		},
 	},
-	[31] = 
+	[30] = 
 	{
 		
 		{
@@ -552,6 +563,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 337.4,
 			name = "Burn Boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -559,7 +571,7 @@ local tbl =
 			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 31,
+			timelineIndex = 30,
 			timerEndOffset = 200,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -567,7 +579,7 @@ local tbl =
 			uuid = "b232a0d6-48f4-2974-aafb-0bc8961c9cfa",
 		},
 	},
-	[32] = 
+	[31] = 
 	{
 		
 		{
@@ -584,6 +596,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -591,7 +604,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -2,
@@ -613,6 +626,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "LightSpeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -620,7 +634,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -628,7 +642,7 @@ local tbl =
 			uuid = "22615c4a-9a73-7ee2-b50e-9a6f1f665dcc",
 		},
 	},
-	[33] = 
+	[32] = 
 	{
 		
 		{
@@ -645,6 +659,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Knockback",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -652,7 +667,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -5,
@@ -660,7 +675,7 @@ local tbl =
 			uuid = "c644b9a7-4ab4-a20f-9735-63955e3e07ab",
 		},
 	},
-	[34] = 
+	[33] = 
 	{
 		
 		{
@@ -677,6 +692,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 377.3,
 			name = "Earthly Star",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -684,7 +700,7 @@ local tbl =
 			time = 377.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 33,
 			timerEndOffset = 5,
 			timerOffset = 0,
 			timerStartOffset = -4.5,
@@ -709,6 +725,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "Big Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -724,7 +741,7 @@ local tbl =
 			uuid = "195a9252-3d84-ba36-9d59-8308f653eb89",
 		},
 	},
-	[49] = 
+	[44] = 
 	{
 		
 		{
@@ -741,6 +758,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 495,
 			name = "Target Cloud",
 			randomOffset = 1,
 			randomTimeout = 3,
@@ -748,7 +766,7 @@ local tbl =
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 49,
+			timelineIndex = 44,
 			timerEndOffset = 20,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -757,7 +775,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 3,
+	version = 4,
 }
 
 
