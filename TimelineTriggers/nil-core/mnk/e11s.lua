@@ -152,9 +152,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 6,
-			timerEndOffset = 0,
+			timerEndOffset = -1,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = -3.5,
 			used = false,
 			uuid = "5955679b-9bdb-28b5-8761-7b9773bc333a",
 		},
@@ -190,6 +190,36 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "cf4b0819-b7da-c746-b67b-cccd914982b7",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 46.7,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 46.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = 1.5,
+			timerOffset = 0.5,
+			timerStartOffset = 0.5,
+			used = false,
+			uuid = "1d534e73-df5e-694b-8551-590e86a45f3b",
 		},
 	},
 	[9] = 
@@ -1064,6 +1094,36 @@ local tbl =
 			used = false,
 			uuid = "227ecdad-0ce8-b88a-b197-58ce45de3ba5",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 250.7,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 250.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 41,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "910ac4c7-e7b4-d7e3-becc-74303e3e2671",
+		},
 	},
 	[44] = 
 	{
@@ -1854,6 +1914,39 @@ local tbl =
 	[83] = 
 	{
 	},
+	[84] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 478.5,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 478.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 84,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "7d5a64cd-d1c6-5a15-b510-4544b824778f",
+		},
+	},
 	[86] = 
 	{
 	},
@@ -2251,6 +2344,39 @@ local tbl =
 			timerStartOffset = 3,
 			used = false,
 			uuid = "a8e66e57-86ed-ad15-b3b3-b84f5607d95a",
+		},
+	},
+	[108] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 711.6,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 711.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 108,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "e7c95338-9fac-f93a-8c3d-7507f8599aed",
 		},
 	},
 	[111] = 
@@ -2761,6 +2887,36 @@ local tbl =
 			timerStartOffset = -1,
 			used = false,
 			uuid = "c3b813d1-ebf1-7b93-a4c3-444940249fd3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 900.1,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 900.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 140,
+			timerEndOffset = 1,
+			timerOffset = 0.5,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "a9c9a620-f076-7252-81cc-b02f95fcd63e",
 		},
 	},
 	[142] = 
