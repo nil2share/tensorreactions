@@ -99,6 +99,39 @@ local tbl =
 			uuid = "b0f2698b-1e27-2ce0-8ed1-be763d47bdd6",
 		},
 	},
+	[52] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Sprint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 308,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 308,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 52,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "c1ce3190-7c36-0297-9f24-b2f2dade8d86",
+		},
+	},
 	[62] = 
 	{
 		

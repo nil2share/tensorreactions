@@ -66,6 +66,72 @@ local tbl =
 			uuid = "4f324060-12df-d54b-abcb-d93321eb2bd7",
 		},
 	},
+	[8] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 43.6,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 43.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "26794f70-a16f-c819-a850-fe793fa487b0",
+		},
+	},
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Monk.RiddleOfEarth()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 56.8,
+			name = "Riddle Of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 56.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "ec6e8d09-3e24-345d-9f93-bb4a226d47d6",
+		},
+	},
 	[12] = 
 	{
 		
@@ -196,6 +262,36 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "35d5576b-0c98-4d9f-a135-24fb079abf54",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 106.5,
+			name = "Gap closer OFF",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 106.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 17,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "802bffb6-93de-660f-96e5-7e3b736dd2b3",
 		},
 	},
 	[21] = 
@@ -487,6 +583,39 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "cd818b13-7b79-73e2-a2eb-ae82d9fa84a8",
+		},
+	},
+	[52] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Sprint()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 308,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 308,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 52,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "b8f5ba4e-0150-de51-bf6f-a241e56a4173",
 		},
 	},
 	[55] = 

@@ -77,7 +77,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true then\n  if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n    NilsReactionCore.Alert.Send(\"use shirk in 3\")\n  else\n    NilsReactionCore.Alert.Send(\"use provoke in 3\")\n  end\nend\n\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -96,7 +96,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "38fa4a54-3d6d-a1e0-9cb5-64fd216d942a",
+			uuid = "fdece6a0-f107-cd91-aa99-7b6ec772b5fa",
 		},
 		
 		{
@@ -126,7 +126,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "c4462fbe-4abe-eca1-acdb-c2f6c8def446",
+			uuid = "7ecd92e8-6b56-5091-872b-bcd05788dd96",
 		},
 		
 		{
@@ -137,7 +137,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -156,7 +156,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "c6f4b180-83a7-637c-afa8-f0c86df2dfd1",
+			uuid = "37c3c0db-f341-133c-b2da-0d9d51cc9407",
 		},
 		
 		{
@@ -167,7 +167,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -186,7 +186,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "8098f00a-243c-b0df-bef0-1626a7247018",
+			uuid = "86654ed1-7aaa-ed54-a6c6-dea74fe23ba4",
 		},
 	},
 	[6] = 
@@ -701,7 +701,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true then\n  if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n    NilsReactionCore.Alert.Send(\"use shirk in 3\")\n  else\n    NilsReactionCore.Alert.Send(\"use provoke in 3\")\n  end\nend\n\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -718,9 +718,9 @@ local tbl =
 			timelineIndex = 19,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -6,
+			timerStartOffset = -4,
 			used = false,
-			uuid = "c4954f6f-d0dd-58c5-9bec-211a536de210",
+			uuid = "5f397551-c476-08c7-8da1-508bb5af4129",
 		},
 		
 		{
@@ -748,9 +748,9 @@ local tbl =
 			timelineIndex = 19,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "8947ed22-765b-7cfa-a1ce-444d62707958",
+			uuid = "2317eeed-7b9c-77d9-8089-38696d7702c3",
 		},
 		
 		{
@@ -761,7 +761,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -778,9 +778,9 @@ local tbl =
 			timelineIndex = 19,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "20e46550-0b4c-ee2d-84d6-5384846e1397",
+			uuid = "db14d054-8cfc-7984-b3ee-65e648a4c284",
 		},
 		
 		{
@@ -791,7 +791,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -808,9 +808,9 @@ local tbl =
 			timelineIndex = 19,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -4,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "86bed38a-206f-3611-9475-a4b7c77efb7a",
+			uuid = "52814fbc-2eb2-85c3-9dd2-48db3089efa1",
 		},
 	},
 	[24] = 
@@ -1016,7 +1016,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true then\n  if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n    NilsReactionCore.Alert.Send(\"use shirk in 3\")\n  else\n    NilsReactionCore.Alert.Send(\"use provoke in 3\")\n  end\nend\n\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1035,7 +1035,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "8a765a2a-9b8b-dd84-a446-de634a66ba1a",
+			uuid = "c072f9c1-4f27-5d67-821b-008020f89844",
 		},
 		
 		{
@@ -1063,9 +1063,9 @@ local tbl =
 			timelineIndex = 29,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "778967d3-4a5d-180a-9ba6-98c3d507794d",
+			uuid = "43f93bb7-9141-6321-983e-75ec53dc5a1d",
 		},
 		
 		{
@@ -1076,7 +1076,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1095,7 +1095,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "6c59df69-0c68-9063-82b1-680acc733c33",
+			uuid = "f16d958c-8027-0491-be46-38d931b3b9bd",
 		},
 		
 		{
@@ -1106,7 +1106,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1125,7 +1125,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "ad9bb03d-fdcf-df1e-8f2c-66ecb7352e05",
+			uuid = "2e4b295d-0819-f0f3-9791-0daa9c4a64e0",
 		},
 	},
 	[30] = 
@@ -1517,7 +1517,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n  NilsReactionCore.Alert.Send(\"use shirk in 3\")\nelse\n  NilsReactionCore.Alert.Send(\"use provoke in 3\")\nend\n\nself.used = true",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true then\n  if NilsReactionCore.Helpers.Tanks.AmIMainTank() then\n    NilsReactionCore.Alert.Send(\"use shirk in 3\")\n  else\n    NilsReactionCore.Alert.Send(\"use provoke in 3\")\n  end\nend\n\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1536,7 +1536,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "491db9b9-25b3-19a0-babf-d1e828183a1b",
+			uuid = "59109973-df58-ffa4-b22b-27cc1ab567f6",
 		},
 		
 		{
@@ -1564,9 +1564,9 @@ local tbl =
 			timelineIndex = 41,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "5ba139ab-813c-23b7-8c0f-8a8949fdb4ef",
+			uuid = "dfe190d9-e8f7-ff52-8a83-299d2c9ed251",
 		},
 		
 		{
@@ -1577,7 +1577,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.HeavyOrRampart() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1596,7 +1596,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "7d2f0e0d-09d0-aceb-8fe7-18ab3c0f37e7",
+			uuid = "34a07f41-03c0-1ddd-9941-f5637c1b01f3",
 		},
 		
 		{
@@ -1607,7 +1607,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
+			execute = "if NilsReactionCore.Settings.jobs[jobID].Raid.Mechanics[946].DevouringDark[1].TankSwap == true and NilsReactionCore.Helpers.Tanks.AmIMainTank() == false then\n  if NilsReactionCore.Helpers.Tanks.Cooldown.Basic() then self.used = true end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1626,7 +1626,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "c99ff150-72d2-d70f-b65e-8d34523ab982",
+			uuid = "cb4e9bf9-02fa-1775-a01b-29533581519b",
 		},
 	},
 	[46] = 
