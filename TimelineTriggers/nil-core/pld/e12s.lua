@@ -2177,36 +2177,6 @@ local tbl =
 	},
 	[163] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 1427.3,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1427.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 163,
-			timerEndOffset = 3,
-			timerOffset = 0,
-			timerStartOffset = 1.5,
-			used = false,
-			uuid = "d22191b6-f263-bd72-98bc-f1eaf4cb5dcb",
-		},
 	},
 	[164] = 
 	{

@@ -197,7 +197,37 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 10000) == true then self.used = true end",
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 80.9,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 80.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 11,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "1f255454-4e87-5b13-9550-5dabaa1ec716",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 34000) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -768,6 +798,39 @@ local tbl =
 			uuid = "c2cdf1d7-133f-9df5-96d1-ea12b1241181",
 		},
 	},
+	[58] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 425.7,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 425.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 58,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "57cf824e-1cb4-402e-9352-5ccf216e2f4f",
+		},
+	},
 	[59] = 
 	{
 		
@@ -809,7 +872,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 15000) == true then self.used = true end",
+			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 32000) == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -866,6 +929,9 @@ local tbl =
 	},
 	[61] = 
 	{
+	},
+	[63] = 
+	{
 		
 		{
 			actions = 
@@ -881,20 +947,20 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 440.9,
+			mechanicTime = 452.7,
 			name = "Jump on",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 440.9,
+			time = 452.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 61,
+			timelineIndex = 63,
 			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "ccb15ef3-299c-3065-82db-04ed477a782a",
+			uuid = "26d4ad0e-a4ad-8581-b804-07c22bc399b8",
 		},
 	},
 	[64] = 
@@ -962,9 +1028,36 @@ local tbl =
 			used = false,
 			uuid = "762e9b86-8376-55e4-a1a4-a7276bcbc7f8",
 		},
-	},
-	[68] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 476,
+			name = "Displacement Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 476,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 65,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "439e2515-4f4d-c4c9-a190-cd9eb0891a85",
+		},
 		
 		{
 			actions = 
@@ -980,51 +1073,24 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 491.9,
+			mechanicTime = 476,
 			name = "Jump off",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 491.9,
+			time = 476,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 2,
+			timelineIndex = 65,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "0251e4fb-c93b-0fc2-b2d1-fb26e34adc02",
+			uuid = "d5fbf97d-2565-27b0-9ffe-086460602117",
 		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isNotTimeline, NilsReactionCore.params.on, 15000) == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 491.9,
-			name = "Displacement Toggle",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 491.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 2,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "2fea2de0-0435-01e6-9e8e-54bb458f5fbe",
-		},
+	},
+	[68] = 
+	{
 	},
 	[71] = 
 	{
@@ -1123,6 +1189,225 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "d0c86b45-f88c-e64b-b3c0-97f1c14dbabe",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Redmage.Displacement(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 531.6,
+			name = "Displacement Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 531.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 73,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "a4c4fc3c-f0c7-4629-b1fd-41ec4dbbdffd",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 531.6,
+			name = "Jump off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 531.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 73,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "ff9998a5-ae2a-4b67-a18a-5336d0c72fb2",
+		},
+	},
+	[74] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 538.2,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 538.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 74,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "12676a8f-bf2d-62cb-956f-838bb27b871f",
+		},
+	},
+	[84] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 585.4,
+			name = "Jump on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 585.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 84,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "8b6b718e-a68b-4eda-bb60-92a919e37fd0",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.Displacement.Reset() then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 585.4,
+			name = "Displacement Reset",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 585.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 84,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "e68443ef-af6d-9464-bd30-a4d8a30b07f4",
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 592.8,
+			name = "Jump on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 592.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 86,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 4,
+			used = false,
+			uuid = "9158b8c4-86e5-2374-b07a-04d5d8455cbc",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Toggles.Displacement.Reset() then self.used = true end\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 592.8,
+			name = "Displacement Reset",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 592.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 86,
+			timerEndOffset = 6,
+			timerOffset = 0,
+			timerStartOffset = 4,
+			used = false,
+			uuid = "d1040545-5cc2-10aa-ad21-743673c60c3d",
 		},
 	},
 	[92] = 
