@@ -483,6 +483,36 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.Doton()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 216,
+			name = "Doton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 216,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 22,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "815c97d3-950f-3ba4-8dc8-bada88da5836",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "local target = Player:GetTarget()\nif target == nil or target.hp.current == 0 then\n\nlocal clouds = NilsReactionCore.Helpers.Target.GetTargetsByContentID(9766, 10)\nif clouds ~= nil and table.size(clouds) > 0 then\n  NilsReactionCore.Helpers.GetNerestEntity()\nelse\n  NilsReactionCore.Helpers.GetNerestEntity()\n  self.used = true\nend\n\nend\n",
 			executeType = 2,
 			lastUse = 0,
@@ -750,6 +780,36 @@ local tbl =
 	},
 	[44] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.Doton()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 495,
+			name = "Doton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 495,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "77f36172-33b4-ba7b-bd77-309ddff7cc86",
+		},
 		
 		{
 			actions = 

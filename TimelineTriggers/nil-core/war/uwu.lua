@@ -200,7 +200,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 20, 3000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -805,7 +805,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 2, 2000)\nself.used = true\n",
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 20, 3000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -951,6 +951,39 @@ local tbl =
 			timerStartOffset = 0,
 			used = false,
 			uuid = "b6f633be-10f4-d061-8539-1e038c9e02c3",
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- casting sprint for this is handled in the core due to transition issues.",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 301,
+			name = "Sprint (Core)",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 301,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 37,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "9e2cce58-89e1-ff92-a5c7-6e7b31b51282",
 		},
 	},
 	[38] = 

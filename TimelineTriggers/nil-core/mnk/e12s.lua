@@ -197,6 +197,36 @@ local tbl =
 			used = false,
 			uuid = "039e3d25-4381-8394-8738-5d2df4a15905",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 71.4,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 71.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 6.5,
+			timerOffset = 0.5,
+			timerStartOffset = 5.5,
+			used = false,
+			uuid = "e56d1c42-9025-6344-88b7-12eccc3e03a2",
+		},
 	},
 	[14] = 
 	{
@@ -357,6 +387,39 @@ local tbl =
 			uuid = "2caf3b31-4849-3230-92cb-a2318dda13aa",
 		},
 	},
+	[22] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 141.8,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 141.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 22,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "401c6632-316f-5c2f-8a0c-5ebd480f9aa8",
+		},
+	},
 	[24] = 
 	{
 		
@@ -485,6 +548,36 @@ local tbl =
 			used = false,
 			uuid = "fd7c01be-2dc1-10d3-8e74-3c5716fef870",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 179.6,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 179.6,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 27,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -4.5999999046326,
+			used = false,
+			uuid = "22144204-92f7-3418-98be-6b149d901e80",
+		},
 	},
 	[34] = 
 	{
@@ -583,6 +676,36 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "cd818b13-7b79-73e2-a2eb-ae82d9fa84a8",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 269.8,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 269.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -2.7999999523163,
+			used = false,
+			uuid = "d91ff315-795f-ea07-ba4a-b1eaf0db78a8",
 		},
 	},
 	[52] = 
@@ -750,6 +873,39 @@ local tbl =
 			uuid = "936f126c-bf43-0a62-9ed2-b66c43196566",
 		},
 	},
+	[63] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 374.5,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 374.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "4e88e6a2-48e5-2601-9f1d-636f0cab179f",
+		},
+	},
 	[64] = 
 	{
 		
@@ -847,6 +1003,36 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "20791573-ecf0-6c38-a676-e054cdc81c3f",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.Mantra() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 445.8,
+			name = "Mantra",
+			randomOffset = 1.4500000476837,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 445.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 74,
+			timerEndOffset = 0,
+			timerOffset = 0.5,
+			timerStartOffset = -2.7999999523163,
+			used = false,
+			uuid = "49f554be-6e4a-cc12-a035-5dcf932b42e1",
 		},
 	},
 	[79] = 
@@ -947,6 +1133,36 @@ local tbl =
 			used = false,
 			uuid = "3562d9f0-b9fb-8350-bef1-a10822dd2f18",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 489.4,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 489.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 81,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "58dece9c-583a-69a8-b3d3-19c7d1db40c9",
+		},
 	},
 	[82] = 
 	{
@@ -1012,6 +1228,39 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "e5ab6961-6ea1-ea49-b7b5-fc9211734f5a",
+		},
+	},
+	[89] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 1032.3,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1032.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 89,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "146c7fd7-a45d-b1e8-b2fd-c80c1a3b08cf",
 		},
 	},
 	[92] = 
@@ -1146,6 +1395,39 @@ local tbl =
 			uuid = "36bf10d6-03ec-9fa7-9840-4556d470a5e4",
 		},
 	},
+	[110] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 1172.7,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1172.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 110,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "9fca0320-33d9-ac16-9803-00722c72527b",
+		},
+	},
 	[111] = 
 	{
 		
@@ -1276,6 +1558,39 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "1d583698-cd1c-1d7b-9759-27551dd202ee",
+		},
+	},
+	[126] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Monk.SixSidedStar() then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 1237.3,
+			name = "Six Sided Star",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1237.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 126,
+			timerEndOffset = -3,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "bfc5eba7-7ee7-3b83-8075-f84dbfdd01d9",
 		},
 	},
 	[127] = 

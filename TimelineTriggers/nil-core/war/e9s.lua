@@ -347,6 +347,9 @@ local tbl =
 			used = false,
 			uuid = "b9eb8758-e285-e69d-9d5a-741cd80c819d",
 		},
+	},
+	[9] = 
+	{
 		
 		{
 			actions = 
@@ -362,24 +365,21 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 81.8,
+			mechanicTime = 101.6,
 			name = "Gap closer On",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 81.8,
+			time = 101.6,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = 7,
+			timelineIndex = 9,
+			timerEndOffset = -4,
 			timerOffset = 0,
-			timerStartOffset = 4,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "abac0bd2-e189-3dc3-ab1e-fb0c7ecb529a",
+			uuid = "164ad113-d6be-b01d-8ba9-16745bda3377",
 		},
-	},
-	[9] = 
-	{
 		
 		{
 			actions = 

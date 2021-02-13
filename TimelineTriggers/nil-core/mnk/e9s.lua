@@ -311,6 +311,9 @@ local tbl =
 			used = false,
 			uuid = "4d52510b-be58-ff05-8e68-508d6f3ad27a",
 		},
+	},
+	[9] = 
+	{
 		
 		{
 			actions = 
@@ -326,41 +329,8 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 81.8,
-			name = "Gap closer On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 81.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = 7,
-			timerOffset = 0,
-			timerStartOffset = 5,
-			used = false,
-			uuid = "1d27cbf4-3bfc-f01e-8358-5953e70a65d2",
-		},
-	},
-	[9] = 
-	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
 			mechanicTime = 101.6,
-			name = "True North",
+			name = "Gap closer On",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -368,11 +338,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 9,
-			timerEndOffset = 1,
+			timerEndOffset = -4,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "06c3c007-0962-457e-8caa-246ab0a19ce0",
+			uuid = "1a1524c3-7366-f07a-96bd-c9f59daa1ec5",
 		},
 		
 		{
