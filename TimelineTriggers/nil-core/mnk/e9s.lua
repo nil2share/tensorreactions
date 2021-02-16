@@ -106,36 +106,6 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 74.3,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 74.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "94a7ac49-f043-d2d9-b790-a22025dbdce7",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
 			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
@@ -314,6 +284,36 @@ local tbl =
 	},
 	[9] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Handled in NilsReactionCore\n-- Triggers for Healer stack",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 101.6,
+			name = "Riddle of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 101.6,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 9,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "c3a348c4-cde7-a9fb-920d-9630728c46a8",
+		},
 		
 		{
 			actions = 
@@ -632,36 +632,6 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 159.5,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 159.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 15,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "961c01b9-fe29-47df-bfdc-4a5184d54edc",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -712,6 +682,36 @@ local tbl =
 			timerStartOffset = 11,
 			used = false,
 			uuid = "185ca133-81c0-b3b9-87d0-e4cd5b8b44e0",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Handled in NilsReactionCore\n-- Triggers for Healer stack",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 159.5,
+			name = "Riddle of Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 159.5,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 15,
+			timerEndOffset = 0,
+			timerOffset = -2,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "88994dac-7b6f-218f-9c51-773d594bf42f",
 		},
 		
 		{
@@ -1103,66 +1103,6 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 301.2,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 301.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 28,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "534687c1-e1e3-45a5-9134-2f03d87dd1f6",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 301.2,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 301.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 28,
-			timerEndOffset = 250,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "3e1c51c3-0027-a7df-82d6-55c35fb91e92",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOff(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1307,66 +1247,6 @@ local tbl =
 			used = false,
 			uuid = "9bb22b70-03ea-ef6a-8fd2-094cacb74ac2",
 		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 337.4,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 337.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 30,
-			timerEndOffset = 200,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "fe0e2e6f-2c64-d7c6-921d-c3953584131e",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 337.4,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 337.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 30,
-			timerEndOffset = 200,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "1d8f5b7d-9373-e0e3-a91e-1126e6584b9a",
-		},
 	},
 	[32] = 
 	{
@@ -1399,36 +1279,6 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "7cea6e8b-098d-1d88-b75f-42c509d7d28e",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 369.2,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 369.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "37cb5998-b499-54c4-b665-3c3d301a7c93",
 		},
 		
 		{
@@ -1564,27 +1414,27 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
+			enabled = false,
+			execute = "-- Handled in NilsReactionCore\n-- Triggers for Healer stack",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 397.3,
-			name = "True North",
+			name = "Riddle of Earth",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 397.3,
 			timeRandomRange = false,
-			timeRange = true,
+			timeRange = false,
 			timelineIndex = 34,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
+			timerOffset = -2,
+			timerStartOffset = -2,
 			used = false,
-			uuid = "3ac60abf-31c3-8a29-98d9-1fd59abd30b6",
+			uuid = "b2bb6681-d05a-b95a-a950-f23f3d2821cb",
 		},
 		
 		{
@@ -1745,36 +1595,6 @@ local tbl =
 	},
 	[43] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.TrueNorth() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 487.9,
-			name = "True North",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 487.9,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 43,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "db8921a2-0c74-5e86-83db-40cf0062e525",
-		},
 	},
 	[44] = 
 	{

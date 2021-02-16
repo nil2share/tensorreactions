@@ -813,36 +813,6 @@ local tbl =
 	},
 	[34] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "\nNilsReactionCore.Hotbar.Sprint()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 206.4,
-			name = "Sprint",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 206.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 34,
-			timerEndOffset = -7,
-			timerOffset = 0,
-			timerStartOffset = -9,
-			used = false,
-			uuid = "8b53d0ca-171d-9b3f-9fdc-2c0283b90b38",
-		},
 	},
 	[40] = 
 	{
@@ -1366,6 +1336,39 @@ local tbl =
 			uuid = "5170aefb-c50f-01a6-9e8e-03ad95dec247",
 		},
 	},
+	[72] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 437.5,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 437.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "140d17a2-c606-d7af-8f5e-b70c8213a45b",
+		},
+	},
 	[74] = 
 	{
 		
@@ -1397,6 +1400,39 @@ local tbl =
 			timerStartOffset = -5,
 			used = false,
 			uuid = "93dc5cae-f638-09ca-846f-4e5855c01bd2",
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Ninja.ShadeShift()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 466.2,
+			name = "Shadeshift",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 466.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 77,
+			timerEndOffset = -4,
+			timerOffset = -4,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "3a8d1c69-2da6-a262-9aac-2ac614f3170a",
 		},
 	},
 	[79] = 

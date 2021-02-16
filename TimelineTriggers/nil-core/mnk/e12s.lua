@@ -287,9 +287,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 17,
-			timerEndOffset = -1,
+			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = -1,
 			used = false,
 			uuid = "35d5576b-0c98-4d9f-a135-24fb079abf54",
 		},
@@ -706,6 +706,39 @@ local tbl =
 			timerStartOffset = -2.7999999523163,
 			used = false,
 			uuid = "d91ff315-795f-ea07-ba4a-b1eaf0db78a8",
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Handled in NilsReactionCore\n\n-- Will pop Riddle of Earth and Six Sided Star based on number",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 298.8,
+			name = "Note",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 298.8,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 47,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "185b41d6-ad6b-3932-bd7d-dfba8d3cb546",
 		},
 	},
 	[52] = 

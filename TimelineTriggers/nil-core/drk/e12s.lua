@@ -1218,6 +1218,39 @@ local tbl =
 			uuid = "ef643bb5-016d-4cad-9330-a89a4209887d",
 		},
 	},
+	[47] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "-- Handled in NilsReactionCore\n\n-- Will pop Dark Mind based on number",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 298.8,
+			name = "Note",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 298.8,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 47,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "daf7d041-1092-5ff4-8f87-644c4a71be1d",
+		},
+	},
 	[52] = 
 	{
 		
@@ -1716,6 +1749,39 @@ local tbl =
 			uuid = "2fa0b9f1-67c2-0619-b3d6-8d6d8dae6425",
 		},
 	},
+	[72] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Darkknight.DarkMind()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 437.5,
+			name = "Dark Mind",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 437.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 72,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "f3ba05c8-9ccb-2c03-a74a-45a50b25c31b",
+		},
+	},
 	[74] = 
 	{
 		
@@ -1807,6 +1873,39 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "b0e2aa7f-df86-7849-b823-1347ede78166",
+		},
+	},
+	[75] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Darkknight.DarkMind()\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 453,
+			name = "Dark Mind",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 453,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 75,
+			timerEndOffset = -0.5,
+			timerOffset = 0,
+			timerStartOffset = -2.5,
+			used = false,
+			uuid = "46660889-0fe7-a1e3-96ca-ccfe5e456558",
 		},
 	},
 	[79] = 
