@@ -208,7 +208,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- For alignment sake later on in the fight\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -238,7 +238,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -268,7 +268,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -298,7 +298,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Ninja.Raiton()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -328,7 +328,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -397,7 +397,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 10 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Batch.PreTrick() then\n  self.used = true\n end\nend",
 			executeType = 2,
 			lastUse = 0,
@@ -602,7 +602,7 @@ local tbl =
 					setFirstMatch = false,
 				},
 			},
-			enabled = true,
+			enabled = false,
 			execute = "",
 			executeType = 1,
 			lastUse = 0,
@@ -662,7 +662,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
 			lastUse = 0,
@@ -692,7 +692,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -722,7 +722,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1100,7 +1100,7 @@ local tbl =
 			timelineIndex = 59,
 			timerEndOffset = 0,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -6,
 			used = false,
 			uuid = "2af5fd69-d727-6a3a-8ce0-d19d103d69d4",
 		},
@@ -1146,6 +1146,36 @@ local tbl =
 	},
 	[64] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 15 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Suiton() then\n  self.used = true\n end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 379.7,
+			name = "PreSuiton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 379.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 64,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "6431f3c6-e1c7-2ac2-b03c-37f8194b906a",
+		},
 	},
 	[65] = 
 	{
@@ -1158,14 +1188,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 15 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n  NilsReactionCore.Hotbar.Ninja.Batch.PreTrick()\n  self.used = true\nend",
+			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 10 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) > 5 then\n if NilsReactionCore.Hotbar.Ninja.Kassatsu() then\n  self.used = true\n end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 383.8,
-			name = "suiton and kassatsu",
+			name = "PreKassatsu",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -1173,11 +1203,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 65,
-			timerEndOffset = -2.5,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -3,
 			used = false,
-			uuid = "9a2a5ff7-18b9-a883-bb9f-d78dbdad1516",
+			uuid = "ae442a28-fc2a-d7db-abe6-c1e0b40e01bc",
 		},
 	},
 	[66] = 
@@ -1220,7 +1250,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "-- delayed for lb3 limit break, so that yourself or co melee can get full trick\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
 			lastUse = 0,
@@ -1250,7 +1280,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1280,7 +1310,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -1301,6 +1331,66 @@ local tbl =
 			timerStartOffset = 9,
 			used = false,
 			uuid = "95d75e3e-255a-16db-bfaf-7382747d66c6",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.TrickAttack(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 388.9,
+			name = "Trick On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 388.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 66,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = -0.5,
+			used = false,
+			uuid = "84498a7c-e77c-fae1-ad65-7af8406c8a2e",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 388.9,
+			name = "Trick Window on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 388.9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 66,
+			timerEndOffset = 4,
+			timerOffset = 7.5,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "8535ad0b-e2ea-ce8c-bb81-3eeffb7b4c49",
 		},
 	},
 	[67] = 
@@ -2868,6 +2958,84 @@ local tbl =
 			timerStartOffset = 5,
 			used = false,
 			uuid = "a4539336-4368-c93a-a49a-85a67b364a27",
+		},
+	},
+	[156] = 
+	{
+		
+		{
+			actions = 
+			{
+				
+				{
+					aType = 3,
+					actionID = -1,
+					actionLua = "",
+					allowInterrupt = false,
+					atomicPriority = false,
+					castAtMouse = false,
+					castPosX = 0,
+					castPosY = 0,
+					castPosZ = 0,
+					clusterMinPercent = false,
+					clusterMinTarget = 1,
+					clusterRadius = 8,
+					clusterRange = 30,
+					conditions = 
+					{
+					},
+					endIfUsed = false,
+					gVar = "",
+					gVarValue = 1,
+					ignoreWeaveRules = false,
+					isAreaTarget = false,
+					luaNeedsWeaveWindow = false,
+					luaReturnsAction = false,
+					name = "",
+					potType = 1,
+					setTarget = true,
+					showPositionPreview = false,
+					stopCasting = false,
+					stopMoving = false,
+					targetContentID = -1,
+					targetName = "",
+					targetSubType = "Nearest",
+					targetType = "Enemy",
+					untarget = false,
+					useForWeaving = false,
+					useItem = false,
+					useItemID = 0,
+					useItemName = "",
+					usePot = false,
+					used = false,
+					variableIsHover = false,
+					variableTogglesType = 1,
+				},
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 1387.2,
+			name = "target boss",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1387.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 156,
+			timerEndOffset = 3,
+			timerOffset = -5,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "ac2e816b-f24e-9bf0-b806-fedb116b8c16",
 		},
 	},
 	[157] = 

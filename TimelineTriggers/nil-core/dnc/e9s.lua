@@ -33,6 +33,39 @@ local tbl =
 			uuid = "6fbb8308-f3f5-93aa-ab47-d6db3ad9073f",
 		},
 	},
+	[4] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOff(NilsReactionCore.params.isTimeline)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 36.8,
+			name = "Potion Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 36.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 4,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "0acddec4-0d97-0870-96b1-09d74ef65edf",
+		},
+	},
 	[6] = 
 	{
 		
@@ -262,6 +295,36 @@ local tbl =
 			timerStartOffset = -2.5,
 			used = false,
 			uuid = "26f8137f-51ba-d58f-be34-384b64402125",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOn(NilsReactionCore.params.isTimeline)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 358,
+			name = "Potion On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 358,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 31,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "a45707ff-6b01-ab3a-bb16-6afb9451dd43",
 		},
 	},
 	[32] = 

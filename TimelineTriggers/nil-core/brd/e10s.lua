@@ -1,5 +1,38 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Fixes alightmnet for fight/clouds\nif NilsReactionCore.Hotbar.Bard.BattleVoice() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 11.3,
+			name = "Battle Voice Early",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 11.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = -5,
+			timerOffset = 0,
+			timerStartOffset = -7,
+			used = false,
+			uuid = "5e87f3dc-5861-ac11-91a2-18562ceee88e",
+		},
+	},
 	[4] = 
 	{
 		
@@ -44,14 +77,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mainTank = NilsReactionCore.Helpers.Target.GetMainTank()\nif mainTank ~= nil then \n  if NilsReactionCore.Hotbar.Bard.NaturesMinne({TargetID = mainTank.id}) then self.used = true end\nend",
+			execute = "-- Only Happens if the MT is not under invuln\nif NilsReactionCore.Actions.Bard.NaturesMinneMT() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 53.2,
-			name = "Nature's Minne",
+			name = "Nature's Minnie",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -60,10 +93,10 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 6,
 			timerEndOffset = 0,
-			timerOffset = 0,
+			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "4fa5dac2-24cc-dadb-b0dd-68edf564892d",
+			uuid = "db49c3e0-e178-f65c-82d9-8538fff3ba03",
 		},
 	},
 	[11] = 
@@ -143,14 +176,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mainTank = NilsReactionCore.Helpers.Target.GetMainTank()\nif mainTank ~= nil then \n  if NilsReactionCore.Hotbar.Bard.NaturesMinne({TargetID = mainTank.id}) then self.used = true end\nend",
+			execute = "-- Only Happens if the MT is not under invuln\nif NilsReactionCore.Actions.Bard.NaturesMinneMT() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 119.8,
-			name = "Nature's Minne",
+			name = "Nature's Minnie",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -159,10 +192,10 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 18,
 			timerEndOffset = 0,
-			timerOffset = 0,
+			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "4c7130e3-e656-79bb-bbc6-671fa7b0780b",
+			uuid = "c9d763d6-1142-674a-a809-98d7f833326e",
 		},
 	},
 	[26] = 
@@ -275,14 +308,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mainTank = NilsReactionCore.Helpers.Target.GetMainTank()\nif mainTank ~= nil then \n  if NilsReactionCore.Hotbar.Bard.NaturesMinne({TargetID = mainTank.id}) then self.used = true end\nend",
+			execute = "-- Only Happens if the MT is not under invuln\nif NilsReactionCore.Actions.Bard.NaturesMinneMT() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 341.6,
-			name = "Nature's Minne",
+			name = "Nature's Minnie",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -291,44 +324,14 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 47,
 			timerEndOffset = 0,
-			timerOffset = 0,
+			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "fe6a0f82-e88a-62ac-9638-3c9bc2eb0a0c",
+			uuid = "26f47f6e-42fd-598b-8d85-b17295891deb",
 		},
 	},
 	[53] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 373.3,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 373.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 53,
-			timerEndOffset = 300,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "161c95c4-4d6e-64ff-a16c-4a86a2f11920",
-		},
 	},
 	[57] = 
 	{
@@ -429,6 +432,15 @@ local tbl =
 			uuid = "8484f42c-8a2c-b32e-8642-90fcb4518124",
 		},
 	},
+	[65] = 
+	{
+	},
+	[67] = 
+	{
+	},
+	[68] = 
+	{
+	},
 	[73] = 
 	{
 		
@@ -473,14 +485,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mainTank = NilsReactionCore.Helpers.Target.GetMainTank()\nif mainTank ~= nil then \n  if NilsReactionCore.Hotbar.Bard.NaturesMinne({TargetID = mainTank.id}) then self.used = true end\nend",
+			execute = "-- Only Happens if the MT is not under invuln\nif NilsReactionCore.Actions.Bard.NaturesMinneMT() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 601.4,
-			name = "Nature's Minne",
+			name = "Nature's Minnie",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -489,10 +501,10 @@ local tbl =
 			timeRange = true,
 			timelineIndex = 87,
 			timerEndOffset = 0,
-			timerOffset = 0,
+			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "39d73967-5be6-23b0-8ab9-42fe0c94227a",
+			uuid = "904e2d3f-bce9-8e56-8c40-e6d7609568af",
 		},
 	},
 	[93] = 

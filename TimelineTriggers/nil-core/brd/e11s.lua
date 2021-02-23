@@ -1,5 +1,38 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Fixes alightmnet for fight/clouds\nif NilsReactionCore.Hotbar.Bard.BattleVoice() == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 17.4,
+			name = "Battle Voice Early",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 17.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = -10,
+			timerOffset = 0,
+			timerStartOffset = -13,
+			used = false,
+			uuid = "b66e5336-b7a4-59e2-92bb-08832321691a",
+		},
+	},
 	[5] = 
 	{
 	},
@@ -508,9 +541,39 @@ local tbl =
 			timelineIndex = 56,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -3,
+			timerStartOffset = -6,
 			used = false,
 			uuid = "e603dcee-1858-0ff1-9abb-fd1cdcc7fca1",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Bard.BattleVoice(NilsReactionCore.params.off,NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 351.4,
+			name = "Battle Voice Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 351.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 56,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = -3,
+			used = false,
+			uuid = "aec5c1ab-4e77-1fae-8996-ee4f14ca73e6",
 		},
 	},
 	[64] = 
@@ -554,36 +617,6 @@ local tbl =
 	},
 	[68] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 385.6,
-			name = "CD On",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 385.6,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 68,
-			timerEndOffset = 1,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "a239bc90-584b-e714-ab9a-1639ba93225a",
-		},
 	},
 	[69] = 
 	{
@@ -661,6 +694,66 @@ local tbl =
 			timerStartOffset = -3,
 			used = false,
 			uuid = "0ab42acc-bf39-4f1d-bfee-837c531cc0ff",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 386.4,
+			name = "CD On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 386.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 69,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "c28a78fc-7e4d-01e1-aa39-e081883a3d26",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Bard.BattleVoice(NilsReactionCore.params.on,NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 386.4,
+			name = "Battle Voice On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 386.4,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 69,
+			timerEndOffset = 2,
+			timerOffset = -3,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "2bca45ed-2daf-57c7-867f-4421aea1bb72",
 		},
 	},
 	[73] = 
