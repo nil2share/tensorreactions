@@ -66,7 +66,7 @@ local tbl =
 			uuid = "d62ab034-163f-2cb8-99d8-97d910765fae",
 		},
 	},
-	[14] = 
+	[13] = 
 	{
 		
 		{
@@ -83,21 +83,24 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 97,
+			mechanicTime = 94,
 			name = "Group Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 97,
+			time = 94,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 14,
+			timelineIndex = 13,
 			timerEndOffset = 1.5,
 			timerOffset = 0,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "ac8451c5-8b64-e3d0-8570-31f384d4726e",
+			uuid = "b99e4ae5-d2ea-8bde-9086-f2a7f4f037e1",
 		},
+	},
+	[14] = 
+	{
 	},
 	[15] = 
 	{
@@ -226,7 +229,7 @@ local tbl =
 			timelineIndex = 32,
 			timerEndOffset = 1.5,
 			timerOffset = 0,
-			timerStartOffset = 0.5,
+			timerStartOffset = -0.5,
 			used = false,
 			uuid = "b86e37c6-3142-f0b3-91a3-3f069f1969e7",
 		},
