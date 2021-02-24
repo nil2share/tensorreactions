@@ -1316,36 +1316,6 @@ local tbl =
 	},
 	[87] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 1015,
-			name = "Third Eye",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 1015,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 87,
-			timerEndOffset = -0.5,
-			timerOffset = -2,
-			timerStartOffset = -1.5,
-			used = false,
-			uuid = "07424e56-66ae-3621-92be-b0cd874c6e6d",
-		},
 	},
 	[88] = 
 	{
