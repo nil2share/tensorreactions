@@ -905,7 +905,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 28,
-			timerEndOffset = 5,
+			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 1.5,
 			used = false,
@@ -1288,6 +1288,36 @@ local tbl =
 			used = false,
 			uuid = "6482d8cd-f170-1fb6-b303-eb792b28e3e5",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline) then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 307,
+			name = "Jump on",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 307,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 38,
+			timerEndOffset = 5,
+			timerOffset = 0,
+			timerStartOffset = 1.5,
+			used = false,
+			uuid = "554996b8-7a67-b173-b795-1d2e655b1851",
+		},
 	},
 	[39] = 
 	{
@@ -1378,7 +1408,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 43,
-			timerEndOffset = 2,
+			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
@@ -1387,36 +1417,6 @@ local tbl =
 	},
 	[44] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			execute = "if NilsReactionCore.Toggles.Dragoon.BattleLitany(NilsReactionCore.params.on, NilsReactionCore.params.isNotTimeline) then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 337,
-			name = "BattleLitany on",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 337,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 44,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2,
-			used = false,
-			uuid = "09158bb2-2819-629e-9616-c7068e4be36a",
-		},
 	},
 	[47] = 
 	{
@@ -1868,7 +1868,7 @@ local tbl =
 			timelineIndex = 68,
 			timerEndOffset = 5,
 			timerOffset = 1.375,
-			timerStartOffset = 0,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "fb9dbe85-3129-278d-b447-d2ddc6af8db7",
 		},
@@ -1898,7 +1898,7 @@ local tbl =
 			timelineIndex = 68,
 			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -2,
 			used = false,
 			uuid = "4cf5a07b-eb80-9465-94fa-87b395d6e97d",
 		},
@@ -2086,7 +2086,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
