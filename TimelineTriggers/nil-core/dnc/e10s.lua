@@ -1,5 +1,38 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Helpers.Healer.IsEnoughPartyMembersInRange(4, 4) then\n  if NilsReactionCore.Hotbar.Dancer.CuringWaltz() then self.used = true end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 11.3,
+			name = "Curing Waltz",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 11.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = -3,
+			timerStartOffset = -2,
+			used = false,
+			uuid = "002785fa-a68d-67e9-978b-b003e8410ec3",
+		},
+	},
 	[4] = 
 	{
 		
@@ -269,36 +302,6 @@ local tbl =
 	},
 	[53] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 373.3,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 373.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 53,
-			timerEndOffset = 300,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "7da38bcd-c64d-8911-ac47-a21399dab846",
-		},
 	},
 	[57] = 
 	{

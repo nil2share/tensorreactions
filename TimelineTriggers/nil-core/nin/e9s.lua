@@ -530,7 +530,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Toggles.Ninja.Doton()\nself.used = true",
+			execute = "if NilsReactionCore.Toggles.Ninja.Doton() then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -547,7 +547,7 @@ local tbl =
 			timelineIndex = 22,
 			timerEndOffset = 6,
 			timerOffset = 0,
-			timerStartOffset = 2,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "815c97d3-950f-3ba4-8dc8-bada88da5836",
 		},

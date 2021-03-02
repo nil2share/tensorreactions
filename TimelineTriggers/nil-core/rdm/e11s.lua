@@ -899,6 +899,36 @@ local tbl =
 			used = false,
 			uuid = "17524f10-b28c-dfa3-a327-b0b55c211309",
 		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Redmage.Embolden(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\nself.used",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 237,
+			name = "Embolden Off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 237,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 39,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "69d501f5-d2b8-e887-90d3-8e6d9c528997",
+		},
 	},
 	[44] = 
 	{
@@ -931,6 +961,36 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "31bf79db-71f0-b8ad-a6c2-a0dd459852ed",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Redmage.Embolden(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 264.1,
+			name = "Embolden On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 264.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 44,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "666a4a64-d5b9-daea-81cf-69b1cdcdbe98",
 		},
 	},
 	[49] = 
