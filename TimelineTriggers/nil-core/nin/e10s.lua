@@ -33,6 +33,39 @@ local tbl =
 			uuid = "fd036258-fe68-0ad8-8672-f09ca6a91c2f",
 		},
 	},
+	[3] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Ninja.FastTrickAttack(true)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 24.5,
+			name = "Turn Fast TA On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 24.5,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 3,
+			timerEndOffset = 3,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "21800eb4-b2d8-1463-bd33-8bc86cc41c1f",
+		},
+	},
 	[4] = 
 	{
 		

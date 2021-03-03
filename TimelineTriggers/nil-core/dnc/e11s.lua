@@ -128,6 +128,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 173,
 			name = "Force Standard Step",
 			randomOffset = 0,
 			randomTimeout = 3,
