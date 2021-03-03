@@ -600,6 +600,39 @@ local tbl =
 			uuid = "7955e38c-b2fa-0fbc-b316-beb624a978a3",
 		},
 	},
+	[63] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- Alignment fixes\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then\n  self.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 452.7,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 452.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 63,
+			timerEndOffset = -4,
+			timerOffset = -1,
+			timerStartOffset = -6,
+			used = false,
+			uuid = "ced50aa3-0fb5-08e8-a988-475ab2d10621",
+		},
+	},
 	[64] = 
 	{
 		
@@ -635,36 +668,6 @@ local tbl =
 	},
 	[65] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "-- Alignment fixes\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 476,
-			name = "Trick window off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 476,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 65,
-			timerEndOffset = -4,
-			timerOffset = -1,
-			timerStartOffset = -6,
-			used = false,
-			uuid = "87f7a328-070a-fb1c-903b-464338d4a1b7",
-		},
 	},
 	[67] = 
 	{
