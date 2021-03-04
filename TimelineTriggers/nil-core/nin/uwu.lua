@@ -487,7 +487,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)",
+			execute = "NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -520,7 +520,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 15 and target.contentid == 1644 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 15 and target.contentid == 1644 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n -- NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -549,7 +549,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 5 and target.contentid == 1644 then\n  NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
@@ -667,36 +667,6 @@ local tbl =
 	},
 	[13] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 15 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Suiton() then\n  self.used = true\n end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 57,
-			name = "PreSuiton",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 57,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 13,
-			timerEndOffset = 1,
-			timerOffset = 0,
-			timerStartOffset = -1,
-			used = false,
-			uuid = "4ba955b4-f4c6-eb59-bc5b-894f56d391e8",
-		},
 		
 		{
 			actions = 
@@ -893,18 +863,42 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 13,
-			timerEndOffset = 10,
+			timerEndOffset = 8,
 			timerOffset = -2.5999999046326,
 			timerStartOffset = 4,
 			used = false,
 			uuid = "c66e2261-b05c-3f58-923d-e670faf34596",
 		},
-	},
-	[14] = 
-	{
-	},
-	[15] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 15 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Suiton() then\n  self.used = true\n end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 57,
+			name = "PreSuiton",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 57,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 13,
+			timerEndOffset = 4,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "fa96c14f-0630-9980-b9d0-65f1351048b0",
+		},
 		
 		{
 			actions = 
@@ -920,21 +914,27 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 72,
+			mechanicTime = 57,
 			name = "PreKassatsu",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 72,
+			time = 57,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 15,
-			timerEndOffset = 0,
+			timelineIndex = 13,
+			timerEndOffset = 10,
 			timerOffset = 0,
-			timerStartOffset = -3,
+			timerStartOffset = 4,
 			used = false,
-			uuid = "91079e9e-1b9b-82ea-b4ae-b1e0c4e2ffa2",
+			uuid = "b8bb7a81-0782-2f0b-88d5-00bc33ea6c05",
 		},
+	},
+	[14] = 
+	{
+	},
+	[15] = 
+	{
 	},
 	[16] = 
 	{
@@ -1116,7 +1116,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			execute = "NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1182,37 +1182,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- timeline control, if you want shadowfang to be enabled\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then\n  self.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 100,
-			name = "Trick window off",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 100,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 19,
-			timerEndOffset = 3,
-			timerOffset = -1,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "643e86fa-23c5-7423-a72f-48d794ee1508",
-		},
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "-- off because I want it for reopener for ifrit\nif NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "-- off because I want it for reopener for ifrit\nNilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -1232,6 +1202,36 @@ local tbl =
 			timerStartOffset = -4,
 			used = false,
 			uuid = "762ac95e-2e45-da80-a919-6f8997b632ba",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- off for transition\nNilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 100,
+			name = "Trick window off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 100,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 3,
+			timerOffset = -1,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "643e86fa-23c5-7423-a72f-48d794ee1508",
 		},
 		
 		{
@@ -2168,7 +2168,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 39,
-			timerEndOffset = 0,
+			timerEndOffset = 1,
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
@@ -2213,7 +2213,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			execute = "NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2243,7 +2243,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			execute = "NilsReactionCore.Logic.Toggles.CDOn(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2276,7 +2276,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 15 and target.contentid == 1185 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n  NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 15 and target.contentid == 1185 then\n  NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n -- NilsReactionCore.Toggles.Ninja.Ninki(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2730,7 +2730,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) == true then\n  self.used = true\nend",
+			execute = "NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -2842,7 +2842,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "-- timeline control, if you want shadowfang to be enabled\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then\n  self.used = true\nend",
+			execute = "NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3379,7 +3379,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 75,
-			timerEndOffset = 2,
+			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
@@ -3411,7 +3411,7 @@ local tbl =
 			timelineIndex = 75,
 			timerEndOffset = 7,
 			timerOffset = 0,
-			timerStartOffset = 2,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "630e21c8-6e3d-f105-a18e-da0b224c1c2c",
 		},

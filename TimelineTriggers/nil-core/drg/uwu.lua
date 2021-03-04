@@ -11,6 +11,36 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "-- turn off true north quick toggle until after battle litany, animation can cause it to slip and potential to get hit by slipstream\nNilsReactionCore.Toggles.Dragoon.TrueNorth(NilsReactionCore.params.off, NilsReactionCore.params.off, NilsReactionCore.params.on, 5000)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 9,
+			name = "True North off",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 9,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -9,
+			used = false,
+			uuid = "42e62757-f730-70e8-97ab-78cefd4fb552",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Dragoon.BattleLitany(NilsReactionCore.params.on, NilsReactionCore.params.isNotTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -83,7 +113,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 20, 3000)\nself.used = true\n",
+			execute = "NilsReactionCore.Raid.Mechanics.General.Cleave(1644, 7, 30, 3000)\nself.used = true\n",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -487,7 +517,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "if NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline) then self.used = true end",
+			execute = "NilsReactionCore.Logic.Toggles.JumpsOn(NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -504,7 +534,7 @@ local tbl =
 			timelineIndex = 10,
 			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -1,
 			used = false,
 			uuid = "8ba44e82-3bdf-4226-a45a-c10d88326d5a",
 		},
@@ -520,7 +550,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 15 and target.contentid == 1644 then\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n -- NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
+			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 10 and target.contentid == 1644 then\n  NilsReactionCore.Logic.Toggles.CDOff(NilsReactionCore.params.isTimeline)\n -- NilsReactionCore.Logic.Toggles.JumpsOff(NilsReactionCore.params.isTimeline)\n  self.used = true\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = true,
