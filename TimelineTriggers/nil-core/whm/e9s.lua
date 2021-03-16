@@ -1,5 +1,38 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "--[[\nThis timeline uses the new reaction helpers built into Nil-Core Add.\n\nSee Nil-Core >  Job > Reactions for options and settings\n\n\n]]--",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 16.9,
+			name = "README",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 16.9,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "98346143-ab82-d00e-bded-4a0bc87d592d",
+		},
+	},
 	[4] = 
 	{
 		
@@ -35,69 +68,9 @@ local tbl =
 	},
 	[7] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 74.3,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 74.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "0d69db19-91f0-f4d5-a3a0-c671a4fdcc5e",
-		},
 	},
 	[8] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 81.8,
-			name = "Sprint",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 81.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = 4,
-			timerOffset = -2,
-			timerStartOffset = 2,
-			used = false,
-			uuid = "aefac54c-2b6b-dc78-92e2-9dc8737b7d8f",
-		},
 	},
 	[22] = 
 	{
@@ -176,36 +149,6 @@ local tbl =
 	},
 	[32] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 369.2,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 369.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "05d43852-e99f-f4e6-88f7-ac8ff79bb35b",
-		},
 	},
 	[44] = 
 	{

@@ -1,5 +1,38 @@
 local tbl = 
 {
+	[2] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			execute = "--[[\nThis timeline uses the new reaction helpers built into Nil-Core Add.\n\nSee Nil-Core >  Job > Reactions for options and settings\n\n\n]]--",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 16.9,
+			name = "README",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 16.9,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 2,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "67c6675a-466f-fe6c-a7a9-db0f22578eaa",
+		},
+	},
 	[4] = 
 	{
 		
@@ -35,69 +68,9 @@ local tbl =
 	},
 	[7] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 74.3,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 74.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "611b7f05-1a3f-0bf0-b001-cd505d976b1c",
-		},
 	},
 	[8] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 81.8,
-			name = "Sprint",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 81.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = 4,
-			timerOffset = -2,
-			timerStartOffset = 2,
-			used = false,
-			uuid = "90cf6b60-5c1b-b51a-9f40-bd4b2f797212",
-		},
 	},
 	[22] = 
 	{
@@ -134,102 +107,12 @@ local tbl =
 	},
 	[25] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Ninja.ShadeShift() == true then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 264.3,
-			name = "Shadeshift",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 264.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 25,
-			timerEndOffset = 0,
-			timerOffset = -4,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "11b25295-3fdb-c7ab-b800-9a745fdc34d9",
-		},
 	},
 	[28] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 301.2,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 301.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 28,
-			timerEndOffset = 250,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "25307687-2a95-bea3-81d6-ba18703e0a4a",
-		},
 	},
 	[30] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "local target = Player:GetTarget()\nif target ~= nil and table.valid(target) and target.attackable and target.hp.percent < 2 then\n  if NilsReactionCore.Logic.Toggles.BurnBossOn(NilsReactionCore.params.isTimeline) == true then\n    self.used = true\n  end\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 337.4,
-			name = "Burn Boss",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 337.4,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 30,
-			timerEndOffset = 200,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			used = false,
-			uuid = "cd5e87db-84a5-0c06-90ee-ec8e230490d6",
-		},
 	},
 	[31] = 
 	{
@@ -266,36 +149,6 @@ local tbl =
 	},
 	[32] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 369.2,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 369.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "825d4ca0-6642-4ef6-9cf5-e41537ee31ce",
-		},
 	},
 	[44] = 
 	{

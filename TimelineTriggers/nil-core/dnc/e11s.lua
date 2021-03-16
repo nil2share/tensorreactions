@@ -33,7 +33,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3.5,
 			used = false,
-			uuid = "cb8f1cec-fbc3-c321-a78c-8764aceec194",
+			uuid = "babf0ea1-cfe7-05e4-bd8b-19beb792e8e8",
 		},
 	},
 	[7] = 
@@ -69,7 +69,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1.5,
 			used = false,
-			uuid = "bbe91df0-0ab3-86c0-957c-21dbebdd5fde",
+			uuid = "6df48cd6-d788-9488-afa8-2df9b3e79762",
 		},
 	},
 	[15] = 
@@ -102,7 +102,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4.5,
 			used = false,
-			uuid = "ad0faabb-f314-16aa-9a63-ec64159c1059",
+			uuid = "42775d31-0694-e247-a157-42a2c79f993a",
 		},
 	},
 	[19] = 
@@ -141,7 +141,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "bb98c921-4d98-9a53-833b-2eebddceeb38",
+			uuid = "3e13c9c7-bebf-27a5-a47a-d3234a7fa105",
 		},
 	},
 	[30] = 
@@ -174,7 +174,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "b6548691-f1e9-3838-a54e-5a548d396768",
+			uuid = "7a2ac1a5-c3a6-ee2b-b925-e6c27e5de9a1",
 		},
 	},
 	[31] = 
@@ -255,7 +255,7 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "33dd00d6-af76-3941-8b97-8ffe64d23ddb",
+			uuid = "892d8317-4015-6b32-be98-7bb1a256da5d",
 		},
 	},
 	[36] = 
@@ -291,7 +291,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4.5,
 			used = false,
-			uuid = "6b49a0e4-fd06-de69-8fd1-2f0ab3df5bac",
+			uuid = "07a030e0-9efa-93f8-bfcb-b6a2c28c62c7",
 		},
 		
 		{
@@ -321,7 +321,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "4a34de81-e700-3619-8ce5-c76c048cb767",
+			uuid = "dcc23e46-3054-60e9-88c0-e79fb163eaa5",
 		},
 		
 		{
@@ -351,7 +351,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "af051034-b101-6a1f-ac9f-d4a49a71c4ab",
+			uuid = "7359a0dd-d39f-2053-b08b-c4c445f6fb67",
 		},
 	},
 	[41] = 
@@ -384,7 +384,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "32d74cf5-0053-2e03-bd23-16e5e6edcd0b",
+			uuid = "37309286-0281-9f42-ab0d-744bbbcff3f3",
 		},
 	},
 	[44] = 
@@ -417,7 +417,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "2b690a26-7864-b7cd-b5ea-47ed7e086871",
+			uuid = "14196231-242c-1284-831c-c36c3fc5da85",
 		},
 		
 		{
@@ -447,7 +447,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 5,
 			used = false,
-			uuid = "88a0a540-658a-157d-9bf4-6a1458903a2c",
+			uuid = "6af86dcd-3501-98c8-b46f-8768ec099fa3",
 		},
 	},
 	[56] = 
@@ -483,7 +483,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "585a8056-b278-2cfa-85fb-2f9949d46fb4",
+			uuid = "f3d7a331-def1-b239-856c-ed9bf4219ee8",
 		},
 	},
 	[64] = 
@@ -522,7 +522,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "a758b4a3-4b97-6f1c-b686-2eabaaa65c4c",
+			uuid = "15222012-d23b-ec01-a57b-74a0a90b2b8b",
 		},
 	},
 	[68] = 
@@ -603,7 +603,7 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "406cda79-fa18-13cf-b618-1f9c4e9248e8",
+			uuid = "6388bd46-0faa-100e-ad81-75fe171bd966",
 		},
 	},
 	[73] = 
@@ -642,7 +642,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "b9508bf6-9d89-6e2a-a2e4-a8255dcd7076",
+			uuid = "0763245c-8bbb-6581-bd12-c66408f83f83",
 		},
 		
 		{
@@ -672,7 +672,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "538f6558-b1c9-35b1-bdc7-19efe38a78c1",
+			uuid = "4ab318fb-2d15-93a7-ab50-213f7ece9f79",
 		},
 		
 		{
@@ -702,7 +702,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "eb67b749-a6e4-6d04-8152-0d46789e72cb",
+			uuid = "143d4489-02b8-cd6d-830e-4f8fba245ca2",
 		},
 	},
 	[84] = 
@@ -735,7 +735,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "c5dd6bf3-34e1-6de1-805e-cfd00bee695c",
+			uuid = "e2a69256-6d71-ea72-9e90-5aa6c10c2336",
 		},
 	},
 	[86] = 
@@ -774,7 +774,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -10,
 			used = false,
-			uuid = "d4d0d5be-5be1-071a-b48b-c15ee8026ce8",
+			uuid = "a42d5681-f514-d79a-b898-95bc78068111",
 		},
 		
 		{
@@ -804,7 +804,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -7,
 			used = false,
-			uuid = "ffd38631-b1d2-6496-ac18-0629e0113ac3",
+			uuid = "d4adee1b-b817-3758-af34-3c5ba4001588",
 		},
 	},
 	[89] = 
@@ -885,7 +885,7 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "cd1ab831-c8d7-5a50-bdab-a78cd08004e0",
+			uuid = "ab887095-4ad0-6eb9-97a7-cca38a1a27e1",
 		},
 		
 		{
@@ -915,7 +915,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -13,
 			used = false,
-			uuid = "d1dc4ef5-44cc-ca61-9d34-e929ca8999ca",
+			uuid = "3bb692aa-dcfd-4fcb-9a4a-f309c189c82e",
 		},
 		
 		{
@@ -945,7 +945,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "6efc5f4d-5822-050e-9ed0-702f9f56decc",
+			uuid = "fe86f21f-f6f3-b7d2-ac9b-86b45ddf0241",
 		},
 		
 		{
@@ -975,7 +975,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "ad05369f-73d4-2f15-8a00-b65e7215464d",
+			uuid = "884da0f3-323d-e55b-a18f-c7d55caece63",
 		},
 		
 		{
@@ -1005,7 +1005,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "69ce7050-5521-5d33-a70b-f63ff3fa582e",
+			uuid = "a88e7e68-42a3-98a7-9097-d54f2643a32f",
 		},
 	},
 	[108] = 
@@ -1038,7 +1038,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "e97eb714-62a6-a1a0-a8b4-5c31d6c5fe8f",
+			uuid = "b0003cb6-df5d-b511-ab2b-3076954ccba7",
 		},
 	},
 	[123] = 
@@ -1074,7 +1074,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "65094102-b765-f57d-8a9f-5a08f7117244",
+			uuid = "bcda8f43-5b6d-5b10-a9de-2e924f76abaf",
 		},
 	},
 	[143] = 
@@ -1107,7 +1107,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "16a0299a-0db8-460f-bd84-a897d63be9cb",
+			uuid = "37c216a9-64e1-5831-9599-202934081c42",
 		},
 	},
 	mapID = 948,

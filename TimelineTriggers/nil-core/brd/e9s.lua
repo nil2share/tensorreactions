@@ -30,11 +30,8 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -12,
 			used = false,
-			uuid = "99952062-10be-2f9e-87dc-e107646e40a3",
+			uuid = "3c8df223-d878-8425-b67e-b982e1d5e6cc",
 		},
-	},
-	[3] = 
-	{
 		
 		{
 			actions = 
@@ -43,28 +40,31 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
+			enabled = false,
+			execute = "--[[\nThis timeline uses the new reaction helpers built into Nil-Core Add.\n\nSee Nil-Core >  Job > Reactions for options and settings\n\n\n]]--",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			mechanicTime = 27.1,
-			name = "Group Shield",
+			mechanicTime = 16.9,
+			name = "README",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
-			time = 27.1,
+			time = 16.9,
 			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 3,
+			timeRange = false,
+			timelineIndex = 2,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -2.5,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "1facbe57-75e6-828c-9516-517bb1d2ec8c",
+			uuid = "656133f0-e6d7-7e56-874a-80d0ffde9c00",
 		},
+	},
+	[3] = 
+	{
 	},
 	[4] = 
 	{
@@ -96,7 +96,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "a5a46a0b-5796-9ee6-8c57-0534fefed1fb",
+			uuid = "2c12b8cc-6f71-9600-ac1b-60e16fc4891f",
 		},
 	},
 	[5] = 
@@ -129,107 +129,17 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "8a27c973-cfb9-f0d7-af15-080580af8be8",
+			uuid = "2e28b376-3093-e638-a6d4-71a929e7da47",
 		},
 	},
 	[6] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 63.1,
-			name = "Group Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 63.1,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 6,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2.5,
-			used = false,
-			uuid = "5326996e-b80a-452a-b135-e05a5fdc0e8f",
-		},
 	},
 	[7] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 74.3,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 74.3,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 7,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "202500ef-3f6d-a122-a1f5-58099d0a25a4",
-		},
 	},
 	[8] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 81.8,
-			name = "Sprint",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 81.8,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 8,
-			timerEndOffset = 4,
-			timerOffset = -2,
-			timerStartOffset = 2,
-			used = false,
-			uuid = "4057f21a-803b-f62e-814b-ee9d3651f336",
-		},
 	},
 	[19] = 
 	{
@@ -261,7 +171,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "3540f396-7660-b3bd-9488-eda3b5b51123",
+			uuid = "d324a562-07a1-8a9b-bcd1-db9f5e3d3d2d",
 		},
 	},
 	[22] = 
@@ -294,7 +204,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "97a5547d-573d-c121-a866-c5c49eec70f5",
+			uuid = "2aabe367-7b54-bdb6-b9f1-381741761794",
 		},
 		
 		{
@@ -324,7 +234,7 @@ local tbl =
 			timerOffset = -1,
 			timerStartOffset = -10,
 			used = false,
-			uuid = "ef5b57d5-a609-fc1b-ab45-f2812f7d9335",
+			uuid = "4b665065-d889-2f3f-a595-f288ae9bf9b8",
 		},
 	},
 	[28] = 
@@ -360,7 +270,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "9ac00f58-a779-296f-985c-e039f75dfbf5",
+			uuid = "5c6be6bf-1ac4-6acd-a4a5-e9ef886ff73e",
 		},
 	},
 	[30] = 
@@ -368,36 +278,6 @@ local tbl =
 	},
 	[31] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 358,
-			name = "Group Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 358,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 31,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -2.5,
-			used = false,
-			uuid = "67a83904-3442-dc91-ad23-588e96196709",
-		},
 		
 		{
 			actions = 
@@ -426,41 +306,11 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "4317f0ad-cd63-8429-b68f-81eb1e176b4e",
+			uuid = "8275ba4e-217b-52ca-b69e-9884e5fc60ad",
 		},
 	},
 	[32] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 369.2,
-			name = "Knockback",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 369.2,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 32,
-			timerEndOffset = -1,
-			timerOffset = 0,
-			timerStartOffset = -5,
-			used = false,
-			uuid = "d76fc8ac-88c0-5ab7-8ab8-08f34a0a9fe9",
-		},
 	},
 	[41] = 
 	{
@@ -492,7 +342,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "61d9d9d7-84e4-f088-8a48-8ffb37e26e40",
+			uuid = "6639998d-2cd8-5050-9110-34c1719fcec1",
 		},
 	},
 	[44] = 
@@ -525,7 +375,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "3e09bb1a-d2e2-be71-97aa-9ebe18b1d965",
+			uuid = "b3b25d9d-01fe-b651-9c8d-ffdbd48e43a8",
 		},
 		
 		{
@@ -555,7 +405,7 @@ local tbl =
 			timerOffset = -1,
 			timerStartOffset = -10,
 			used = false,
-			uuid = "5e767b42-c646-921a-8861-f2ac60064a5a",
+			uuid = "26f85a09-e0d9-d392-8da5-fcdbffbcbe43",
 		},
 	},
 	mapID = 946,

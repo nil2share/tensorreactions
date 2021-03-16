@@ -10,27 +10,27 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
-			execute = "--[[\nThis timeline uses the new reaction helpers built into Nil-Core Add.\n\nSee Nil-Core >  Job > Reactions for options and settings\n\n\n]]--",
+			enabled = true,
+			execute = "NilsReactionCore.State.TimeLine[946] = false\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 16.9,
-			name = "README",
+			name = "disable",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 16.9,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 2,
 			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = 0,
+			timerOffset = -16,
+			timerStartOffset = -16,
 			used = false,
-			uuid = "913b0074-bf25-2701-82e4-a6d949ec4baf",
+			uuid = "5ca6fb64-f743-597b-9617-15a3b573e745",
 		},
 	},
 	[4] = 
@@ -63,23 +63,74 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "94c47b57-b225-629e-8ca1-ab20b8a1d79a",
+			uuid = "689ed178-150d-de87-88d1-18319b23db4b",
 		},
-	},
-	[6] = 
-	{
 	},
 	[7] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 74.3,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 74.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 7,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "6cc54de3-7961-3927-865d-ac6bc390f69f",
+		},
 	},
 	[8] = 
 	{
-	},
-	[13] = 
-	{
-	},
-	[20] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Hotbar.Sprint() == true then self.used = true end\n\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 81.8,
+			name = "Sprint",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 81.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 4,
+			timerOffset = -2,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "6e6df857-8dbe-5076-bc31-9ea490c9331f",
+		},
 	},
 	[22] = 
 	{
@@ -111,10 +162,10 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "dcd4af7a-d8b7-87c1-9262-01cb67a4a512",
+			uuid = "d7d8a73b-d6f9-c700-940f-45d2204602e9",
 		},
 	},
-	[26] = 
+	[25] = 
 	{
 	},
 	[28] = 
@@ -153,17 +204,41 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 2,
 			used = false,
-			uuid = "b55b5d30-8d1c-5c05-ba07-60d5970615af",
+			uuid = "3d6dd7ce-b916-27c4-a8fe-5b7ab9f5d6be",
 		},
 	},
 	[32] = 
 	{
-	},
-	[38] = 
-	{
-	},
-	[42] = 
-	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Settings.jobs[NilsReactionCore.jobs.GetJobID()].Raid.Mechanics[946].KnockBackUpTime == true then\n  if NilsReactionCore.Hotbar.Knockback() == true then self.used = true end\nelse\nself.used = true\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 369.2,
+			name = "Knockback",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 369.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 32,
+			timerEndOffset = -1,
+			timerOffset = 0,
+			timerStartOffset = -5,
+			used = false,
+			uuid = "a03594be-b865-bc14-99d5-1d0f21666ede",
+		},
 	},
 	[44] = 
 	{
@@ -195,7 +270,7 @@ local tbl =
 			timerOffset = -3,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "1dfec2d1-3476-c822-aaa4-42edcc67368f",
+			uuid = "0cb76610-54c9-e205-9634-f128424cbe6f",
 		},
 	},
 	mapID = 946,
