@@ -238,7 +238,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "-- For alignment sake later on in the fight\nif NilsReactionCore.Toggles.Ninja.Helpers.TurnOffTrickAttackWindow(NilsReactionCore.params.isTimeline, NilsReactionCore.params.off) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -268,7 +268,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -298,7 +298,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -328,7 +328,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "NilsReactionCore.Hotbar.Ninja.Raiton()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -427,15 +427,15 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
-			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 10 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Batch.PreTrick() then\n  self.used = true\n end\nend",
+			enabled = true,
+			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 15 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) == 0 then\n if NilsReactionCore.Hotbar.Ninja.Suiton() then\n  self.used = true\n end\nend",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 141.8,
-			name = "suiton and kassatsu",
+			name = "PreSuiton",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -443,11 +443,41 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 22,
-			timerEndOffset = 3,
+			timerEndOffset = -2,
 			timerOffset = 0,
-			timerStartOffset = 0,
+			timerStartOffset = -7,
 			used = false,
-			uuid = "a82deaa5-28a2-14a6-9a40-793642acc193",
+			uuid = "a376f472-9040-c345-8d5a-c151cf94c1e3",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "-- If the stars align\nif NilsReactionCore.Hotbar.Actions.TrickAttack.CoolDown() < 10 and NilsReactionCore.Actions.Buff.Duration(NilsReactionCore.Hotbar.Actions.Suiton.BuffID, Player.id) > 5 then\n if NilsReactionCore.Hotbar.Ninja.Kassatsu() then\n  self.used = true\n end\nend",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 141.8,
+			name = "PreKassatsu",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 141.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 22,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "562fb2ae-bc21-52c4-8636-ccc3129761e0",
 		},
 	},
 	[24] = 
@@ -692,7 +722,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Helpers.TurnOnTrickAttackWindow(NilsReactionCore.params.isTimeline) then self.used = true end\n",
 			executeType = 2,
 			lastUse = 0,
@@ -722,7 +752,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.TCJ(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -752,7 +782,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = false,
+			enabled = true,
 			execute = "if NilsReactionCore.Toggles.Ninja.Meisui(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,

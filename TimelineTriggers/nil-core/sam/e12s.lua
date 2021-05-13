@@ -10,7 +10,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -30,7 +30,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "602a2517-9f04-7999-97a5-1ae7675cb017",
+			uuid = "372cff84-d92c-d6ad-a673-6c369b15239f",
 		},
 	},
 	[5] = 
@@ -63,7 +63,7 @@ local tbl =
 			timerOffset = -10,
 			timerStartOffset = -10,
 			used = false,
-			uuid = "e077cbfe-22c0-493c-b715-735847658427",
+			uuid = "114670d3-5c15-9478-98ed-f58da671ffb1",
 		},
 		
 		{
@@ -93,7 +93,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "2f2122ad-22ca-6d34-a15d-0c0dfa1df9fc",
+			uuid = "ae039194-91bf-e8da-a9ef-8012493fe164",
 		},
 	},
 	[8] = 
@@ -106,7 +106,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -126,7 +126,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "1994c39d-f4e1-3dc5-afd3-6d285e045b50",
+			uuid = "9d89f43e-9a58-bb9d-86d7-d13bba873650",
 		},
 	},
 	[10] = 
@@ -139,7 +139,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -159,7 +159,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "b9f380c5-d435-8412-b6e3-6a9e90c7c7a9",
+			uuid = "c796bff5-d0a7-76b8-828d-59338270aba9",
 		},
 	},
 	[12] = 
@@ -172,7 +172,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -192,7 +192,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "6d1ced0f-3784-209c-bec2-c19430f6dec8",
+			uuid = "22c14664-0516-9eb4-9c50-2a0936bef49b",
 		},
 	},
 	[13] = 
@@ -205,7 +205,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -225,7 +225,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "bc5d1ba2-a651-dfe5-a707-ba30f39e30c3",
+			uuid = "c3b68bb3-7b8f-824e-8587-4d4523124ec6",
 		},
 	},
 	[14] = 
@@ -238,7 +238,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -258,7 +258,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "eda5f031-2747-1e41-b760-271e0ac2b6d5",
+			uuid = "77a98a82-7364-a885-902c-c8dec3a23c97",
 		},
 	},
 	[17] = 
@@ -271,7 +271,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -291,11 +291,44 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = 1,
 			used = false,
-			uuid = "73e03d63-7ebd-4fe9-a099-78bfa08d39e6",
+			uuid = "f6ee4c83-9647-8e49-9446-36db9c96f44f",
 		},
+	},
+	[19] = 
+	{
 	},
 	[21] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Samurai.Meikyo(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 137.8,
+			name = "Turn off Meikyo",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 137.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 21,
+			timerEndOffset = 0,
+			timerOffset = -4,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "6f80f41c-f5cd-a593-96ba-bef676f6ea2a",
+		},
 		
 		{
 			actions = 
@@ -324,7 +357,40 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "412a46a5-ffa6-c36b-a228-b8cdafb469e7",
+			uuid = "6a7e3bef-6897-bad3-bfd9-2c5e7b56019e",
+		},
+	},
+	[22] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "if NilsReactionCore.Toggles.Samurai.Meikyo(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) == true then self.used = true end",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 141.8,
+			name = "Turn on Meikyo",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 141.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 22,
+			timerEndOffset = 4,
+			timerOffset = -4,
+			timerStartOffset = 2,
+			used = false,
+			uuid = "d77ba70b-9fd2-3c81-ad01-17f78f71a457",
 		},
 	},
 	[24] = 
@@ -337,7 +403,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -357,41 +423,11 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "a031883b-a2b6-83e9-b0bc-d558b784dff4",
+			uuid = "b808e4de-b308-2955-8b60-4a58c787478a",
 		},
 	},
 	[26] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 168.7,
-			name = "Third Eye",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 168.7,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 26,
-			timerEndOffset = -1,
-			timerOffset = -2,
-			timerStartOffset = -2.5,
-			used = false,
-			uuid = "c7e50743-56c9-fc29-8e7b-ec80c0a1d0cc",
-		},
 	},
 	[27] = 
 	{
@@ -403,7 +439,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -423,7 +459,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "2d637cbe-c5ca-3a2a-a4d1-f7d53ab6b6ce",
+			uuid = "15037e00-0dc4-73c1-bff0-cec9afd48480",
 		},
 	},
 	[29] = 
@@ -456,7 +492,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "e0a32e31-19a8-b6aa-9144-4913d053e381",
+			uuid = "8b0a78bf-340b-3eeb-a000-74593adf1bde",
 		},
 	},
 	[34] = 
@@ -489,7 +525,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "031e48f9-e3fb-f194-84e3-2726ca72d910",
+			uuid = "0e90ddd7-cf03-1098-aeac-1a448d4380a9",
 		},
 	},
 	[38] = 
@@ -522,7 +558,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "663f8ba7-a8f7-cc65-83b1-6d3aa39945d6",
+			uuid = "be8d33d2-0fa0-ebc5-a6af-cce1c4ac88ce",
 		},
 	},
 	[40] = 
@@ -535,7 +571,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -555,7 +591,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "3ae893e0-8cde-51cb-abc5-d9e3b128dcd2",
+			uuid = "e1b8760d-41d4-01fe-ab53-4407613240a0",
 		},
 	},
 	[43] = 
@@ -568,7 +604,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -588,7 +624,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "8daf7c98-b31c-d39c-96fa-fecb665b0f8e",
+			uuid = "80851682-7365-3f2c-a9f1-26801031762f",
 		},
 	},
 	[44] = 
@@ -601,7 +637,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -621,41 +657,11 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "6f8a2ec7-6e62-0b2f-a777-8dd80e4a4a1b",
+			uuid = "9ab8d69f-0ce3-1864-8c7d-f231697c7718",
 		},
 	},
 	[45] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 283,
-			name = "Third Eye",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 283,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 45,
-			timerEndOffset = 2,
-			timerOffset = -2,
-			timerStartOffset = 1.5,
-			used = false,
-			uuid = "f8ebc7ff-295f-6377-83b8-3e064920d5aa",
-		},
 	},
 	[46] = 
 	{
@@ -685,9 +691,9 @@ local tbl =
 			timelineIndex = 46,
 			timerEndOffset = 0,
 			timerOffset = -2,
-			timerStartOffset = -1,
+			timerStartOffset = -1.5,
 			used = false,
-			uuid = "1c1af155-4872-2de0-878c-7b1f5e8ce270",
+			uuid = "0a82acdd-9b66-8d49-929a-ef458c816d19",
 		},
 	},
 	[47] = 
@@ -720,7 +726,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "8eab1faa-9aa6-e9bc-af6e-4651ebebbdeb",
+			uuid = "2196180d-80a8-91cc-9177-59a767fc0eb7",
 		},
 	},
 	[52] = 
@@ -753,7 +759,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "16bbe68d-ac0f-7c8f-8165-785640bdfe54",
+			uuid = "b133cc6c-2084-d2bd-bb6e-fb2b97f2d32f",
 		},
 	},
 	[53] = 
@@ -786,7 +792,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1.5,
 			used = false,
-			uuid = "ecbb25f2-add4-60bb-b2a9-53bade771ef8",
+			uuid = "5bac88b2-a55f-c0ed-8328-dc2fde0f955c",
 		},
 	},
 	[55] = 
@@ -799,7 +805,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -819,7 +825,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "95bd3f93-702e-2ea0-8ebc-e0befd2616fc",
+			uuid = "fc5360af-a437-1f2d-bc47-cc7fa2fbdba8",
 		},
 	},
 	[56] = 
@@ -832,7 +838,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -852,7 +858,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "834e1eed-e720-e96e-aca9-a64976a253d5",
+			uuid = "ac100c61-013c-b453-a336-6174cfd28481",
 		},
 	},
 	[57] = 
@@ -865,7 +871,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -885,7 +891,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "2a499425-086a-2df4-9644-e6edfb7dad18",
+			uuid = "14049fa9-68f2-cebb-a5d3-4912ce76ff25",
 		},
 	},
 	[60] = 
@@ -918,7 +924,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "ae3260f3-83e2-b722-b39b-4e42e0e700d4",
+			uuid = "1503f06e-1e18-a529-9eaf-550ef257fecb",
 		},
 	},
 	[62] = 
@@ -951,7 +957,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -4,
 			used = false,
-			uuid = "cf08f8ad-cdb7-473d-84a2-68b4c636b183",
+			uuid = "cb794c18-92e1-5bac-b324-fd06075e134e",
 		},
 		
 		{
@@ -981,7 +987,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -0.5,
 			used = false,
-			uuid = "4938fed2-ebb2-2853-b042-950da995cbb9",
+			uuid = "010ff5e9-1cdb-23de-81db-9b7ca38282e1",
 		},
 	},
 	[63] = 
@@ -1014,7 +1020,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "4e437c8e-9436-b212-bad7-ef33743194aa",
+			uuid = "993daf67-a265-d3cd-935d-0c3b39c7539f",
 		},
 	},
 	[64] = 
@@ -1036,7 +1042,7 @@ local tbl =
 			luaReturnsAction = false,
 			mechanicTime = 379.7,
 			name = "Potion On",
-			randomOffset = 0,
+			randomOffset = 2,
 			randomTimeout = 3,
 			throttleTime = 0,
 			time = 379.7,
@@ -1047,7 +1053,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 5,
 			used = false,
-			uuid = "3231a172-bc37-545a-8e97-3f2440bc6fb9",
+			uuid = "c39b5ebe-f20b-323d-8a4f-7fa3e51240b6",
 		},
 	},
 	[67] = 
@@ -1060,7 +1066,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1080,7 +1086,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "e51238b6-292c-9ab3-875c-740631bfef34",
+			uuid = "782ef040-50c1-75aa-b224-e1ae4463cc9a",
 		},
 	},
 	[72] = 
@@ -1093,7 +1099,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1113,7 +1119,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "13ec4ea9-7434-d7b0-9beb-b40496afab53",
+			uuid = "0fef2106-21d9-e0a6-926e-a187dd35b31d",
 		},
 	},
 	[74] = 
@@ -1126,7 +1132,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1146,7 +1152,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "a64d53f5-90cd-0ba3-a4e3-39e2e33bcd80",
+			uuid = "4c0206ab-ff5e-c9fd-b4f1-759a28aeb2e0",
 		},
 	},
 	[77] = 
@@ -1159,7 +1165,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1179,7 +1185,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -1,
 			used = false,
-			uuid = "a9a1d13d-d399-fc53-b1d2-cc35a7cf5ddc",
+			uuid = "4dd0f4de-4ee6-22ff-ab8c-0c6922a9b34f",
 		},
 	},
 	[79] = 
@@ -1192,7 +1198,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1212,7 +1218,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "b0374a14-9400-4b6f-be76-fdfd05669076",
+			uuid = "c7008162-e172-5bfd-a48c-e1cf7b4a570c",
 		},
 	},
 	[80] = 
@@ -1225,7 +1231,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1245,7 +1251,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "66d4a8ba-191e-6884-bc06-e629ff637bf9",
+			uuid = "d817ce36-371e-4b52-8c8e-dccc67e951c3",
 		},
 	},
 	[81] = 
@@ -1258,7 +1264,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1278,7 +1284,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "b8dc947b-e151-6220-a925-036db427a221",
+			uuid = "194f057d-fd60-6ade-adfa-2acd1161525a",
 		},
 	},
 	[82] = 
@@ -1291,7 +1297,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1311,7 +1317,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2,
 			used = false,
-			uuid = "97f0f6d6-61ad-012c-9f6b-f405522d5264",
+			uuid = "bb60683c-b345-ddfd-beb7-16094a15ef09",
 		},
 	},
 	[87] = 
@@ -1327,7 +1333,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1347,7 +1353,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "a67e92fb-7990-dfdc-b595-c93d43dc70e4",
+			uuid = "dc8c2496-212f-bae8-be43-1e0118a6c05d",
 		},
 		
 		{
@@ -1377,7 +1383,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "a85eb2dd-d081-6e57-b615-8a14bb185850",
+			uuid = "649c0deb-91f5-a84c-8035-dcee2162cb32",
 		},
 	},
 	[91] = 
@@ -1410,7 +1416,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "c3fabe36-3d17-30cc-8556-5ad77d6a63ad",
+			uuid = "4ccf00ec-24fe-92a5-8790-eb668f18b18f",
 		},
 	},
 	[92] = 
@@ -1423,7 +1429,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1443,7 +1449,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "8c6a9a96-64aa-0518-b2ff-2aa40943a3a5",
+			uuid = "7b239c4d-311f-fa01-8da0-b363f623b23a",
 		},
 	},
 	[93] = 
@@ -1456,7 +1462,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1476,7 +1482,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "5b0dff92-d526-d9db-ad90-8a466757923b",
+			uuid = "90e7912c-d97b-8143-8884-3d43d53ff4a3",
 		},
 	},
 	[94] = 
@@ -1509,7 +1515,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			used = false,
-			uuid = "78bffc9d-1a92-7df7-a4e2-0a72ed80d368",
+			uuid = "3815e249-c813-2e74-9966-951b74d33df0",
 		},
 	},
 	[95] = 
@@ -1522,7 +1528,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1542,7 +1548,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "aa5e8e4e-86c0-8560-9074-2da5a8fd8e5b",
+			uuid = "5a93b589-a58e-1142-9736-07a723587545",
 		},
 	},
 	[96] = 
@@ -1555,7 +1561,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1575,7 +1581,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "20dd8282-1610-7f1c-9dbd-89cdaf96f3a2",
+			uuid = "00f920aa-0c68-0b4d-a2e9-0efb9c015d65",
 		},
 	},
 	[108] = 
@@ -1588,7 +1594,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1608,7 +1614,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "f1a4c6ef-eebe-18c1-951e-044c90817849",
+			uuid = "70a83001-86a3-d21a-965d-77220950f3d4",
 		},
 	},
 	[111] = 
@@ -1641,7 +1647,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "d9a82f56-2b23-f24e-8100-680cf157fc1a",
+			uuid = "aa99399e-c193-846e-bb2a-d0f6e55e7b34",
 		},
 	},
 	[115] = 
@@ -1657,7 +1663,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1677,7 +1683,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "7ac088e8-d9f0-e0aa-8f2e-a1dcfc552a79",
+			uuid = "53858898-00a3-809a-8b6c-d253b53615a8",
 		},
 	},
 	[124] = 
@@ -1690,7 +1696,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1710,7 +1716,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "20ffc7bb-c09e-ca19-811b-0ce1f0b8a657",
+			uuid = "a146dfc5-3fa1-5b64-8a15-1e48d3312267",
 		},
 	},
 	[125] = 
@@ -1723,7 +1729,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1743,7 +1749,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "0ffba680-b1ad-14e0-a3b4-8a033fa73cfb",
+			uuid = "cc952590-a54d-b4e6-9e4a-95527d4e9fbf",
 		},
 	},
 	[127] = 
@@ -1756,7 +1762,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1776,7 +1782,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "50e44319-a241-a396-bde5-278f1769342a",
+			uuid = "1dee147b-47b5-1bda-8eba-e1ff4f269167",
 		},
 	},
 	[134] = 
@@ -1789,7 +1795,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1809,7 +1815,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "b8201a05-cc32-0c13-a64a-8e1f665a3e51",
+			uuid = "9c729e93-bdc4-4de0-a4a4-dbec4936fd1a",
 		},
 	},
 	[137] = 
@@ -1828,7 +1834,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Feint()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1848,7 +1854,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "9d92c029-4e74-c32d-91bc-96a4ea3f2d1d",
+			uuid = "25c9f300-f1a4-22a4-8c16-f4111141a0b5",
 		},
 	},
 	[140] = 
@@ -1861,7 +1867,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1881,7 +1887,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "81c9cf76-74e4-8c23-b8af-321d4d2ac3fd",
+			uuid = "cc879d1a-df12-1b44-a7a6-1054bc530120",
 		},
 	},
 	[156] = 
@@ -1959,7 +1965,7 @@ local tbl =
 			timerOffset = -5,
 			timerStartOffset = -3,
 			used = false,
-			uuid = "33f65f61-2ec6-ff0a-bfa3-380997da58e5",
+			uuid = "d91e9795-2509-61f4-8192-beb4eb3abb76",
 		},
 	},
 	[157] = 
@@ -1972,7 +1978,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Samurai.ThirdEye()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -1992,7 +1998,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "a80d6585-0772-4d39-a12d-afb40cd96d31",
+			uuid = "d016579f-6d51-5ffd-bfd3-aa050c517809",
 		},
 	},
 	[160] = 
@@ -2025,7 +2031,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "9ca23942-92f7-fba4-8f45-5a411d7cce40",
+			uuid = "a4f60f1b-673f-3632-9f24-6ba5d642a317",
 		},
 	},
 	[162] = 
@@ -2058,7 +2064,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "cfea803c-f1c2-242e-9fc7-e2ed343f2642",
+			uuid = "614252b9-d59f-d083-83f3-93e5df3f40da",
 		},
 	},
 	[163] = 
@@ -2094,7 +2100,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "cf410c95-8a11-0d40-9b9b-0c4aba891775",
+			uuid = "63cd8af4-170a-1e67-a7dd-5f4c5755d53a",
 		},
 	},
 	[165] = 
@@ -2127,7 +2133,7 @@ local tbl =
 			timerOffset = -4,
 			timerStartOffset = -5,
 			used = false,
-			uuid = "0c7a66a7-9fb7-c5d1-948e-4ed4ff310fcd",
+			uuid = "16fb2d17-e34e-ff27-92fb-f7bcca39e329",
 		},
 	},
 	[170] = 
@@ -2160,7 +2166,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "ea31a12e-2d90-9f2e-94e0-f2378fa9912e",
+			uuid = "e0d05817-1d1f-e3bd-8bdb-1a0098297fa4",
 		},
 	},
 	[174] = 
@@ -2193,7 +2199,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "06f41f6a-f50a-41dd-92df-d2aa7711eb2e",
+			uuid = "bca22fa4-5e1b-f0ec-9d55-d051c7f69916",
 		},
 	},
 	[178] = 
@@ -2226,7 +2232,7 @@ local tbl =
 			timerOffset = -2,
 			timerStartOffset = -2.5,
 			used = false,
-			uuid = "a930d79d-fb31-4d81-a78e-c4325976e109",
+			uuid = "2a007ff3-ee50-9308-801a-c39e7bf5ed39",
 		},
 	},
 	mapID = 949,

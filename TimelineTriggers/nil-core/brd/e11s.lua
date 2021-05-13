@@ -833,36 +833,6 @@ local tbl =
 	},
 	[84] = 
 	{
-		
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = true,
-			execute = "if NilsReactionCore.Actions.Role.PhysicalRange.Shield() then self.used = true end",
-			executeType = 2,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 478.5,
-			name = "Group Shield",
-			randomOffset = 0,
-			randomTimeout = 3,
-			throttleTime = 0,
-			time = 478.5,
-			timeRandomRange = false,
-			timeRange = true,
-			timelineIndex = 84,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = -3,
-			used = false,
-			uuid = "1922501a-75df-263f-9e5b-53ce1f53d8cc",
-		},
 	},
 	[86] = 
 	{

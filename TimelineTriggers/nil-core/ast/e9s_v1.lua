@@ -17,6 +17,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "disable",
 			randomOffset = 0,
 			randomTimeout = 3,

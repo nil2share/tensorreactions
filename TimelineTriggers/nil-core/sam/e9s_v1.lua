@@ -10,7 +10,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -40,7 +40,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.State.TimeLine[946] = false\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -73,7 +73,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -106,7 +106,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "if NilsReactionCore.Hotbar.Samurai.ThirdEye() == true then self.used = true end",
 			executeType = 2,
 			lastUse = 0,

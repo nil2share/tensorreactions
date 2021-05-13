@@ -110,6 +110,36 @@ local tbl =
 	},
 	[8] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Darkknight.Delirium(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) \nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 81.8,
+			name = "Turn off Delirium",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 81.8,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 8,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "25ce21d2-f872-9ae9-a2ec-99a601e96562",
+		},
 	},
 	[9] = 
 	{
@@ -172,6 +202,39 @@ local tbl =
 			timerStartOffset = -2,
 			used = false,
 			uuid = "aaf426e3-415f-38ed-883b-274657e24179",
+		},
+	},
+	[10] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Darkknight.Delirium(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) \nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 103.7,
+			name = "Turn on Delirium",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 103.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 10,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "e63f4a86-faee-4563-a9be-397c027ec103",
 		},
 	},
 	[13] = 
@@ -335,6 +398,69 @@ local tbl =
 	},
 	[19] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Darkknight.Delirium(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline) \nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 182.1,
+			name = "Turn off Delirium",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 182.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 19,
+			timerEndOffset = 2,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			used = false,
+			uuid = "c9c0b415-ad08-3f46-b7f2-044afaead6fb",
+		},
+	},
+	[20] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Darkknight.Delirium(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline) \nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 197.7,
+			name = "Turn on Delirium",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 197.7,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 20,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "d451a872-e38f-2355-8245-aca04aaa5c9c",
+		},
 	},
 	[24] = 
 	{
@@ -485,14 +611,14 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "NilsReactionCore.Logic.Toggles.PotionOn(NilsReactionCore.params.isTimeline)\nself.used = true\n",
+			execute = "NilsReactionCore.Hotbar.Toggles.BloodWeapon.Execute(NilsReactionCore.params.off, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 358,
-			name = "Potion On",
+			name = "Turn off Blood Weapon",
 			randomOffset = 0,
 			randomTimeout = 3,
 			throttleTime = 0,
@@ -500,15 +626,45 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 31,
-			timerEndOffset = 4,
+			timerEndOffset = -3,
 			timerOffset = 0,
-			timerStartOffset = 2,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "8fb9bfa7-0626-bd07-a662-e6fa10dfd43c",
+			uuid = "82b49f76-5d98-7819-8629-0a58b8850b2c",
 		},
 	},
 	[32] = 
 	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Logic.Toggles.PotionOn(NilsReactionCore.params.isTimeline)\nself.used = true\n",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 369.2,
+			name = "Potion On",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 369.2,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 32,
+			timerEndOffset = 1,
+			timerOffset = 0,
+			timerStartOffset = -1,
+			used = false,
+			uuid = "e984d737-d48e-34bf-a874-b3b28b369068",
+		},
 		
 		{
 			actions = 
@@ -551,6 +707,36 @@ local tbl =
 			{
 			},
 			enabled = true,
+			execute = "NilsReactionCore.Hotbar.Toggles.BloodWeapon.Execute(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 377.3,
+			name = "Turn on Blood Weapon",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 377.3,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 33,
+			timerEndOffset = -2,
+			timerOffset = 0,
+			timerStartOffset = -4,
+			used = false,
+			uuid = "b97f6722-c2ff-573a-9600-5df887dd28d8",
+		},
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
 			execute = "if NilsReactionCore.Logic.Toggles.GapClosersOn(NilsReactionCore.params.isTimeline) then self.used = true end",
 			executeType = 2,
 			lastUse = 0,
@@ -566,9 +752,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 33,
-			timerEndOffset = 7,
+			timerEndOffset = 5,
 			timerOffset = 0,
-			timerStartOffset = 4,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "f767e8f9-fe0b-3648-a062-5d6d16a2360f",
 		},
@@ -599,9 +785,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 34,
-			timerEndOffset = 0,
+			timerEndOffset = 2,
 			timerOffset = 0,
-			timerStartOffset = -2,
+			timerStartOffset = 0,
 			used = false,
 			uuid = "2367ad9c-4d34-b279-a0b3-380fd63b5598",
 		},
@@ -632,9 +818,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 38,
-			timerEndOffset = -10,
+			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -13,
+			timerStartOffset = -4,
 			used = false,
 			uuid = "c5f9650b-230d-b2f2-89db-6d81d3840246",
 		},
