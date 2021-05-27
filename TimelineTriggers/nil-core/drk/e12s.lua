@@ -124,7 +124,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Hotbar.Knockback()\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -883,7 +883,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			execute = "NilsReactionCore.Toggles.Darkknight.SaltedEarth(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
@@ -899,11 +899,44 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 115,
-			timerEndOffset = 4,
+			timerEndOffset = 8,
 			timerOffset = 0,
-			timerStartOffset = 2,
+			timerStartOffset = 6,
 			used = false,
 			uuid = "95434060-0e1e-722a-90af-5f46c9f422f2",
+		},
+	},
+	[116] = 
+	{
+		
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			execute = "NilsReactionCore.Toggles.Darkknight.SaltedEarth(NilsReactionCore.params.on, NilsReactionCore.params.isTimeline)\nself.used = true",
+			executeType = 2,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 1190.1,
+			name = "Turn On Salted Earth",
+			randomOffset = 0,
+			randomTimeout = 3,
+			throttleTime = 0,
+			time = 1190.1,
+			timeRandomRange = false,
+			timeRange = true,
+			timelineIndex = 116,
+			timerEndOffset = 8,
+			timerOffset = 0,
+			timerStartOffset = 6,
+			used = false,
+			uuid = "fe4f4f9a-3761-a097-bedb-2cec636039b5",
 		},
 	},
 	[124] = 
@@ -1153,7 +1186,7 @@ local tbl =
 			timelineIndex = 127,
 			timerEndOffset = 0,
 			timerOffset = 0,
-			timerStartOffset = -5,
+			timerStartOffset = -3,
 			used = false,
 			uuid = "fa993cdb-fd58-3668-8e34-0a49b550adb3",
 		},
